@@ -805,19 +805,22 @@ function startQuiz(opts) {
         </article>
 
         <div class="flex items-center gap-2">
-          <button id="prev-btn" class="tap-shrink px-4 py-3 rounded-xl border border-slate-300 bg-white text-sm font-semibold ${state.idx === 0 ? 'opacity-40 cursor-not-allowed' : 'hover:bg-slate-50'}" ${state.idx === 0 ? 'disabled' : ''}>←</button>
+          ${state.idx > 0 ? `<button id="prev-btn" class="tap-shrink px-4 py-3 rounded-xl border border-slate-300 bg-white text-sm font-semibold hover:bg-slate-50">←</button>` : ''}
           ${(() => {
             const needsReveal = mode === 'train' && !revealed;
-            const disabled = picks.size === 0;
+            const hasPick = picks.size > 0;
             const lastQ = state.idx >= total - 1;
             if (needsReveal) {
               const id = lastQ ? 'finish-btn' : 'next-btn';
-              return `<button id="${id}" class="tap-shrink flex-1 px-4 py-3.5 rounded-xl bg-slate-900 text-white text-base font-extrabold hover:bg-slate-800 shadow-soft ${disabled ? 'opacity-40 cursor-not-allowed' : ''}" ${disabled ? 'disabled' : ''}>Voir la correction</button>`;
+              if (!hasPick) {
+                return `<div class="flex-1 px-4 py-3.5 rounded-xl bg-slate-100 text-slate-400 text-base font-bold text-center select-none">Choisissez une réponse</div>`;
+              }
+              return `<button id="${id}" class="tap-shrink flex-1 px-4 py-3.5 rounded-xl bg-slate-900 text-white text-base font-extrabold hover:bg-slate-800 shadow-soft">Voir la correction</button>`;
             }
             if (lastQ) {
               return `<button id="finish-btn" class="tap-shrink flex-1 px-4 py-3.5 rounded-xl bg-emerald-600 text-white text-base font-extrabold hover:bg-emerald-700 shadow-soft">Terminer ✓</button>`;
             }
-            return `<button id="next-btn" class="tap-shrink flex-1 px-4 py-3.5 rounded-xl bg-gradient-to-r ${tc.grad} text-white text-base font-extrabold shadow-soft">Suivant →</button>`;
+            return `<button id="next-btn" class="tap-shrink flex-1 px-4 py-3.5 rounded-xl bg-gradient-to-r ${tc.grad} text-white text-base font-extrabold shadow-soft hover:opacity-95">Suivant →</button>`;
           })()}
         </div>
       </div>
@@ -834,18 +837,17 @@ function startQuiz(opts) {
       btn.addEventListener('click', () => {
         if (revealed && mode === 'train') return; // already revealed: can't change picks
         const L = btn.dataset.letter;
+        const wasEmpty = picks.size === 0;
         if (isMulti) {
           if (picks.has(L)) { picks.delete(L); btn.classList.remove('selected'); }
           else              { picks.add(L);    btn.classList.add('selected'); }
-          const next = document.getElementById('next-btn') || document.getElementById('finish-btn');
-          if (next) { next.disabled = picks.size === 0; next.classList.toggle('opacity-40', picks.size === 0); }
         } else {
           $app.querySelectorAll('.opt-card').forEach(b => b.classList.remove('selected'));
           picks.clear(); picks.add(L);
           btn.classList.add('selected');
-          const next = document.getElementById('next-btn') || document.getElementById('finish-btn');
-          if (next) { next.disabled = false; next.classList.remove('opacity-40'); }
         }
+        // If buttons changed state (empty ⇄ non-empty), re-render so the CTA swaps from placeholder to active
+        if (wasEmpty !== (picks.size === 0)) paint();
       });
     });
     const $ = id => document.getElementById(id);
