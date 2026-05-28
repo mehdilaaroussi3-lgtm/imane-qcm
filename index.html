@@ -11,10 +11,932 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+
+.safe-top    { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+/* Animations */
+.animate-fade-in { animation: fadeIn 0.35s ease-out; }
+.animate-slide-up { animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); }
+.animate-pop { animation: pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pop { from { opacity: 0; transform: scale(0.7); } to { opacity: 1; transform: scale(1); } }
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tap shrink for buttons */
+.tap-shrink { transition: transform 0.12s ease, box-shadow 0.18s ease, border-color 0.18s ease; }
+.tap-shrink:active { transform: scale(0.97); }
+
+/* Soft shadows like example */
+.shadow-soft { box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.04); }
+.shadow-card { box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.04); }
+.shadow-card-hover { box-shadow: 0 18px 36px rgba(99, 102, 241, 0.18), 0 4px 12px rgba(99, 102, 241, 0.08); }
+
+/* === Question option card === */
+.opt-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1.5px solid #e2e8f0;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease, transform 0.08s ease;
+  text-align: left;
+  width: 100%;
+  font: inherit;
+  color: #1e293b;
+}
+.opt-card:active   { transform: scale(0.99); }
+.opt-card:hover    { border-color: #94a3b8; background: #f8fafc; }
+.opt-card[disabled]{ cursor: default; }
+
+.opt-card.selected { border-color: #6366f1; background: #eef2ff; }
+.opt-card.correct  { border-color: #16a34a; background: #dcfce7; }
+.opt-card.wrong    { border-color: #dc2626; background: #fee2e2; }
+.opt-card.missed   { border-color: #16a34a; background: #f0fdf4; }
+
+.opt-mark {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: 2px solid #cbd5e1;
+  display: flex; align-items: center; justify-content: center;
+  background: white;
+  font-weight: 700;
+  font-size: 13px;
+  color: #64748b;
+}
+.opt-card.is-multi .opt-mark { border-radius: 7px; }
+
+.opt-card.selected .opt-mark { border-color: #6366f1; background: #6366f1; color: white; }
+.opt-card.correct  .opt-mark { border-color: #16a34a; background: #16a34a; color: white; }
+.opt-card.wrong    .opt-mark { border-color: #dc2626; background: #dc2626; color: white; }
+.opt-card.missed   .opt-mark { border-color: #16a34a; background: white;   color: #16a34a; }
+
+/* === Buddy easter-egg avatar — hidden until QCM-set finish === */
+.buddy {
+  position: fixed; right: 18px; bottom: 18px;
+  width: 100px; height: 122px; z-index: 50;
+  pointer-events: none; user-select: none;
+  opacity: 0; visibility: hidden;
+  transform: translate3d(0, 160px, 0) scale(0.7);
+  filter: drop-shadow(0 12px 24px rgba(99, 102, 241, 0.18));
+  transition: opacity 0.35s ease, transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1), visibility 0.35s;
+  will-change: transform, opacity;
+}
+.buddy.visible {
+  opacity: 1; visibility: visible; pointer-events: auto; cursor: pointer;
+  transform: translate3d(0, 0, 0) scale(1);
+  animation: buddy-idle 3.5s ease-in-out infinite 0.7s;
+}
+.buddy:hover { transform: translate3d(0, -4px, 0) scale(1.06); }
+.buddy-svg { width: 100%; height: 100%; display: block; }
+
+@keyframes buddy-idle {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(-1deg); }
+  50%      { transform: translate3d(0, -5px, 0) rotate(1deg); }
+}
+.buddy.happy { animation: buddy-bounce 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 2; }
+@keyframes buddy-bounce {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  30%      { transform: translate3d(0, -16px, 0) rotate(-4deg) scale(1.04); }
+  60%      { transform: translate3d(0, 0, 0) rotate(4deg); }
+}
+.buddy.cheer { animation: buddy-cheer 1s ease-in-out 2; }
+@keyframes buddy-cheer {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  25%      { transform: translate3d(0, -20px, 0) rotate(-6deg); }
+  50%      { transform: translate3d(0, -6px, 0); }
+  75%      { transform: translate3d(0, -20px, 0) rotate(6deg); }
+}
+.buddy.clap { animation: buddy-clap 0.32s ease-in-out 4; }
+@keyframes buddy-clap {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -3px, 0) scale(1.05); }
+}
+.buddy.wave { animation: buddy-wave 0.4s ease-in-out 3; }
+@keyframes buddy-wave {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  50%      { transform: translate3d(0, -2px, 0) rotate(8deg); }
+}
+
+.buddy-bubble {
+  position: absolute; right: 86px; bottom: 56px;
+  max-width: 220px; min-width: 130px;
+  background: white; color: #1e293b;
+  padding: 9px 13px; border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(15, 23, 42, 0.04);
+  font-size: 13px; line-height: 1.35; font-weight: 500;
+  opacity: 0; transform: translate3d(8px, 0, 0) scale(0.92);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+.buddy-bubble.show { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+.buddy-bubble::after {
+  content: ''; position: absolute; right: -7px; bottom: 14px;
+  width: 14px; height: 14px; background: white; transform: rotate(45deg);
+}
+
+details summary::-webkit-details-marker { display: none; }
+details summary { list-style: none; }
+
+</style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
   <main id="app" class="min-h-[100dvh] safe-top safe-bottom"></main>
-  <script src="app.js"></script>
+  <script>
+// MICI QCM — single-page app for Imane's gastro exam prep
+'use strict';
+
+// ── Surface any runtime error on screen instead of blank-screening ──
+function __showErr(label, err) {
+  const el = document.getElementById('app');
+  if (!el) return;
+  const msg = (err && (err.stack || err.message)) || String(err);
+  el.innerHTML =
+    '<div style="margin:24px auto;max-width:560px;padding:18px;border:1px solid #fecaca;background:#fef2f2;border-radius:14px;color:#7f1d1d;font-family:system-ui;font-size:14px">' +
+    '<strong>App error (' + label + ')</strong>' +
+    '<pre style="margin-top:8px;padding:10px;background:white;border:1px solid #fecaca;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-word">' +
+    String(msg).replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'}[c])) +
+    '</pre></div>';
+}
+window.addEventListener('error', e => __showErr('window.error', e.error || e.message));
+window.addEventListener('unhandledrejection', e => __showErr('promise', e.reason));
+
+// ── Static manifest (inline = no async needed for home) ──
+const CHAPTERS = [
+  { id: '1',         num: '1',      title: 'Épidémiologie des MICI',           short: 'Épidémiologie',         theme: 'fonda' },
+  { id: '2',         num: '2',      title: 'Génétique des MICI',               short: 'Génétique',             theme: 'fonda' },
+  { id: '3',         num: '3',      title: 'Microbiote des MICI',              short: 'Microbiote',            theme: 'fonda' },
+  { id: '4',         num: '4',      title: 'Facteurs de Risque',               short: 'FDR',                   theme: 'fonda' },
+  { id: '5',         num: '5',      title: 'Réponse Inflammatoire',            short: 'Réponse inflammatoire', theme: 'fonda' },
+  { id: '6',         num: '6',      title: 'Diagnostic',                       short: 'Diagnostic',            theme: 'diag'  },
+  { id: '7',         num: '7',      title: 'Histoire naturelle',               short: 'Histoire naturelle',    theme: 'diag'  },
+  { id: '8',         num: '8',      title: 'Endoscopie',                       short: 'Endoscopie',            theme: 'diag'  },
+  { id: '9',         num: '9',      title: 'Surveillance',                     short: 'Surveillance',          theme: 'diag'  },
+  { id: '10',        num: '10',     title: 'Lésions Ano-Périnéales (LAP)',     short: 'LAP',                   theme: 'comp'  },
+  { id: '11-12-13',  num: '11-13',  title: 'Manifestations Extra-Digestives',  short: 'Extra-digestif',        theme: 'comp'  },
+  { id: '14',        num: '14',     title: 'Grossesse',                        short: 'Grossesse',             theme: 'comp'  },
+  { id: '15',        num: '15',     title: 'Cancer',                           short: 'Cancer',                theme: 'comp'  },
+  { id: '16',        num: '16',     title: 'Nutrition',                        short: 'Nutrition',             theme: 'comp'  },
+  { id: '17',        num: '17',     title: 'Traitements non immunosuppresseurs', short: 'Tt non immunosup.',  theme: 'ttt'   },
+  { id: '18',        num: '18',     title: 'Corticoïdes',                      short: 'Corticoïdes',           theme: 'ttt'   },
+  { id: '19',        num: '19',     title: 'Traitements immunosuppresseurs',   short: 'Tt immunosup.',         theme: 'ttt'   },
+  { id: '20',        num: '20',     title: 'Biothérapie',                      short: 'Biothérapie',           theme: 'ttt'   },
+  { id: '21',        num: '21',     title: 'Futurs traitements',               short: 'Futurs Tt',             theme: 'ttt'   },
+  { id: '22-23',     num: '22-23',  title: 'Chirurgie',                        short: 'Chirurgie',             theme: 'strat' },
+  { id: '24',        num: '24',     title: 'MICI Pédiatrique',                 short: 'Pédiatrie',             theme: 'strat' },
+  { id: '25-26',     num: '25-26',  title: 'Stratégie thérapeutique',          short: 'Stratégie Tt',          theme: 'strat' }
+];
+const THEMES = [
+  { id: 'fonda', title: 'Fondamentaux',      sub: 'Comprendre la maladie',                   color: 'indigo' },
+  { id: 'diag',  title: 'Diagnostic & Suivi', sub: 'Reconnaître et surveiller',              color: 'sky'    },
+  { id: 'comp',  title: 'Atteintes spécifiques', sub: 'LAP, extra-dig., grossesse, cancer…', color: 'rose'   },
+  { id: 'ttt',   title: 'Traitements',       sub: '5-ASA, corticoïdes, immunosup., bio…',    color: 'emerald'},
+  { id: 'strat', title: 'Chirurgie & Stratégie', sub: 'Décisions, pédiatrie',                color: 'amber'  }
+];
+const TOTAL_QUESTIONS = 246;
+
+// Messages from buddy (English, addressed to Imane)
+const MESSAGES = {
+  finish: [
+    "Bravo Imane — that was solid! 🌟",
+    "Another set down, you're getting closer 💪",
+    "What a session — proud of you!",
+    "You showed up — that's the win ✨",
+    "Closer to that exam, Imane! 🎯",
+    "Keep that energy, you're crushing it 💖"
+  ],
+  perfect: [
+    "PERFECT SCORE Imane!!! 💯🔥",
+    "Imane, you absolutely destroyed it! 🏆",
+    "Future gastroenterologist confirmed 🩺✨",
+    "Flawless! I'm so proud of you 💖"
+  ],
+  click: [
+    "You're going to ace this exam, Imane!",
+    "Keep going — I believe in you 💖",
+    "So proud of you, Imane ✨"
+  ]
+};
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+// ── Theme color palette ──
+const C = {
+  indigo:  { grad: 'from-indigo-500 to-purple-500',   bg: 'bg-indigo-50',  ring: 'ring-indigo-200',  text: 'text-indigo-700',  border: 'hover:border-indigo-300' },
+  sky:     { grad: 'from-sky-500 to-cyan-500',         bg: 'bg-sky-50',     ring: 'ring-sky-200',     text: 'text-sky-700',     border: 'hover:border-sky-300' },
+  rose:    { grad: 'from-rose-500 to-pink-500',        bg: 'bg-rose-50',    ring: 'ring-rose-200',    text: 'text-rose-700',    border: 'hover:border-rose-300' },
+  emerald: { grad: 'from-emerald-500 to-teal-500',     bg: 'bg-emerald-50', ring: 'ring-emerald-200', text: 'text-emerald-700', border: 'hover:border-emerald-300' },
+  amber:   { grad: 'from-amber-500 to-orange-500',     bg: 'bg-amber-50',   ring: 'ring-amber-200',   text: 'text-amber-700',   border: 'hover:border-amber-300' },
+  violet:  { grad: 'from-violet-500 to-fuchsia-500',   bg: 'bg-violet-50',  ring: 'ring-violet-200',  text: 'text-violet-700',  border: 'hover:border-violet-300' }
+};
+
+// ── Helpers ──
+const $app = document.getElementById('app');
+function esc(s) { if (s == null) return ''; return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function arraysEqual(a, b) {
+  if (!b || !b.length) return false;
+  return [...a].sort().join(',') === [...b].sort().join(',');
+}
+function chapterById(id) { return CHAPTERS.find(c => c.id === id); }
+function themeById(id) { return THEMES.find(t => t.id === id); }
+function chaptersOfTheme(themeId) { return CHAPTERS.filter(c => c.theme === themeId); }
+
+// ── Storage (localStorage stats) ──
+const STORAGE_KEY = 'mici-qcm-v2';
+function loadStats() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch { return {}; } }
+function saveStats(s) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); } catch {} }
+function recordChapterResult(chapterId, correct, total) {
+  const s = loadStats();
+  if (!s.chapters) s.chapters = {};
+  const cur = s.chapters[chapterId] || { sessions: 0, bestCorrect: 0, bestTotal: 0 };
+  cur.sessions += 1;
+  cur.lastCorrect = correct; cur.lastTotal = total;
+  if (!cur.bestTotal || correct / total > cur.bestCorrect / cur.bestTotal) {
+    cur.bestCorrect = correct; cur.bestTotal = total;
+  }
+  s.chapters[chapterId] = cur;
+  saveStats(s);
+}
+function recordExamResult(correct, total, sec) {
+  const s = loadStats();
+  if (!s.exams) s.exams = [];
+  s.exams.unshift({ correct, total, sec, date: new Date().toISOString() });
+  s.exams = s.exams.slice(0, 20);
+  saveStats(s);
+}
+
+// ── Chapter data loading (cache) ──
+const chapterCache = new Map();
+async function loadChapter(id) {
+  if (chapterCache.has(id)) return chapterCache.get(id);
+  const safeId = id.replace(/-/g, '_');
+  const r = await fetch('data/chapters/ch' + safeId + '.json');
+  if (!r.ok) throw new Error('Chapter ' + id + ' failed: HTTP ' + r.status);
+  const data = await r.json();
+  chapterCache.set(id, data);
+  return data;
+}
+async function loadAllChapters() {
+  return Promise.all(CHAPTERS.map(c => loadChapter(c.id)));
+}
+
+// ── Router ──
+const routes = [];
+function route(re, fn) { routes.push({ re, fn }); }
+function go(hash) { location.hash = hash; }
+function parseHash() {
+  const raw = (location.hash || '#/').slice(1);
+  const [path, query] = raw.split('?');
+  return { path: path || '/', params: new URLSearchParams(query || '') };
+}
+async function render() {
+  try {
+    const { path, params } = parseHash();
+    Buddy.hide();
+    for (const r of routes) {
+      const m = path.match(r.re);
+      if (m) { await r.fn(m, params); window.scrollTo({ top: 0 }); return; }
+    }
+    $app.innerHTML = '<div class="px-4 py-16 text-center text-slate-500"><p class="mb-3">Page introuvable</p><a href="#/" class="text-indigo-600 underline">Retour à l\'accueil</a></div>';
+  } catch (err) { __showErr('render', err); }
+}
+
+// ── Buddy easter-egg avatar (DOM-injected) ──
+const Buddy = {
+  el: null, bubble: null, bubbleTimer: null,
+  mount() {
+    if (this.el) return;
+    const wrap = document.createElement('div');
+    wrap.id = 'buddy'; wrap.className = 'buddy'; wrap.setAttribute('aria-hidden', 'true');
+    wrap.innerHTML =
+      '<div id="buddy-bubble" class="buddy-bubble"></div>' +
+      '<svg viewBox="0 0 120 145" class="buddy-svg">' +
+        '<defs><radialGradient id="bcheek" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f9a8a8" stop-opacity="0.6"/><stop offset="100%" stop-color="#f9a8a8" stop-opacity="0"/></radialGradient></defs>' +
+        '<g class="buddy-body">' +
+          '<path d="M28 142 Q60 112 92 142 Z" fill="#8b5cf6"/>' +
+          '<rect x="50" y="100" width="20" height="10" rx="3" fill="#f1c79a"/>' +
+          '<g fill="#3b2412">' +
+            '<ellipse cx="60" cy="48" rx="42" ry="36"/>' +
+            '<circle cx="22" cy="48" r="12"/><circle cx="98" cy="48" r="12"/>' +
+            '<circle cx="18" cy="64" r="11"/><circle cx="102" cy="64" r="11"/>' +
+            '<circle cx="25" cy="82" r="10"/><circle cx="95" cy="82" r="10"/>' +
+            '<circle cx="30" cy="20" r="11"/><circle cx="48" cy="14" r="11"/>' +
+            '<circle cx="72" cy="14" r="11"/><circle cx="90" cy="20" r="11"/>' +
+            '<circle cx="14" cy="34" r="10"/><circle cx="106" cy="34" r="10"/>' +
+          '</g>' +
+          '<ellipse cx="60" cy="68" rx="28" ry="32" fill="#f1c79a"/>' +
+          '<g fill="#3b2412">' +
+            '<circle cx="42" cy="44" r="8"/><circle cx="55" cy="40" r="8"/>' +
+            '<circle cx="68" cy="40" r="8"/><circle cx="78" cy="44" r="8"/>' +
+            '<circle cx="36" cy="52" r="6"/><circle cx="84" cy="52" r="6"/>' +
+          '</g>' +
+          '<circle cx="42" cy="80" r="7" fill="url(#bcheek)"/><circle cx="78" cy="80" r="7" fill="url(#bcheek)"/>' +
+          '<g fill="#a16143">' +
+            '<circle cx="48" cy="74" r="0.9"/><circle cx="52" cy="76" r="0.9"/><circle cx="56" cy="74" r="0.9"/>' +
+            '<circle cx="60" cy="73" r="0.9"/><circle cx="64" cy="74" r="0.9"/><circle cx="68" cy="76" r="0.9"/>' +
+            '<circle cx="72" cy="74" r="0.9"/><circle cx="44" cy="78" r="0.8"/><circle cx="50" cy="80" r="0.8"/>' +
+            '<circle cx="70" cy="80" r="0.8"/><circle cx="76" cy="78" r="0.8"/>' +
+          '</g>' +
+          '<ellipse cx="49" cy="68" rx="3.2" ry="3.8" fill="#fff"/><ellipse cx="71" cy="68" rx="3.2" ry="3.8" fill="#fff"/>' +
+          '<circle cx="49.4" cy="68.8" r="2.4" fill="#4a2c14"/><circle cx="71.4" cy="68.8" r="2.4" fill="#4a2c14"/>' +
+          '<circle cx="50.2" cy="67.6" r="0.8" fill="#fff"/><circle cx="72.2" cy="67.6" r="0.8" fill="#fff"/>' +
+          '<path d="M44 61 Q49 58 54 61" stroke="#3b2412" stroke-width="1.6" fill="none" stroke-linecap="round"/>' +
+          '<path d="M66 61 Q71 58 76 61" stroke="#3b2412" stroke-width="1.6" fill="none" stroke-linecap="round"/>' +
+          '<path d="M50 86 Q60 100 70 86 Q60 94 50 86 Z" fill="#c0533a" stroke="#7a3a2a" stroke-width="1.4"/>' +
+        '</g>' +
+      '</svg>';
+    document.body.appendChild(wrap);
+    this.el = wrap;
+    this.bubble = wrap.querySelector('#buddy-bubble');
+    wrap.addEventListener('click', () => {
+      if (!this.el.classList.contains('visible')) return;
+      this._setState('wave', 1800); this._say(pick(MESSAGES.click));
+    });
+  },
+  _setState(name, dur) {
+    if (!this.el) return;
+    ['happy','sad','cheer','clap','wave'].forEach(c => this.el.classList.remove(c));
+    void this.el.offsetWidth;
+    this.el.classList.add(name);
+    if (dur) setTimeout(() => this.el.classList.remove(name), dur);
+  },
+  _say(msg) {
+    if (!this.bubble) return;
+    this.bubble.textContent = msg;
+    this.bubble.classList.add('show');
+    clearTimeout(this.bubbleTimer);
+    this.bubbleTimer = setTimeout(() => this.bubble.classList.remove('show'), 5200);
+  },
+  surprise(pct) {
+    this.mount();
+    if (!this.el) return;
+    let state, kind;
+    if (pct === 100)       { state = 'cheer'; kind = 'perfect'; }
+    else if (pct >= 70)    { state = pick(['cheer','clap','happy']); kind = 'finish'; }
+    else if (pct >= 50)    { state = pick(['clap','happy','wave']);  kind = 'finish'; }
+    else                    { state = pick(['wave','happy']);         kind = 'finish'; }
+    setTimeout(() => {
+      this.el.classList.add('visible');
+      this._setState(state, state === 'cheer' ? 2400 : 1800);
+      this._say(pick(MESSAGES[kind] || MESSAGES.finish));
+      let n = 0;
+      const cycle = setInterval(() => {
+        this._setState(pick(['happy','clap','wave']), 1500);
+        if (++n >= 2) clearInterval(cycle);
+      }, 3200);
+    }, 700);
+  },
+  hide() {
+    if (!this.el) return;
+    this.el.classList.remove('visible');
+    if (this.bubble) this.bubble.classList.remove('show');
+    ['happy','sad','cheer','clap','wave'].forEach(c => this.el.classList.remove(c));
+  }
+};
+
+// =================================================================
+// VIEWS
+// =================================================================
+
+// ── HOME (mobile-first centered) ──
+route(/^\/$/, async () => {
+  const stats = loadStats();
+  const sessions = Object.values(stats.chapters || {}).reduce((s, c) => s + (c.sessions || 0), 0);
+
+  $app.innerHTML = `
+    <div class="min-h-[100dvh] flex items-start sm:items-center justify-center p-4 pt-8 sm:pt-4">
+      <div class="w-full max-w-md animate-fade-in">
+
+        <!-- Big gradient app icon -->
+        <div class="flex justify-center mb-6">
+          <div class="w-20 h-20 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center shadow-card-hover animate-pop">
+            <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h4l3-9 4 18 3-9h4"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Title block -->
+        <div class="text-center mb-7 animate-slide-up">
+          <h1 class="text-4xl font-extrabold tracking-tight gradient-text mb-2">MICI QCM</h1>
+          <p class="text-slate-600 text-sm font-medium">Préparation examen gastro-entérologie · MICI</p>
+          <p class="text-slate-400 text-xs mt-1">${TOTAL_QUESTIONS} QCMs · ${CHAPTERS.length} chapitres · ${THEMES.length} thèmes</p>
+        </div>
+
+        <!-- Mode selector label -->
+        <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 px-1">Choisir un mode</div>
+
+        <!-- Mode cards -->
+        <div class="space-y-3 animate-slide-up">
+          <a href="#/chapters" class="tap-shrink w-full p-5 bg-white border border-slate-200 rounded-2xl shadow-soft hover:shadow-card ${C.indigo.border} transition-all text-left block group">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br ${C.indigo.grad} flex items-center justify-center flex-shrink-0 shadow-soft">
+                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="font-bold text-slate-900 text-base group-hover:text-indigo-700 transition-colors">Entraînement</div>
+                <div class="text-xs text-slate-500 mt-0.5">Par chapitre · correction immédiate</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-2xl font-extrabold text-slate-900">${CHAPTERS.length}</div>
+                <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider">chapitres</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#/mixed" class="tap-shrink w-full p-5 bg-white border border-slate-200 rounded-2xl shadow-soft hover:shadow-card ${C.violet.border} transition-all text-left block group">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br ${C.violet.grad} flex items-center justify-center flex-shrink-0 shadow-soft">
+                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="font-bold text-slate-900 text-base group-hover:text-violet-700 transition-colors">Mode mixte</div>
+                <div class="text-xs text-slate-500 mt-0.5">20 QCM aléatoires de tous les chapitres</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-2xl font-extrabold text-slate-900">20</div>
+                <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider">qcm</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#/exam" class="tap-shrink w-full p-5 bg-white border border-slate-200 rounded-2xl shadow-soft hover:shadow-card ${C.rose.border} transition-all text-left block group relative overflow-hidden">
+            <div class="absolute top-2 right-2 px-2 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-wider bg-gradient-to-r from-amber-400 to-orange-500 text-white shadow-sm">Niveau examen</div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-500 via-pink-500 to-fuchsia-500 flex items-center justify-center flex-shrink-0 shadow-soft">
+                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="font-bold text-slate-900 text-base group-hover:text-rose-700 transition-colors">Examen blanc</div>
+                <div class="text-xs text-slate-500 mt-0.5">Chronométré · correction à la fin</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-2xl font-extrabold text-slate-900">40</div>
+                <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider">60 min</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#/stats" class="tap-shrink w-full p-5 bg-white border border-slate-200 rounded-2xl shadow-soft hover:shadow-card ${C.emerald.border} transition-all text-left block group">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br ${C.emerald.grad} flex items-center justify-center flex-shrink-0 shadow-soft">
+                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17v-6m6 6V7m6 10v-4m6 4V11"/></svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="font-bold text-slate-900 text-base group-hover:text-emerald-700 transition-colors">Mes statistiques</div>
+                <div class="text-xs text-slate-500 mt-0.5">Progrès par chapitre · historique</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-2xl font-extrabold text-slate-900">${sessions}</div>
+                <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider">sessions</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <p class="text-center text-xs text-slate-400 mt-8 font-medium">Bonne chance Imane 💪 · Mehdi</p>
+      </div>
+    </div>
+  `;
+});
+
+// ── CHAPTERS LIST (grouped by theme) ──
+route(/^\/chapters$/, async () => {
+  const stats = loadStats();
+  let html = `
+    <div class="max-w-md mx-auto p-4 pt-6 pb-12 animate-fade-in">
+      <nav class="mb-4"><a href="#/" class="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-900"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Accueil</a></nav>
+      <h1 class="text-2xl font-extrabold text-slate-900 mb-1">Chapitres</h1>
+      <p class="text-sm text-slate-500 mb-6">${CHAPTERS.length} chapitres · ${TOTAL_QUESTIONS} questions au total</p>
+  `;
+  for (const t of THEMES) {
+    const tc = C[t.color];
+    const chs = chaptersOfTheme(t.id);
+    html += `
+      <div class="mb-5">
+        <div class="flex items-center gap-2 mb-2.5 px-1">
+          <div class="w-2 h-2 rounded-full bg-gradient-to-br ${tc.grad}"></div>
+          <h2 class="text-xs font-bold uppercase tracking-wider text-slate-600">${esc(t.title)}</h2>
+        </div>
+        <div class="space-y-2">
+    `;
+    for (const ch of chs) {
+      const stat = (stats.chapters || {})[ch.id];
+      const best = stat ? `${stat.bestCorrect}/${stat.bestTotal}` : '—';
+      const pct = stat && stat.bestTotal ? Math.round(100 * stat.bestCorrect / stat.bestTotal) : 0;
+      html += `
+        <a href="#/quiz/chapter/${ch.id}" class="tap-shrink flex items-center gap-3 bg-white border border-slate-200 rounded-xl p-3.5 shadow-soft hover:shadow-card ${tc.border} transition-all">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br ${tc.grad} flex items-center justify-center text-white font-extrabold text-sm shrink-0">${ch.num}</div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-slate-900 text-[14px] leading-tight truncate">${esc(ch.title)}</div>
+            <div class="text-[11px] text-slate-500 mt-0.5">${stat ? `${stat.sessions} session(s) · meilleur ${best} · ${pct}%` : 'Non commencé'}</div>
+          </div>
+          <svg class="w-4 h-4 text-slate-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </a>`;
+    }
+    html += '</div></div>';
+  }
+  html += '</div>';
+  $app.innerHTML = html;
+});
+
+// ── QUIZ: chapter ──
+route(/^\/quiz\/chapter\/([^/]+)$/, async ([, id], params) => {
+  const ch = chapterById(id);
+  if (!ch) { go('#/'); return; }
+  $app.innerHTML = loaderHTML('Chargement du chapitre…');
+  let data;
+  try { data = await loadChapter(id); }
+  catch (e) { __showErr('loadChapter', e); return; }
+  if (!data.questions || !data.questions.length) {
+    $app.innerHTML = `<div class="max-w-md mx-auto p-4 pt-8"><p class="text-slate-500">Aucune question dans ce chapitre.</p><a href="#/chapters" class="text-indigo-600 mt-3 inline-block">← Chapitres</a></div>`;
+    return;
+  }
+  const qs = params.get('shuffle') === '1' ? shuffle(data.questions) : data.questions;
+  startQuiz({
+    title: ch.title, subtitle: `Chapitre ${ch.num}`, backHref: '#/chapters',
+    questions: qs, mode: 'train', themeColor: themeById(ch.theme).color,
+    onFinish: r => recordChapterResult(id, r.correct, r.total)
+  });
+});
+
+// ── QUIZ: mixed ──
+route(/^\/mixed$/, async (m, params) => {
+  $app.innerHTML = loaderHTML('Préparation du mix…');
+  try {
+    const all = await loadAllChapters();
+    const pool = [];
+    for (const ch of all) for (const q of (ch.questions || [])) pool.push(Object.assign({}, q, { _ch: ch.chapter }));
+    const n = parseInt(params.get('n') || '20', 10);
+    const picks = shuffle(pool).slice(0, Math.min(n, pool.length));
+    startQuiz({
+      title: 'Mode mixte', subtitle: `${picks.length} questions au hasard`, backHref: '#/',
+      questions: picks, mode: 'train', themeColor: 'indigo', showChapterLabel: true
+    });
+  } catch (e) { __showErr('mixed-load', e); }
+});
+
+// ── QUIZ: exam ──
+route(/^\/exam$/, async (m, params) => {
+  $app.innerHTML = loaderHTML('Préparation de l\'examen…');
+  try {
+    const all = await loadAllChapters();
+    const pool = [];
+    for (const ch of all) for (const q of (ch.questions || [])) pool.push(Object.assign({}, q, { _ch: ch.chapter }));
+    const n = parseInt(params.get('n') || '40', 10);
+    const minutes = parseInt(params.get('t') || '60', 10);
+    const picks = shuffle(pool).slice(0, Math.min(n, pool.length));
+    startQuiz({
+      title: 'Examen blanc', subtitle: `${picks.length} questions · ${minutes} min`, backHref: '#/',
+      questions: picks, mode: 'exam', examSec: minutes * 60, themeColor: 'rose', showChapterLabel: true,
+      onFinish: r => recordExamResult(r.correct, r.total, r.sec)
+    });
+  } catch (e) { __showErr('exam-load', e); }
+});
+
+// ── STATS ──
+route(/^\/stats$/, async () => {
+  const s = loadStats();
+  const cs = s.chapters || {};
+  const exs = s.exams || [];
+
+  let chHtml = '';
+  if (!Object.keys(cs).length) chHtml = '<p class="text-slate-500 text-sm">Aucune session enregistrée pour l\'instant.</p>';
+  else {
+    chHtml = '<div class="space-y-2">';
+    for (const id of Object.keys(cs)) {
+      const c = cs[id]; const ch = chapterById(id);
+      if (!ch) continue;
+      const tc = C[themeById(ch.theme).color];
+      const pct = c.bestTotal ? Math.round(100 * c.bestCorrect / c.bestTotal) : 0;
+      const pctCls = pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-rose-600';
+      chHtml += `
+        <a href="#/quiz/chapter/${id}" class="tap-shrink block bg-white border border-slate-200 rounded-xl p-3.5 shadow-soft hover:shadow-card transition-all">
+          <div class="flex items-center justify-between mb-2 gap-2">
+            <div class="font-semibold text-slate-900 text-sm truncate flex-1">${esc(ch.title)}</div>
+            <span class="text-sm font-extrabold ${pctCls} shrink-0">${pct}%</span>
+          </div>
+          <div class="h-1.5 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r ${tc.grad}" style="width:${pct}%"></div></div>
+          <div class="text-[11px] text-slate-500 mt-2">${c.sessions} session(s) · meilleur ${c.bestCorrect}/${c.bestTotal}</div>
+        </a>`;
+    }
+    chHtml += '</div>';
+  }
+
+  let exHtml = '';
+  if (!exs.length) exHtml = '<p class="text-slate-500 text-sm">Aucun examen blanc passé.</p>';
+  else {
+    exHtml = '<div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-soft"><table class="w-full text-sm"><thead class="bg-slate-50 text-slate-600 text-xs uppercase tracking-wider"><tr><th class="text-left p-3 font-bold">Date</th><th class="text-left p-3 font-bold">Score</th><th class="text-left p-3 font-bold">Durée</th></tr></thead><tbody>';
+    for (const e of exs) {
+      const pct = Math.round(100 * e.correct / e.total);
+      const pctCls = pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-rose-600';
+      exHtml += `<tr class="border-t border-slate-100"><td class="p-3 text-xs">${new Date(e.date).toLocaleString('fr-FR')}</td><td class="p-3 font-bold ${pctCls}">${e.correct}/${e.total}<span class="text-xs font-normal text-slate-500"> · ${pct}%</span></td><td class="p-3 text-xs text-slate-500">${Math.round(e.sec / 60)} min</td></tr>`;
+    }
+    exHtml += '</tbody></table></div>';
+  }
+
+  $app.innerHTML = `
+    <div class="max-w-md mx-auto p-4 pt-6 pb-12 animate-fade-in">
+      <nav class="mb-4"><a href="#/" class="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-900"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Accueil</a></nav>
+      <h1 class="text-2xl font-extrabold text-slate-900 mb-6">Statistiques</h1>
+      <div class="mb-7">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5 px-1">Par chapitre</h2>
+        ${chHtml}
+      </div>
+      <div class="mb-7">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5 px-1">Examens blancs</h2>
+        ${exHtml}
+      </div>
+      <div class="text-center">
+        <button id="reset-stats" class="text-xs text-rose-600 hover:underline">Réinitialiser mes statistiques</button>
+      </div>
+    </div>
+  `;
+  const btn = document.getElementById('reset-stats');
+  if (btn) btn.addEventListener('click', () => {
+    if (confirm('Effacer toutes les statistiques ?')) { localStorage.removeItem(STORAGE_KEY); render(); }
+  });
+});
+
+// ── Helpers (loader) ──
+function loaderHTML(label) {
+  return `<div class="max-w-md mx-auto p-4 pt-24 text-center animate-fade-in">
+    <div class="inline-block w-8 h-8 border-[3px] border-slate-200 border-t-indigo-500 rounded-full" style="animation: spin 0.8s linear infinite"></div>
+    <p class="text-xs text-slate-400 mt-3 font-medium">${esc(label || 'Chargement…')}</p>
+    <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+  </div>`;
+}
+
+// =================================================================
+// QUIZ ENGINE
+// =================================================================
+function startQuiz(opts) {
+  const { title, subtitle, backHref, questions, mode, examSec, themeColor, showChapterLabel, onFinish } = opts;
+  if (!questions || !questions.length) {
+    $app.innerHTML = `<div class="max-w-md mx-auto p-4 pt-8"><p class="text-slate-500">Aucune question.</p><a href="${backHref}" class="text-indigo-600 mt-3 inline-block">← Retour</a></div>`;
+    return;
+  }
+  const tc = C[themeColor] || C.indigo;
+  const state = {
+    idx: 0,
+    picks: questions.map(() => new Set()),
+    revealed: questions.map(() => false),
+    startedAt: Date.now()
+  };
+  let examTimerId = null;
+
+  function startExamTimer() {
+    if (mode !== 'exam' || !examSec) return;
+    const endAt = state.startedAt + examSec * 1000;
+    examTimerId = setInterval(() => {
+      const rem = Math.max(0, Math.floor((endAt - Date.now()) / 1000));
+      const el = document.getElementById('exam-timer');
+      if (el) {
+        const mm = String(Math.floor(rem / 60)).padStart(2, '0');
+        const ss = String(rem % 60).padStart(2, '0');
+        el.textContent = `${mm}:${ss}`;
+        if (rem < 60) el.classList.add('text-rose-600');
+      }
+      if (rem === 0) { clearInterval(examTimerId); finish(); }
+    }, 500);
+  }
+
+  function paint() {
+    const q = questions[state.idx];
+    const total = questions.length;
+    const progress = Math.round(((state.idx + 1) / total) * 100);
+    const isMulti = q.type === 'multiple';
+    const picks = state.picks[state.idx];
+    const revealed = state.revealed[state.idx];
+    const ch = q._ch ? chapterById(q._ch) : null;
+
+    let optsHtml = '';
+    for (const letter of Object.keys(q.options || {})) {
+      const t = q.options[letter]; if (!t) continue;
+      let cls = '';
+      const picked = picks.has(letter);
+      if (revealed) {
+        const isCorr = (q.correct || []).includes(letter);
+        if (isCorr && picked) cls = 'correct';
+        else if (isCorr && !picked) cls = 'missed';
+        else if (!isCorr && picked) cls = 'wrong';
+      } else if (picked) cls = 'selected';
+      const mark = cls === 'correct' || cls === 'missed' ? '✓' : cls === 'wrong' ? '✕' : letter.toUpperCase();
+      optsHtml += `
+        <button type="button" data-letter="${letter}" class="opt-card ${isMulti ? 'is-multi' : ''} ${cls}" ${revealed && mode === 'train' ? 'disabled' : ''}>
+          <span class="opt-mark">${mark}</span>
+          <span class="flex-1 text-[14px] sm:text-[15px] leading-snug pt-0.5"><span class="font-bold mr-1.5 text-slate-500">${letter}.</span>${esc(t)}</span>
+        </button>`;
+    }
+
+    let feedback = '';
+    if (revealed && mode === 'train') {
+      const correct = q.correct || [];
+      const ok = correct.length > 0 && arraysEqual([...picks], correct);
+      if (!correct.length) {
+        feedback = '<div class="mt-4 p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-800 text-[13px]">Correction non disponible pour cette question.</div>';
+      } else {
+        feedback = `
+          <div class="mt-4 p-4 rounded-xl ${ok ? 'bg-emerald-50 border border-emerald-200' : 'bg-rose-50 border border-rose-200'}">
+            <p class="font-bold text-sm ${ok ? 'text-emerald-800' : 'text-rose-800'} flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full ${ok ? 'bg-emerald-600' : 'bg-rose-600'} text-white flex items-center justify-center text-xs">${ok ? '✓' : '✕'}</span>
+              ${ok ? 'Bonne réponse !' : 'Réponse incorrecte'}
+            </p>
+            <p class="text-[13px] mt-1.5 ${ok ? 'text-emerald-700' : 'text-rose-700'}">Bonne réponse : <strong>${correct.map(l => l.toUpperCase()).join(', ')}</strong></p>
+          </div>`;
+      }
+    }
+
+    const chLabel = showChapterLabel && ch ? `<span class="text-slate-400"> · ${esc(ch.short)}</span>` : '';
+
+    $app.innerHTML = `
+      <div class="max-w-2xl mx-auto p-4 pt-5 pb-24 animate-fade-in">
+        <nav class="mb-3 flex items-center justify-between">
+          <a href="${backHref}" class="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-900"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>${esc(title)}</a>
+          ${mode === 'exam' ? `<div class="text-right"><div class="text-[9px] uppercase tracking-wider text-slate-500 font-bold">Temps</div><div id="exam-timer" class="font-mono font-extrabold text-lg text-slate-900 leading-none">--:--</div></div>` : ''}
+        </nav>
+
+        <div class="flex items-center justify-between mb-2 text-sm">
+          <div class="text-slate-700"><strong>${state.idx + 1}</strong> <span class="text-slate-400">/ ${total}</span>${chLabel}</div>
+          <div class="text-[11px] font-medium text-slate-500 uppercase tracking-wider">${esc(subtitle)}</div>
+        </div>
+
+        <div class="h-1.5 bg-slate-100 rounded-full overflow-hidden mb-4">
+          <div class="h-full bg-gradient-to-r ${tc.grad} transition-all duration-300" style="width:${progress}%"></div>
+        </div>
+
+        <article class="${tc.bg} border-2 ${tc.ring.replace('ring-','border-')} rounded-2xl p-5 sm:p-6 mb-4">
+          <div class="flex items-start gap-3 mb-4">
+            <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-white border border-slate-200 text-slate-700 text-sm font-extrabold shrink-0 shadow-soft">${q.number || state.idx + 1}</span>
+            <div class="flex-1 min-w-0">
+              <p class="text-slate-900 font-semibold text-[15px] sm:text-[17px] leading-relaxed">${esc(q.question)}</p>
+              ${q.instruction ? `<p class="text-[12px] text-slate-500 mt-1.5 italic">${esc(q.instruction)}</p>` : ''}
+              <p class="text-[11px] font-medium text-slate-500 mt-1.5">${isMulti ? '☐ Plusieurs réponses possibles' : '◯ Une seule réponse'}</p>
+            </div>
+          </div>
+          <div class="space-y-2.5">${optsHtml}</div>
+          ${feedback}
+        </article>
+
+        <div class="flex items-center gap-2">
+          <button id="prev-btn" class="tap-shrink px-4 py-3 rounded-xl border border-slate-300 bg-white text-sm font-semibold ${state.idx === 0 ? 'opacity-40 cursor-not-allowed' : 'hover:bg-slate-50'}" ${state.idx === 0 ? 'disabled' : ''}>←</button>
+          ${mode === 'train' && !revealed ? `<button id="check-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-slate-900 text-white text-sm font-bold hover:bg-slate-800 disabled:opacity-40" ${picks.size === 0 ? 'disabled' : ''}>Valider</button>` : ''}
+          ${state.idx < total - 1
+            ? `<button id="next-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-gradient-to-r ${tc.grad} text-white text-sm font-bold shadow-soft">Suivant →</button>`
+            : `<button id="finish-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 shadow-soft">Terminer ✓</button>`
+          }
+        </div>
+      </div>
+    `;
+    wireQuestion(q);
+    if (mode === 'exam' && !examTimerId) startExamTimer();
+  }
+
+  function wireQuestion(q) {
+    const isMulti = q.type === 'multiple';
+    const picks = state.picks[state.idx];
+    const revealed = state.revealed[state.idx];
+    $app.querySelectorAll('.opt-card').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (revealed && mode === 'train') return;
+        const L = btn.dataset.letter;
+        if (isMulti) { picks.has(L) ? picks.delete(L) : picks.add(L); paint(); }
+        else {
+          picks.clear(); picks.add(L);
+          if (mode === 'train') state.revealed[state.idx] = true;
+          paint();
+        }
+      });
+    });
+    const $ = id => document.getElementById(id);
+    if ($('prev-btn'))   $('prev-btn').addEventListener('click', () => { if (state.idx > 0) { state.idx--; paint(); } });
+    if ($('next-btn'))   $('next-btn').addEventListener('click', () => { if (state.idx < questions.length - 1) { state.idx++; paint(); } });
+    if ($('check-btn'))  $('check-btn').addEventListener('click', () => { state.revealed[state.idx] = true; paint(); });
+    if ($('finish-btn')) $('finish-btn').addEventListener('click', finish);
+  }
+
+  function finish() {
+    if (examTimerId) { clearInterval(examTimerId); examTimerId = null; }
+    let correctCount = 0;
+    const items = questions.map((q, i) => {
+      const picks = [...state.picks[i]];
+      const ok = (q.correct || []).length > 0 && arraysEqual(picks, q.correct);
+      if (ok) correctCount++;
+      return { q, picks, ok };
+    });
+    const total = questions.length;
+    const sec = Math.round((Date.now() - state.startedAt) / 1000);
+    const pct = Math.round(100 * correctCount / total);
+    if (onFinish) onFinish({ correct: correctCount, total, sec });
+
+    Buddy.surprise(pct);
+
+    let detail = '';
+    items.forEach((it, i) => {
+      const yours = it.picks.length ? it.picks.map(l => l.toUpperCase()).join(', ') : '–';
+      const corr = (it.q.correct || []).map(l => l.toUpperCase()).join(', ') || '–';
+      let optsList = '';
+      for (const L of Object.keys(it.q.options || {})) {
+        const t = it.q.options[L]; if (!t) continue;
+        const isCorr = (it.q.correct || []).includes(L);
+        const isPick = it.picks.includes(L);
+        const mark = isCorr ? '✓' : isPick ? '✕' : '·';
+        const cls = isCorr ? 'text-emerald-700 font-semibold' : isPick ? 'text-rose-700' : 'text-slate-600';
+        optsList += `<li class="${cls} flex gap-2"><span class="w-4 text-center shrink-0">${mark}</span><div><strong class="mr-1">${L}.</strong>${esc(t)}</div></li>`;
+      }
+      detail += `
+        <details class="bg-white border border-slate-200 rounded-xl overflow-hidden">
+          <summary class="flex items-center gap-3 p-3 cursor-pointer hover:bg-slate-50">
+            <span class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold ${it.ok ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'} shrink-0">${it.ok ? '✓' : '✕'}</span>
+            <span class="text-[13px] font-medium text-slate-900 flex-1 truncate">Q${i + 1}. ${esc(it.q.question.slice(0, 70))}${it.q.question.length > 70 ? '…' : ''}</span>
+          </summary>
+          <div class="px-4 pb-4 pt-3 border-t border-slate-100">
+            <p class="text-sm text-slate-700 mb-3 leading-relaxed">${esc(it.q.question)}</p>
+            <ul class="space-y-1.5 text-[13px]">${optsList}</ul>
+            <p class="text-[12px] text-slate-500 mt-3">Vos réponses : <strong class="${it.ok ? 'text-emerald-700' : 'text-rose-700'}">${yours}</strong> · Bonnes : <strong class="text-emerald-700">${corr}</strong></p>
+          </div>
+        </details>`;
+    });
+
+    const pctCls = pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-rose-600';
+    const pctBg  = pct >= 70 ? 'from-emerald-500 to-teal-500' : pct >= 50 ? 'from-amber-500 to-orange-500' : 'from-rose-500 to-pink-500';
+    $app.innerHTML = `
+      <div class="max-w-2xl mx-auto p-4 pt-6 pb-24 animate-fade-in">
+        <nav class="mb-4"><a href="${backHref}" class="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-900"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Retour</a></nav>
+
+        <div class="text-center mb-8 animate-slide-up">
+          <p class="text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-3">${esc(title)} · Résultat</p>
+          <div class="inline-block bg-gradient-to-br ${pctBg} text-white rounded-3xl p-7 shadow-card-hover">
+            <div class="text-5xl sm:text-6xl font-extrabold leading-none">${pct}%</div>
+            <div class="text-sm font-semibold mt-2 opacity-90">${correctCount} / ${total} bonnes réponses</div>
+          </div>
+          <p class="text-xs text-slate-500 mt-3">${Math.floor(sec / 60)} min ${sec % 60}s</p>
+        </div>
+
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 px-1">Correction détaillée</h2>
+        <div class="space-y-2 mb-6">${detail}</div>
+
+        <div class="flex flex-wrap gap-2">
+          <button id="retry-btn" class="tap-shrink flex-1 px-5 py-3 rounded-xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 shadow-soft">Refaire</button>
+          <a href="${backHref}" class="tap-shrink px-5 py-3 rounded-xl border border-slate-300 bg-white font-semibold hover:bg-slate-50 text-center">Retour</a>
+          <a href="#/stats" class="tap-shrink px-5 py-3 rounded-xl border border-slate-300 bg-white font-semibold hover:bg-slate-50 text-center">Stats</a>
+        </div>
+      </div>
+    `;
+    const r = document.getElementById('retry-btn');
+    if (r) r.addEventListener('click', () => render());
+  }
+
+  // Keyboard shortcuts
+  function onKey(e) {
+    if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+    const q = questions[state.idx]; if (!q) return;
+    if (e.key === 'ArrowLeft' && state.idx > 0) { state.idx--; paint(); }
+    else if (e.key === 'ArrowRight' && state.idx < questions.length - 1) { state.idx++; paint(); }
+    else if (e.key === 'Enter') {
+      const c = document.getElementById('check-btn');
+      const n = document.getElementById('next-btn');
+      const f = document.getElementById('finish-btn');
+      if (c && !c.disabled) c.click(); else if (n) n.click(); else if (f) f.click();
+    } else if (/^[a-eA-E]$/.test(e.key)) {
+      const L = e.key.toLowerCase();
+      if (!q.options || !q.options[L]) return;
+      const btn = $app.querySelector('.opt-card[data-letter="' + L + '"]');
+      if (btn && !btn.disabled) btn.click();
+    }
+  }
+  document.addEventListener('keydown', onKey);
+  window.addEventListener('hashchange', () => document.removeEventListener('keydown', onKey), { once: true });
+
+  paint();
+}
+
+// ── Boot ──
+window.addEventListener('hashchange', render);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', render);
+} else {
+  render();
+}
+
+</script>
 </body>
 </html>
