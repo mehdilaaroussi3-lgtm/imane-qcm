@@ -1,0 +1,158 @@
+{
+  "chapter": "21",
+  "title": "Futurs Traitements",
+  "questions": [
+    {
+      "id": "ch21_q1",
+      "number": 1,
+      "type": "multi",
+      "instruction": "Quelles sont les réponses justes",
+      "question": "Quelles sont les réponses justes à propos des anti-IL23 dans les MICI ?",
+      "options": {
+        "a": "Cette classe ne sera indiquée que dans la maladie de Crohn",
+        "b": "Le guselkumab a une induction possible par voie sous-cutanée",
+        "c": "Les études face-face montrent une supériorité par rapport à l'adalimumab",
+        "d": "Le mirikizumab est administré par voie orale",
+        "e": "Le risankizumab a montré sa supériorité par rapport à l'ustékinumab après échec d'un anti-TNF"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-05-31 162906.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q2",
+      "number": 2,
+      "type": "multi",
+      "instruction": "Quelles sont les réponses justes",
+      "question": "Quelles sont les réponses justes concernant l'administration des futures molécules ?",
+      "options": {
+        "a": "Le risankizumab est un Ac ciblant l'IL23 p19",
+        "b": "Le guselkumab peut s'administrer par voie veineuse et sous-cutanée",
+        "c": "L'étrasimod est un Ac injectable ciblant le S1P",
+        "d": "L'obefazimod s'administre par voie orale",
+        "e": "Les anti-TL1a sont une nouvelle classe de petites molécules par voie orale"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-31 163056.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q3",
+      "number": 3,
+      "type": "multi",
+      "instruction": "Quelles sont les caractéristiques",
+      "question": "Quelles sont les caractéristiques des anti-TL1A ?",
+      "options": {
+        "a": "Il s'agit d'anticorps ciblant la cytokine TNF-like cytokine 1A",
+        "b": "Leur développement dans les MICI se limite à des phases pré-cliniques chez la souris",
+        "c": "Le mirikizumab est un anti-TL1A",
+        "d": "Il s'agit d'Ac administrés par voie IV ou SC",
+        "e": "Ils ont montré des résultats supérieurs au placebo dans la RCH"
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 163124.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q4",
+      "number": 4,
+      "type": "multi",
+      "instruction": "Lesquelles de ces molécules",
+      "question": "Lesquelles de ces molécules sont étudiées dans la RCH ?",
+      "options": {
+        "a": "L'obefazimod",
+        "b": "Le tulisokibart",
+        "c": "Le guselkumab",
+        "d": "L'association du guselkumab et du golimumab",
+        "e": "L'étrasimod"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 163141.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q5",
+      "number": 5,
+      "type": "multi",
+      "instruction": "Concernant la combiothérapie",
+      "question": "Concernant la combiothérapie (association de deux biothérapies) :",
+      "options": {
+        "a": "L'association guselkumab et golimumab a démontré sa supériorité par rapport à une monothérapie",
+        "b": "Cette stratégie a une AMM en première ligne dans les MICI",
+        "c": "La combiothérapie n'a jamais été étudiée dans les MICI dans une étude prospective",
+        "d": "C'est une association de deux biothérapies",
+        "e": "C'est une association de biothérapie et d'immunosuppresseur conventionnel"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-31 165605.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q6",
+      "number": 6,
+      "type": "multi",
+      "instruction": "Quelles sont les réponses justes",
+      "question": "Quelles sont les réponses justes à propos des anti-IL23 spécifiques ?",
+      "options": {
+        "a": "Le risankizumab a démontré sa supériorité par rapport à l'ustékinumab dans la MC chez les patients en échec d'une première ligne d'anti-TNF",
+        "b": "Il s'agit de molécules administrées par voie orale",
+        "c": "Le mirikizumab est un anti-IL23 indiqué dans la RCH",
+        "d": "Le mécanisme d'action se situe au niveau du transit ganglionnaire des lymphocytes",
+        "e": "Les voies immunitaires inhibées sont les mêmes que l'ustékinumab"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-31 165824.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q7",
+      "number": 7,
+      "type": "multi",
+      "instruction": "Quelles sont les propositions exactes",
+      "question": "À propos des traitements en cours de développement, quelles sont les propositions exactes ?",
+      "options": {
+        "a": "Les anti-IL23 ont montré leur efficacité dans le psoriasis",
+        "b": "Les anti-IL23 sont supérieurs à l'ustékinumab dans le psoriasis",
+        "c": "Les anti-JAK comme l'upadacitinib et le filgotinib sont spécifiques de TYK1",
+        "d": "Les anti-S1P sont des anticorps monoclonaux",
+        "e": "L'ozanimod a une action au niveau ganglionnaire"
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 170211.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q8",
+      "number": 8,
+      "type": "multi",
+      "instruction": "Lesquelles des molécules suivantes",
+      "question": "Lesquelles des molécules suivantes sont administrées par voie orale ?",
+      "options": {
+        "a": "L'étrasimod",
+        "b": "Le risankizumab",
+        "c": "Le mirikizumab",
+        "d": "L'upadacitinib"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-31 170241.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch21_q9",
+      "number": 9,
+      "type": "multi",
+      "instruction": "Quelles sont les propositions exactes",
+      "question": "Quelles sont les propositions exactes à propos du mécanisme d'action des anti-IL23 ?",
+      "options": {
+        "a": "Ce sont des petites molécules qui bloquent le récepteur de l'IL23",
+        "b": "Ce sont des anticorps qui bloquent l'IL23",
+        "c": "Les anti-IL23 bloquent la sous-unité p40 de l'IL23",
+        "d": "Les anti-IL23 bloquent la sous-unité p19 de l'IL23",
+        "e": "Les anti-IL23 bloquent la voie TH17"
+      },
+      "correct": ["d"],
+      "source_image": "Capture d_écran 2025-05-31 171132.png",
+      "unmarked": false
+    }
+  ]
+}

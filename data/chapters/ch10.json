@@ -1,0 +1,157 @@
+{
+  "chapter": "10",
+  "title": "Lésions Ano-Périnéales (LAP)",
+  "questions": [
+    {
+      "id": "ch10_q1",
+      "number": 1,
+      "type": "single",
+      "instruction": "Toutes les assertions suivantes sont justes sauf une, laquelle ?",
+      "question": "Concernant l'histoire naturelle et les complications des lésions anopérinéales de la maladie de Crohn, toutes les assertions suivantes sont justes sauf une, laquelle ?",
+      "options": {
+        "a": "elles concernent plus d'une personne sur quatre au cours de l'évolution de la maladie de Crohn",
+        "b": "elles sont habituellement bénignes et peu symptomatiques",
+        "c": "elles représentent un élément de mauvais pronostic",
+        "d": "elles peuvent induire des séquelles fonctionnelles d'incontinence ou des troubles de l'évacuation",
+        "e": "les ulcérations anales augmentent le risque de suppurations secondaires"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-01-11 235143.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Parmi les assertions suivantes, identifier celles qui sont vraies :",
+      "question": "Dix ans après le début de la maladie de Crohn, l'incidence des lésions anopérinéales dans les enquêtes en population est mal connue. Parmi les assertions suivantes, identifier celles qui sont vraies :",
+      "options": {
+        "a": "Plus d'un malade sur quatre a eu des lésions anales non fistuleuses",
+        "b": "Un malade sur quatre a eu une suppuration anale",
+        "c": "Un malade sur dix a eu des lésions anales non fistuleuses",
+        "d": "Un malade sur dix a eu une suppuration anale"
+      },
+      "correct": ["a", "b"],
+      "source_image": "Capture d_écran 2025-01-11 235441.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Précisez celles qui sont vraies :",
+      "question": "Parmi les assertions suivantes qui concernent les ulcérations anales de la maladie de Crohn, précisez celles qui sont vraies :",
+      "options": {
+        "a": "Les ulcérations du canal sont le témoin d'une maladie évolutive",
+        "b": "Les malades ayant des ulcérations anales ont un index d'activité luminale plus marqué que ceux qui n'en ont pas",
+        "c": "Les malades ayant des ulcérations anales ont un index d'activité anale plus marqué que ceux qui n'en ont pas",
+        "d": "Les ulcérations s'accompagnent toujours d'une suppuration anale dans le cas précis de la maladie de Crohn",
+        "e": "Les ulcérations imposent le plus souvent un parage chirurgical de la plaie"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-01-11 235557.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Précisez celles qui sont vraies :",
+      "question": "Parmi les assertions suivantes qui concernent le traitement médical des fistules anales de la maladie de Crohn, précisez celles qui sont vraies :",
+      "options": {
+        "a": "Les antibiotiques sont toujours indiqués en première intention",
+        "b": "Les anti-TNF sont généralement prescrits après drainage par séton du ou des trajets fistuleux",
+        "c": "Les anti-TNF sont le plus souvent prescrits en monothérapie",
+        "d": "Les anti-TNF doivent être optimisés et l'obtention de taux résiduels de médicament élevés est associée à une évolution favorable"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-01-11 235712.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Indiquez la ou les propositions exactes.",
+      "question": "Chez un patient atteint d'une maladie de Crohn iléocolique traité par azathioprine et qui développe une fistule anale avec abcès, quelle est votre attitude ?",
+      "options": {
+        "a": "Optimisation de l'azathioprine",
+        "b": "Mise à plat de l'abcès et drainage par séton élastique",
+        "c": "Anti-TNF en combothérapie",
+        "d": "Anti-TNF en monothérapie",
+        "e": "Mise à plat de l'abcès simple"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-05-24 215355.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Précisez celles qui sont vraies :",
+      "question": "Parmi les assertions suivantes qui concernent les sténoses anales de la maladie de Crohn, précisez celles qui sont vraies :",
+      "options": {
+        "a": "Elles constituent un signe de gravité de la maladie",
+        "b": "Elles peuvent se compliquer de suppurations fréquemment complexes",
+        "c": "Il s'agit de lésions dites secondaires",
+        "d": "Elles peuvent être améliorées par les anti-TNF lorsqu'elles sont inflammatoires",
+        "e": "Elles sont rapidement très symptomatiques"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-24 215435.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+      "question": "Concernant les lésions ano-périnéales dans la maladie de Crohn, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+      "options": {
+        "a": "La présence d'un abcès doit conduire à une prise en charge chirurgicale",
+        "b": "Plus d'un malade sur trois présente une atteinte anale 20 ans après le début de la MC",
+        "c": "L'azathioprine est le médicament ayant montré la meilleure efficacité dans la prise en charge des lésions anopérinéales fistulisantes de MC",
+        "d": "L'IRM ano-périnéale est l'examen de référence dans l'exploration des lésions ano-périnéales de MC",
+        "e": "L'exploration par IRM est suffisante au bilan anatomique des lésions anopérinéales"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-24 215741.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q8",
+      "number": 8,
+      "type": "single",
+      "instruction": "Choix unique.",
+      "question": "Une IRM pelvienne montre un trajet complexe trans-sphinctérien en fer à cheval et l'absence d'abcès. Un séton est mis en place. La patiente est rapidement paucisymptomatique. Quel traitement serait selon vous le plus approprié ?",
+      "options": {
+        "a": "Purinéthol",
+        "b": "Infliximab en combothérapie avec le méthotrexate",
+        "c": "Adalimumab en combothérapie avec le méthotrexate",
+        "d": "Infliximab en combothérapie avec le purinéthol",
+        "e": "Adalimumab en combothérapie avec le purinéthol"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-24 215829.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch10_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Précisez celles qui sont vraies :",
+      "question": "Parmi les assertions suivantes qui concernent les ulcérations anales de la maladie de Crohn, précisez celles qui sont vraies :",
+      "options": {
+        "a": "Les ulcérations du canal sont le témoin d'une maladie évolutive",
+        "b": "Les ulcérations imposent le plus souvent un parage chirurgical de la plaie",
+        "c": "Les malades ayant des ulcérations anales ont un index d'activité luminale plus marqué que ceux qui n'en ont pas",
+        "d": "Les ulcérations s'accompagnent toujours d'une suppuration anale dans le cas précis de la maladie de Crohn",
+        "e": "Les malades ayant des ulcérations anales ont un index d'activité anale plus marqué que ceux qui n'en ont pas"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-24 220436.png",
+      "unmarked": false
+    }
+  ]
+}

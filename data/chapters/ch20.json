@@ -1,0 +1,354 @@
+{
+  "chapter": "20",
+  "title": "Biothérapie",
+  "questions": [
+    {
+      "id": "ch20_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quel est votre bilan pré-anti-TNF ?",
+      "options": {
+        "a": "Sérologie EBV (IgG et IgM)",
+        "b": "Test de production d'interféron pour rechercher une tuberculose latente",
+        "c": "Bilan cardiaque avec ECG",
+        "d": "Sérologie VHB (Ag HBs, Ac anti-HBs, Ac anti-HBc)",
+        "e": "Anticorps anti-nucléaires"
+      },
+      "correct": [
+        "a",
+        "b",
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122105.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "De manière générale, quel(s) argument(s) vous inciterai(en)t à prescrire une combothérapie ?",
+      "options": {
+        "a": "IgG EBV négatifs",
+        "b": "Lésions ano-périnéales complexes",
+        "c": "Sujet âgé (> 65 ans)",
+        "d": "2ème ligne d'anti-TNF",
+        "e": "Maladie de Crohn compliquée (fistule ou sténose)"
+      },
+      "correct": [
+        "b",
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122130.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant la combothérapie adalimumab + thiopurines :",
+      "options": {
+        "a": "La combothérapie doit être maintenue au moins 6 mois avec arrêt de la thiopurine possible si l'objectif thérapeutique a été atteint",
+        "b": "La combothérapie doit être maintenue au moins 2 ans",
+        "c": "La combothérapie permettrait de diminuer le risque de perte de réponse secondaire à long terme en prévenant la formation d'anticorps anti-adalimumab",
+        "d": "La combothérapie est plus efficace (rémission clinique et cicatrisation muqueuse endoscopique) à court terme que l'adalimumab en monothérapie",
+        "e": "La combothérapie est un facteur prédictif de succès thérapeutique dans les formes compliquées de la maladie de Crohn (fistule ou sténose)"
+      },
+      "correct": [
+        "a",
+        "c",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122147.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes concernant les effets indésirables des anti-TNF, lesquelles sont exactes ?",
+      "options": {
+        "a": "Les anti-TNF en monothérapie augmentent de manière importante le risque de lymphome avec un risque absolu très élevé",
+        "b": "Les lésions psoriasiformes induites par les anti-TNF ne récidivent que très rarement sous un 2ème anti-TNF",
+        "c": "Les anti-TNF augmentent légèrement le risque de mélanome d'où la nécessité d'une consultation dermatologique annuelle",
+        "d": "L'adalimumab augmente le risque d'infections sévères et opportunistes",
+        "e": "Les lésions psoriasiformes induites par les anti-TNF ne conduisent que très rarement à l'arrêt du traitement"
+      },
+      "correct": [
+        "c",
+        "d"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122250.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Un patient est sous anti-TNF depuis 5 ans et est asymptomatique. Il souhaiterait arrêter les anti-TNF.",
+      "question": "Que lui répondez-vous ?",
+      "options": {
+        "a": "En cas d'arrêt du traitement par anti-TNF, une consultation annuelle sera suffisante",
+        "b": "Il est nécessaire de refaire un bilan complet (coloscopie, IRM et calprotectine) avant de décider de l'arrêt des anti-TNF",
+        "c": "Le risque de récidive est de l'ordre de 40% à 1 an",
+        "d": "En cas de rechute symptomatique, la reprise de l'anti-TNF est efficace dans 80% des cas environ",
+        "e": "Le sevrage tabagique diminuerait le risque de rechute en cas d'arrêt"
+      },
+      "correct": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122316.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Après une perte de réponse secondaire sous ustékinumab intensifié à 90 mg/4 semaines, vous démarrez un traitement par infliximab.",
+      "question": "Que pouvez-vous dire concernant la combothérapie ?",
+      "options": {
+        "a": "La combothérapie doit être réservée aux formes réfractaires et à la colite aiguë grave",
+        "b": "La combothérapie permettrait de diminuer le risque de perte de réponse secondaire à long terme en prévenant la formation d'anticorps anti-infliximab",
+        "c": "La combothérapie est plus efficace (rémission clinique et cicatrisation muqueuse endoscopique) à court terme que l'infliximab en monothérapie",
+        "d": "La combothérapie doit être maintenue au moins 2 ans",
+        "e": "La combothérapie doit être maintenue au moins 1 an avec arrêt de la thiopurine possible si l'objectif thérapeutique a été atteint"
+      },
+      "correct": [
+        "b",
+        "c",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 122413.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant les facteurs prédictifs de réponse aux anti-TNF :",
+      "options": {
+        "a": "Une longue durée d'évolution de la maladie est prédictive d'une meilleure efficacité",
+        "b": "Les lésions iléales cicatrisent plus facilement que les lésions coliques",
+        "c": "L'utilisation concomitante d'azathioprine améliore l'efficacité à court terme d'un traitement par infliximab",
+        "d": "Une utilisation optimale des anti-TNF en période d'induction (taux sanguin de médicament élevé) est un élément primordial pour obtenir une efficacité durable des anti-TNF",
+        "e": "L'efficacité des anti-TNF n'est pas impactée par le nombre de biothérapies antérieures"
+      },
+      "correct": [
+        "c",
+        "d"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 123057.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant l'efficacité des anti-TNF dans la RCH :",
+      "options": {
+        "a": "Tous les anti-TNF ont la même efficacité",
+        "b": "Les anti-TNF ne sont pas efficaces en cas de rectite courte",
+        "c": "L'utilisation concomitante d'azathioprine améliore l'efficacité à court terme d'un traitement par infliximab",
+        "d": "Le taux de rémission (Mayo total <2) est de plus de 50% chez les patients naïfs d'anti-TNF traités par adalimumab",
+        "e": "L'utilisation d'un 2ème anti-TNF sous-cutané est très efficace après échec d'un premier anti-TNF sous-cutané"
+      },
+      "correct": [
+        "c"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 123220.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant les anti-TNF en cas de maladie de Crohn sténosante :",
+      "options": {
+        "a": "Ils sont contre-indiqués en raison du risque de majorer la sténose",
+        "b": "L'adalimumab doit être utilisé plutôt en combothérapie",
+        "c": "L'IRM est l'examen de référence pour prédire et évaluer la réponse thérapeutique",
+        "d": "Une fistule concomitante est un facteur prédictif d'échec aux anti-TNF",
+        "e": "Les anti-TNF sont efficaces dans le traitement des fistules intra-abdominales y compris en présence d'abcès à condition que ce dernier ait pu être drainé"
+      },
+      "correct": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 123347.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant l'intensification thérapeutique des anti-TNF :",
+      "options": {
+        "a": "La dose maximale d'adalimumab est de 80 mg par semaine",
+        "b": "La dose maximale de golimumab est de 100 mg par semaine",
+        "c": "La dose maximale d'infliximab IV est de 10 mg/kg toutes les 6 semaines",
+        "d": "Il est préférable de commencer par augmenter la dose à 10 mg/kg plutôt que de raccourcir les intervalles pour l'infliximab",
+        "e": "40 mg par semaine d'adalimumab est plus efficace que 80 mg toutes les 2 semaines"
+      },
+      "correct": [
+        "a",
+        "d"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 123448.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant les événements indésirables d'un traitement par anti-TNF :",
+      "options": {
+        "a": "Les complications cutanées ne conduisent que très rarement à l'arrêt des anti-TNF",
+        "b": "Les anti-TNF augmentent le risque de thrombose veineuse profonde",
+        "c": "Les anti-TNF augmentent le risque infectieux notamment d'infections pulmonaires chez le sujet âgé",
+        "d": "Les anti-TNF sont contre-indiqués en cas de grossesse",
+        "e": "Les anti-TNF en monothérapie pourraient augmenter le risque de lymphomes mais le risque en valeur absolue reste très faible"
+      },
+      "correct": [
+        "a",
+        "c",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 123801.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q12",
+      "number": 12,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant l'infliximab, quelles sont les réponses exactes ?",
+      "options": {
+        "a": "En cas d'intensification thérapeutique, il est préférable de commencer par augmenter la dose à 10 mg/kg plutôt que de raccourcir les intervalles pour l'infliximab",
+        "b": "L'utilisation concomitante d'azathioprine n'améliore pas l'efficacité à court terme d'un traitement par infliximab dans la RCH",
+        "c": "Une longue durée d'évolution de la maladie est prédictive d'une meilleure efficacité",
+        "d": "Le passage de la forme IFX IV 5 mg/kg à la forme SC 120 mg/14j s'accompagne d'un échappement thérapeutique dans 15% des cas",
+        "e": "L'efficacité des anti-TNF est impactée par le nombre de biothérapies antérieures"
+      },
+      "correct": [
+        "a"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 124439.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q13",
+      "number": 13,
+      "type": "multiple",
+      "instruction": "Devant une perte d'efficacité secondaire de l'infliximab chez un patient atteint de maladie de Crohn, vous obtenez les dosages suivants : infliximabémie = 0,1 µg/ml et Ac anti-infliximab = 200 U/l.",
+      "question": "Quel traitement proposez-vous ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Adalimumab en combothérapie",
+        "b": "Optimisation de l'infliximab",
+        "c": "Ustekinumab",
+        "d": "Adalimumab en monothérapie",
+        "e": "Vedolizumab"
+      },
+      "correct": [
+        "a"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 130213.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) proposition(s) est (sont) vraie(s) concernant l'adalimumab ?",
+      "options": {
+        "a": "L'adalimumab est une option envisageable dans le traitement de la colite aiguë grave de RCH",
+        "b": "Son schéma d'induction chez l'adulte est de 80 mg à S0, 40 mg à S2 puis toutes les 2 semaines en entretien",
+        "c": "La combothérapie avec une thiopurine est plus efficace à court terme chez les patients atteints de maladie de Crohn naïfs d'anti-TNF et d'immunosuppresseurs",
+        "d": "La combothérapie avec une thiopurine permet de prévenir la formation d'anticorps anti-adalimumab et donc de diminuer le risque de perte de réponse secondaire liée à l'immunogénicité induite par l'adalimumab",
+        "e": "L'adalimumab ne peut pas être utilisé dans le traitement des formes compliquées de maladie de Crohn (lésions ano-périnéales, sténose ou fistules intra-abdominales)"
+      },
+      "correct": [
+        "d"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 130830.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q15",
+      "number": 15,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant le bilan à réaliser avant la mise en route et les précautions à prendre chez un patient traité par un traitement anti-TNF, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+      "options": {
+        "a": "Les vaccins vivants sont autorisés chez les patients traités par un traitement anti-TNF",
+        "b": "La mise sous anti-TNF est contre-indiquée en cas d'antécédent de cancer solide dans les 10 ans",
+        "c": "Les anti-TNF sont contre-indiqués chez les hommes ayant une sérologie EBV négative",
+        "d": "La vaccination antigrippale annuelle est recommandée chez les patients traités par un traitement anti-TNF",
+        "e": "La recherche d'une tuberculose latente ou patente est obligatoire"
+      },
+      "correct": [
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 132041.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q16",
+      "number": 16,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant l'ustékinumab et le vedolizumab :",
+      "options": {
+        "a": "L'ustékinumab pourrait être efficace en prévention de la récidive post-opératoire endoscopique",
+        "b": "Le traitement d'entretien par vedolizumab est possible par voie IV et sous-cutanée",
+        "c": "Le vedolizumab peut être prescrit (remboursement par la sécurité sociale) en France en 1ère ligne de biothérapie dans la RCH",
+        "d": "L'ustékinumab est efficace dans la RCH",
+        "e": "Le traitement d'entretien par ustékinumab se fait à la dose de 90 mg toutes les 8 à 12 semaines"
+      },
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "source_image": "Capture d_écran 2025-05-31 132233.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch20_q17",
+      "number": 17,
+      "type": "single",
+      "instruction": "Une patiente présente brutalement un blocage complet des articulations des mains, coudes, genoux et hanches avec une CRP augmentée à 43 mg/L, sans fièvre ni signes respiratoires ou cutanés. Les radiographies osseuses et pulmonaires sont normales.",
+      "question": "Une patiente présente brutalement un blocage complet des articulations des mains, coudes, genoux et hanches avec une CRP augmentée à 43 mg/L, sans fièvre ni signes respiratoires ou cutanés. Les radiographies osseuses et pulmonaires sont normales. Quel est le diagnostic le plus probable ?",
+      "options": {
+        "a": "Maladie de Lyme",
+        "b": "Déclenchement d'une spondylarthrite ankylosante associée",
+        "c": "Tuberculose articulaire aiguë",
+        "d": "Maladie sérique aiguë par réaction d'hypersensibilité retardée au traitement par anti-TNF",
+        "e": "Primo infection à Cytomégalovirus"
+      },
+      "correct": [
+        "d"
+      ],
+      "source_image": "Capture d_écran 2025-06-01 215745.png",
+      "unmarked": false
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "chapter": "8",
+  "title": "Endoscopie dans les MICI",
+  "questions": [
+    {
+      "id": "ch8_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Les lésions endoscopiques caractéristiques de la rectocolite hémorragique (RCH) incluent :",
+      "options": {
+        "a": "Début des lésions depuis la jonction anorectale avec constance des lésions rectales",
+        "b": "Lésions continues",
+        "c": "Limite supérieure nette entre zones pathologiques et zones saines",
+        "d": "Présence d'intervalles de muqueuse saine",
+        "e": "Orifices fistuleux"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-24 000715.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Parmi les lésions endoscopiques élémentaires de la maladie de Crohn, lesquelles sont reproductibles ?",
+      "options": {
+        "a": "Érythème franc",
+        "b": "Ulcérations aphtoïdes",
+        "c": "Œdème",
+        "d": "Muqueuse boursouflée",
+        "e": "Sténoses"
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "Capture d_écran 2025-05-24 000756.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Concernant le dépistage de la dysplasie/cancer au cours de la RCH, quelles affirmations sont exactes ?",
+      "options": {
+        "a": "Biopsies systématiques même en cas de poussée inflammatoire",
+        "b": "Chromoendoscopie pour améliorer la détection des lésions",
+        "c": "Réalisation d'endoscopies avec matériel HD",
+        "d": "Polypectomie suivie de biopsies autour de la lésion",
+        "e": "Surveillance annuelle pour tous les patients atteints de pancolite"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-24 001022.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Les critères endoscopiques de gravité lors des poussées sévères de la RCH incluent :",
+      "options": {
+        "a": "Présence de pseudopolypes",
+        "b": "Décollement muqueux",
+        "c": "Ulcérations en puits",
+        "d": "Saignement spontané",
+        "e": "Visualisation de la musculeuse"
+      },
+      "correct": ["b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-24 001044.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Après une résection iléocæcale pour maladie de Crohn :",
+      "options": {
+        "a": "La sévérité de la récidive endoscopique est prédictive de la rechute clinique",
+        "b": "Une récidive endoscopique survient dans 2/3 des cas à 1 an",
+        "c": "La prévention de la récidive post opératoire doit se discuter en fonction du nombre de facteur de risque de récidive",
+        "d": "Le sevrage tabagique est essentiel",
+        "e": "Une iléocoloscopie à 6-12 mois post-opératoire doit-être proposée pour aider au choix du traitement"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-24 001438.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q6",
+      "number": 6,
+      "type": "single",
+      "instruction": "Pour chaque question, cochez la proposition exacte.",
+      "question": "Ce patient peu symptomatique est traité par infliximab et methotrexate pour une maladie de Crohn colique depuis 9 ans touchant le colon droit, le colon transverse et le colon gauche. Il prend également du delursan pour une cholangite sclérosante primitive. Aucune dysplasie n'a été observée sur les prélèvements systématiques ni sur les biopsies ciblées. Il existe de nombreux pseudopolypes à droite. Le transverse est ci-dessous. Quand doit être la prochaine endoscopie ?",
+      "options": {
+        "a": "Dans 1 an",
+        "b": "Dans 1 à 2 ans",
+        "c": "Dans 3 à 4 ans",
+        "d": "Dans 5 ans"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-05-24 001626.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Indiquer la (ou les) proposition(s) exacte(s).",
+      "question": "Au cours de la RCH, la classification de Mayo :",
+      "options": {
+        "a": "nécessite la réalisation d'une coloscopie totale",
+        "b": "varie de 0 à 3",
+        "c": "évalue l'étendue de l'atteinte muqueuse",
+        "d": "évalue la sévérité de l'atteinte muqueuse",
+        "e": "évalue la perte de la compliance rectale"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-24 001824.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Concernant la coloscopie après résection iléo-colique dans la MC, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+      "options": {
+        "a": "A 5 ans, le taux de rémission clinique est de 0% chez les patients ayant un score i4",
+        "b": "Le score endoscopique évaluant la récidive iléale post-opératoire (score de Rutgeerts) comporte 5 stades (i0 à i4)",
+        "c": "Le score de Rutgeerts a été validé dans plusieurs études prospectives",
+        "d": "Le seuil de définition de la récidive endoscopique est i2",
+        "e": "Elle doit être réalisée dans les 2 mois suivant l'intervention chirurgicale"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-24 002216.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Concernant la récidive post-opératoire après résection iléo-colique dans la MC, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+      "options": {
+        "a": "L'incidence des récidives endoscopiques est de 30% à un an",
+        "b": "Le principal facteur de récidive post-opératoire est la poursuite du tabagisme",
+        "c": "Le taux de ré intervention chirurgicale est proche de 50% après 20 ans",
+        "d": "Un traitement par anti-TNF en post-opératoire immédiat diminue le risque de récidive post-opératoire",
+        "e": "Le taux de récidive est supérieur en cas d'envahissement microscopique sur les zones de recoupe chirurgicale"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-05-24 002449.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Les lésions endoscopiques suivantes sont spécifiques de MICI dans le diagnostic différentiel entre MICI et colite infectieuse :",
+      "options": {
+        "a": "Ulcérations aphtoïdes",
+        "b": "Érythème",
+        "c": "Ulcérations profondes",
+        "d": "Ulcérations en carte de géographie",
+        "e": "Aucune de ces descriptions"
+      },
+      "correct": ["e"],
+      "source_image": "Capture d_écran 2025-05-24 002521.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch8_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Parmi les propositions suivantes concernant le CDEIS quelle(s) est(sont) la(les) proposition(s) exacte(s) :",
+      "options": {
+        "a": "Le CDEIS est aussi utilisé dans la RCH",
+        "b": "Le CDEIS a été établi par une équipe américaine",
+        "c": "Il prend en compte 4 lésions élémentaires relevées sur 5 segments digestifs",
+        "d": "Le CDEIS est très utilisé en pratique clinique grâce à sa simplicité d'utilisation",
+        "e": "Le CDEIS est le seul score endoscopique validé dans la MC"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-24 002631.png",
+      "unmarked": false
+    }
+  ]
+}

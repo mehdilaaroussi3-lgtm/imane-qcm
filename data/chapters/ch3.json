@@ -1,0 +1,159 @@
+{
+  "chapter": "3",
+  "title": "Microbiote des MICI",
+  "questions": [
+    {
+      "id": "ch3_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quels sont les arguments impliquant le microbiote dans la pathogenèse des MICI ?",
+      "options": {
+        "a": "Les résultats de travaux de transfert de microbiote chez la souris",
+        "b": "Les résultats des études de transplantation de microbiote fécal chez l'homme",
+        "c": "Les anomalies du microbiote chez les patients atteints de MICI",
+        "d": "L'efficacité des JAK inhibiteurs",
+        "e": "L'efficacité de l'ustekinumab"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2024-11-30 213405.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quels sont affirmations vraies concernant le microbiote intestinal normal ?",
+      "options": {
+        "a": "Les 2 phyla dominant sont les Firmicutes et les Actinobacteria",
+        "b": "Les 2 phyla dominant sont les Bacteroides et les Firmicutes",
+        "c": "Les 2 phyla dominant sont les Actinobacteria et les Proteobacteria",
+        "d": "Le microbiote intestinal est composé uniquement de bactéries",
+        "e": "La densité bactérienne dans les selles est de 10¹¹ bactéries par gramme"
+      },
+      "correct": ["b", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2024-11-30 213558.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Au cours des MICI :",
+      "options": {
+        "a": "La dysbiose correspond à un déséquilibre dans la composition du microbiote intestinal",
+        "b": "Les bactéries appartenant au phylum des Firmicutes augmentent",
+        "c": "Les bactéries appartenant au phylum des Firmicutes diminuent",
+        "d": "Les bactéries appartenant au phylum des Actinobacteria augmentent",
+        "e": "Les bactéries appartenant au phylum des Proteobacteria diminuent"
+      },
+      "correct": ["a", "c"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2024-11-30 213736.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Au cours des MICI :",
+      "options": {
+        "a": "La présence d'E. coli adhérent-invasif (AIEC) est associé avec la maladie de Crohn colique",
+        "b": "La biodiversité du microbiote diminue",
+        "c": "Faecalibacterium prausnitzii pourrait avoir un rôle protecteur",
+        "d": "Faecalibacterium prausnitzii pourrait avoir un rôle délétère",
+        "e": "La biodiversité du microbiote est augmentée"
+      },
+      "correct": ["b", "c"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2024-11-30 213801.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Au cours des MICI :",
+      "options": {
+        "a": "On observe une diminution de bactéries anti-inflammatoires comme Faecalibacterium prausnitzii",
+        "b": "La biodiversité du microbiote n'est pas diminuée",
+        "c": "Le microbiote joue un rôle clé dans la pathogenèse de la maladie",
+        "d": "Le microbiote ne joue qu'un rôle secondaire",
+        "e": "La présence d'E. coli adhérent-invasif (AIEC) est associé avec la maladie de Crohn iléale"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2025-05-17 223024.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Au cours des MICI :",
+      "options": {
+        "a": "La biodiversité du microbiote est augmentée",
+        "b": "La présence d'E. coli adhérent-invasif (AIEC) est associé avec la maladie de Crohn colique",
+        "c": "E. coli adhérent-invasif (AIEC) est suspecté de jouer un rôle dans la pathogenèse de la RCH",
+        "d": "La biodiversité du microbiote est diminuée",
+        "e": "La présence d'E. coli adhérent-invasif (AIEC) est associé avec la maladie de Crohn iléale"
+      },
+      "correct": ["d", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2025-05-17 224625.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Concernant le microbiote intestinal des MICI, quelle(s) proposition(s) est(sont) vraie(s) :",
+      "options": {
+        "a": "La présence d'E. coli adhérent-invasif (AIEC) est plus fréquemment associée avec la maladie de Crohn iléale",
+        "b": "Mycobacterium avium paratuberculosis est suspecté jouer un rôle dans la pathogenèse de la RCH",
+        "c": "La biodiversité du microbiote est augmentée",
+        "d": "La biodiversité du microbiote est diminuée",
+        "e": "La présence d'E. coli adhérent-invasif (AIEC) est plus fréquemment associée avec la maladie de Crohn colique"
+      },
+      "correct": ["a", "d"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2025-05-17 224732.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quels sont les arguments impliquant le microbiote dans la pathogenèse des MICI ?",
+      "options": {
+        "a": "Les résultats des études évaluant la transplantation de microbiote fécal",
+        "b": "L'inflammation intestinale spontanée chez les souris axéniques",
+        "c": "L'existence d'une dysbiose chez les patients atteints de MICI",
+        "d": "L'efficacité des corticoïdes",
+        "e": "L'efficacité des antibiotiques dans certaines situations cliniques spécifiques"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2025-05-17 224902.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch3_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quels sont les arguments impliquant le microbiote dans la pathogenèse des MICI ?",
+      "options": {
+        "a": "L'existence d'une dysbiose chez les patients atteints de MICI",
+        "b": "Les résultats des études évaluant la transplantation de microbiote fécal",
+        "c": "L'efficacité des corticoïdes",
+        "d": "L'efficacité des anti-TNFa",
+        "e": "La diminution de bactéries anti-inflammatoires comme Faecalibacterium prausnitzii"
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 3 MICROBIOTE/Capture d_écran 2025-05-17 225009.png",
+      "unmarked": false
+    }
+  ]
+}

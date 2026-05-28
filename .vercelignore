@@ -1,0 +1,4 @@
+_work
+*.md
+node_modules
+.DS_Store

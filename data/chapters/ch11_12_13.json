@@ -1,0 +1,447 @@
+{
+  "chapter": "11-12-13",
+  "title": "Manifestations Extra-Digestives",
+  "questions": [
+    {
+      "id": "ch11_12_13_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant la CSP, quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "Peut évoluer vers la cirrhose et ses complications",
+        "b": "Ne se complique de cholangiocarcinome qu'après une longue évolution",
+        "c": "Est traitée habituellement par les immunosuppresseurs",
+        "d": "Une cholécystectomie est indiquée en cas de polype vésiculaire de plus de 8 mm",
+        "e": "La posologie recommandée de l'acide ursodésoxycholique est de 15-20 mg/kg/j"
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-01-19 224433.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant la CSP, quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "Peut être asymptomatique",
+        "b": "Affecte préférentiellement la femme",
+        "c": "Peut être associée à une hépatite auto-immune",
+        "d": "Impacte le pronostic des patients atteints de MICI",
+        "e": "Peut récidiver après transplantation hépatique"
+      },
+      "correct": ["a", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-01-19 224443.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant les anomalies hépatiques au cours des MICI, quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "En cas d'anomalies chroniques des tests hépatiques, la cholangite sclérosante primitive (CSP) est un des principaux diagnostics à envisager",
+        "b": "Une cause médicamenteuse est rare en cas d'anomalies des tests hépatiques chez les patients ayant une MICI",
+        "c": "En cas d'hépatite auto-immune, il faut réaliser une bili-IRM à la recherche d'une CSP associée",
+        "d": "Sous traitement immunosuppresseur, il faut rechercher une réactivation du virus C",
+        "e": "La stéatose est rare"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-01-19 224458.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant les examens complémentaires au cours de la CSP, quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "La bili-IRM est l'examen de référence pour le diagnostic de CSP",
+        "b": "Le cathétérisme rétrograde des voies biliaires est fait quasi-systématiquement",
+        "c": "La biopsie hépatique est systématique à la phase de diagnostic",
+        "d": "Le dosage systématique des IgG4 sériques, y compris en cas de MICI, est recommandé par la société américaine d'Hépatologie en raison des difficultés diagnostiques de la cholangite à IgG4 et des conséquences thérapeutiques",
+        "e": "Il existe une forme particulière caractérisée par l'absence d'anomalies des voies biliaires en cholangiographie (Bili-IRM ou cathétérisme rétrograde)"
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 132058.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelle(s) est (sont) la(les) lésion(s) cutanée(s) spécifique(s) de la maladie de Crohn ?",
+      "options": {
+        "a": "pelade",
+        "b": "lésions végétantes « pseudo-tumorales » péri-anales",
+        "c": "dermatose neutrophilique type pyoderma gangrenosum",
+        "d": "érythème noueux",
+        "e": "macro-chéilite"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-05-25 231645.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelle(s) est (sont) la (les) réponse(s) exacte(s) concernant les dermatoses neutrophiliques survenant au cours des MICI ?",
+      "options": {
+        "a": "surviennent plus fréquemment au cours de la maladie de Crohn que la rectocolite ulcéro-hémorragique",
+        "b": "peuvent être de localisation péri-stomiale",
+        "c": "peuvent se présenter sous la forme d'ulcération en « coup de couteau »",
+        "d": "l'atteinte peut être bulleuse",
+        "e": "une antibiothérapie est souvent nécessaire pour la prise en charge"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-25 231659.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Un homme de 32 ans porteur d'une rectocolite hémorragique présente des talalgies inflammatoires depuis 3 mois et des douleurs des articulations métatarsophalangiennes. Le diagnostic de spondylarthrite périphérique associée aux MICI est suspecté. Ce diagnostic peut être confirmé par :",
+      "options": {
+        "a": "un âge inférieur à 45 ans",
+        "b": "l'association à une MICI",
+        "c": "l'association à un HLA B27",
+        "d": "un antécédent familial de rhumatisme inflammatoire",
+        "e": "une destruction articulaire à la radiographie des métatarsophalangiennes"
+      },
+      "correct": ["d"],
+      "source_image": "Capture d_écran 2025-05-25 233021.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Vous venez de faire un diagnostic de maladie de Crohn iléale de 10 cm chez une femme de 35 ans. À l'interrogatoire vous retrouvez des lombalgies inflammatoires depuis plus de 3 mois avec raideur matinale. Vous suspectez un diagnostic de spondylarthrite ankylosante. Parmi les propositions suivantes, la(les)quelle(s) est(sont) exacte(s) ?",
+      "options": {
+        "a": "la maladie rhumatismale débute le plus souvent après la maladie inflammatoire digestive",
+        "b": "la poussée inflammatoire rhumatismale est habituellement contemporaine d'une poussée digestive",
+        "c": "la radiographie des sacro-iliaques permet de poser le diagnostic",
+        "d": "la résection chirurgicale pourrait permettre également d'améliorer l'évolution de l'atteinte rhumatologique",
+        "e": "l'absence de l'HLA B27 ne permet pas d'éliminer le diagnostic"
+      },
+      "correct": ["c", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233130.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelle(s) est (sont) la (les) réponse(s) exacte(s) concernant les dermatoses associées aux MICI ?",
+      "options": {
+        "a": "Les réactions psoriasiformes sous anti-TNF alpha peuvent survenir entre 5-10% des patients traités",
+        "b": "La pyostomatite végétante est une forme de dermatose neutrophilique",
+        "c": "Les dermatoses neutrophiliques sont des atteintes inflammatoires fréquentes",
+        "d": "L'atteinte du cuir chevelu au cours des réactions psoriasiformes sous anti-TNF alpha est souvent associée à une atteinte des plis (zones rétro-auriculaires)",
+        "e": "Le pyoderma gangrenosum peut se localiser en zone péristomiale"
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233405.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant la toxicité hépatique des médicaments des MICI, quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "Une hépatite chronique C n'est pas une contre-indication à l'administration d'Infliximab",
+        "b": "Les aminosalicylés peuvent entraîner des lésions hépatiques à type d'hyperplasie nodulaire régénérative",
+        "c": "L'azathioprine peut entraîner des lésions hépatiques à type d'hyperplasie nodulaire régénérative",
+        "d": "L'utilisation du méthotrexate nécessite une surveillance régulière du bilan hépatique",
+        "e": "Les anti-TNF peuvent être responsables d'une hépatotoxicité médicamenteuse"
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233450.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Concernant la colite inflammatoire associée à la cholangite sclérosante primitive (CSP), quelle est ou quelles sont la ou les propositions exactes ?",
+      "options": {
+        "a": "C'est rarement une pancolite",
+        "b": "Elle est caractérisée par une augmentation du risque de cancer du côlon (par rapport à une colite chronique sans CSP)",
+        "c": "Elle est habituellement peu active",
+        "d": "C'est le plus souvent une RCH",
+        "e": "Une coloscopie de dépistage de la dysplasie colique doit se faire annuellement"
+      },
+      "correct": ["b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233536.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q12",
+      "number": 12,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Vous décidez de supplémenter la patiente en fer en raison d'une hémoglobine à 10,4 g/dl, microcytaire avec ferritinémie < 30 µg/ml. Quelles sont les réponses exactes concernant l'anémie ferriprive dans les MICI ?",
+      "options": {
+        "a": "La carence ferriprive peut altérer la qualité de vie même sans anémie",
+        "b": "La première perfusion de fer doit être faite dans un environnement disposant des moyens nécessaires pour assurer une réanimation",
+        "c": "La régulation du fer se fait via son absorption intestinale et la gestion des réserves (foie/macrophages)",
+        "d": "La carence martiale peut augmenter le risque thrombo-embolique",
+        "e": "La durée minimale de perfusion de carboxymaltose ferrique est de 15 minutes pour 1000 mg"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233706.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q13",
+      "number": 13,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Estelle vient vous voir car depuis 2 mois, elle présente des éruptions sévères psoriasiformes au niveau des mains et du cuir chevelu. Concernant les éruptions psoriasiformes sous anti-TNF, quelles propositions sont justes ?",
+      "options": {
+        "a": "Peuvent toucher jusqu'à 10-15% des patients traités par anti-TNF",
+        "b": "Nécessitent toujours l'arrêt de l'anti-TNF",
+        "c": "Une atteinte inflammatoire et alopéciante du cuir chevelu est possible",
+        "d": "En cas d'atteinte légère, on peut débuter par des soins locaux comme les dermocorticoïdes",
+        "e": "L'arrêt des anti-TNF alpha ne s'accompagne pas toujours d'une amélioration clinique"
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 233747.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelle(s) est (sont) la(les) modalité(s) thérapeutique(s) des éruptions psoriasiformes sous anti-TNF-alpha ?",
+      "options": {
+        "a": "L'arrêt du traitement par anti-TNF-alpha doit être toujours proposé",
+        "b": "L'alopécie est cicatricielle, avec une capacité de repousse impossible",
+        "c": "Un relai par autre traitement systémique peut être discuté en cas de forme sévère",
+        "d": "Un traitement systémique immunomodulateur peut être débuté, tout en maintenant le traitement par anti-TNF-alpha",
+        "e": "En cas d'atteinte légère, débuter par des soins locaux comme les dermocorticoïdes"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2025-05-25 233904.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q15",
+      "number": 15,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Comment traitez-vous l'anémie ferriprive chez une patiente de 55 kg ayant une RCH rectale traitée par 5-ASA, avec Hb = 9,9 g/dL et Ferritine = 9 ng/ml, ayant arrêté le fer oral car mal toléré ?",
+      "options": {
+        "a": "Perfusion intraveineuse de fer carboxymaltose par une infirmière à domicile",
+        "b": "Perfusion intraveineuse de fer carboxymaltose de 1500 mg",
+        "c": "La perfusion de fer doit être faite dans un environnement disposant des moyens nécessaires pour assurer une réanimation",
+        "d": "La durée minimale de perfusion est de 15 minutes pour 1000 mg",
+        "e": "La surveillance minimale post-perfusion est de 30 minutes"
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-25 234041.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q16",
+      "number": 16,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions vraies concernant le risque thromboembolique dans les MICI ?",
+      "options": {
+        "a": "Le diagnostic de MICI est un facteur de risque indépendant de thrombose",
+        "b": "Le risque de thrombose est plus important dans la maladie de Crohn que dans la RCH",
+        "c": "Le risque de thrombose est plus important au cours des poussées de MICI",
+        "d": "Chez les patients atteints de MICI, les thromboses récidivent rarement",
+        "e": "La MICI a un rôle protecteur concernant la mortalité par maladie thrombo-embolique"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-25 234049.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q17",
+      "number": 17,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions exactes concernant la régulation du fer ?",
+      "options": {
+        "a": "La régulation du fer se fait via son absorption intestinale et la gestion des réserves (foie/macrophages)",
+        "b": "L'hormone clef de la régulation est l'hepcidine",
+        "c": "La synthèse hépatique de l'hépcidine diminue en cas de ferritinémie basse",
+        "d": "L'augmentation de l'hépcidine augmente l'absorption intestinale du fer",
+        "e": "L'hepcidine inhibe le recyclage du fer héminique des macrophages"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-25 234058.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q18",
+      "number": 18,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelle(s) est (sont) la(les) modalité(s) thérapeutique(s) des éruptions psoriasiformes sous anti-TNF-alpha ?",
+      "options": {
+        "a": "En cas d'atteinte légère, débuter par des soins locaux comme les dermocorticoïdes",
+        "b": "Un traitement systémique immunomodulateur peut être débuté, tout en maintenant le traitement par anti-TNF-alpha",
+        "c": "Un relai par Ustekinumab peut être discuté en cas de forme sévère",
+        "d": "L'alopécie est cicatricielle, avec une capacité de repousse impossible",
+        "e": "L'arrêt du traitement par anti-TNF-alpha doit être toujours proposé"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-25 234143.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q19",
+      "number": 19,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions vraies ?",
+      "options": {
+        "a": "Une carence en vitamine B12 peut entraîner des troubles neurologiques",
+        "b": "Une carence vraie en vitamine B12 est définie par une cobalamine sérique < 148 pmol/L et une élévation de l'homocystéine (>15 µmol/L) ou de l'acide méthylmalonique",
+        "c": "Une pullulation microbienne dans la poche iléale après anastomose iléo-anale peut entraîner une carence en vitamine B12",
+        "d": "La cobalamine alimentaire doit se lier au facteur intrinsèque synthétisé par les cellules gastriques",
+        "e": "En l'absence d'antécédent chirurgical, les patients atteints de RCH ont un risque de carence en vitamine B12 comparable à celui de la population générale"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-25 234211.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q20",
+      "number": 20,
+      "type": "multiple",
+      "instruction": "Cocher les propositions exactes",
+      "question": "Concernant les pancréatites et les MICI, cocher les propositions exactes :",
+      "options": {
+        "a": "Parmi les aminosalicylés, seule la salazosulfapyridine est connue comme cause possible de pancréatite aiguë",
+        "b": "Certaines pancréatites chroniques associées aux MICI semblent pouvoir être considérées comme des pancréatites auto-immunes de type I",
+        "c": "L'azathioprine peut occasionner une pancréatite aiguë",
+        "d": "Au cours des pancréatites chroniques associées aux MICI, l'élévation des IgG4 sériques est fréquente",
+        "e": "Le risque de pancréatite aiguë au cours des MICI est 10 fois supérieur à celui de la population générale"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-05-25 234607.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q21",
+      "number": 21,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Madame F, 33 ans, a été opérée d'une résection de 50 cm d'iléon il y a 10 ans. Elle a un syndrome de König depuis 6 mois. Elle a supprimé les fruits, les légumes et les laitages. Son poids est de 40 kg pour 165 cm. Elle a eu une coloscopie il y a un mois qui montrait une récidive iléale ulcérée. Quelle(s) carence(s) recherchez-vous ?",
+      "options": {
+        "a": "en vitamine B12",
+        "b": "en folates",
+        "c": "en fer",
+        "d": "en vitamine D"
+      },
+      "correct": ["a", "b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-25 234708.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q22",
+      "number": 22,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions vraies concernant le traitement préventif des thromboses dans les MICI ?",
+      "options": {
+        "a": "Une prophylaxie est recommandée chez tous les patients hospitalisés atteints de MICI",
+        "b": "En cas de MICI sévère nécessitant une hospitalisation, la prophylaxie médicamenteuse est arrêtée à la sortie d'hospitalisation",
+        "c": "Chez un patient hospitalisé pour rectorragies sévères nécessitant des transfusions, la prophylaxie mécanique remplace la prophylaxie médicamenteuse",
+        "d": "La prophylaxie ne concerne pas les patients ambulatoires",
+        "e": "Une prophylaxie médicamenteuse est indiquée chez les patients ambulatoires en poussée de leur MICI s'ils ont un antécédent de thrombose veineuse profonde"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-25 234729.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q23",
+      "number": 23,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Comment traitez-vous l'anémie ferriprive chez un patient avec Hb = 12 g/dL et Ferritine = 2 ng/ml ?",
+      "options": {
+        "a": "Perfusion intraveineuse de fer carboxymaltose par une infirmière à domicile",
+        "b": "Perfusion intraveineuse de fer carboxymaltose de 1500 mg",
+        "c": "La perfusion de fer doit être faite dans un environnement disposant des moyens nécessaires pour assurer une réanimation",
+        "d": "La durée minimale de perfusion est de 15 minutes pour 1000 mg",
+        "e": "La surveillance minimale post-perfusion est de 30 minutes"
+      },
+      "correct": [],
+      "source_image": "",
+      "unmarked": true
+    },
+    {
+      "id": "ch11_12_13_q24",
+      "number": 24,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions vraies concernant le risque thromboembolique dans les MICI ?",
+      "options": {
+        "a": "Le diagnostic de MICI est un facteur de risque indépendant de thrombose",
+        "b": "Le risque de thrombose est plus important dans la maladie de Crohn que dans la RCH",
+        "c": "Après hospitalisation pour colite aigue grave, le risque de thrombose doit être prévenu pendant plusieurs semaines",
+        "d": "Chez les patients atteints de MICI, les thromboses récidivent rarement",
+        "e": "La MICI a un rôle protecteur concernant la mortalité par maladie thrombo-embolique"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-26 234406.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q25",
+      "number": 25,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Michèle a une RCH distale traitée par 5-ASA. Son poids est de 59 kg. Sa dernière poussée remonte à 5 mois, une anémie ferriprive avait été diagnostiquée et un traitement martial oral avait été initié pour 3 mois. Elle a arrêté son traitement martial à 2 mois, car mal toléré. Son bilan montre Hb = 9,9 g/dL et Ferritine = 9 ng/ml. Comment traitez-vous l'anémie ferriprive ?",
+      "options": {
+        "a": "Perfusion intraveineuse de fer carboxymaltose par une infirmière à domicile",
+        "b": "Selon le poids et l'hémoglobine initiale, on programme une perfusion intraveineuse de fer carboxymaltose de 1500 mg en hôpital de jour",
+        "c": "La perfusion de fer doit être faite dans un environnement disposant des moyens nécessaires pour assurer une réanimation",
+        "d": "La durée minimale de perfusion de fer carboxymaltose est de 15 minutes",
+        "e": "La surveillance minimale post-perfusion est de 30 minutes"
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-26 234414.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch11_12_13_q26",
+      "number": 26,
+      "type": "multiple",
+      "instruction": "Une ou plusieurs réponses possibles",
+      "question": "Quelles sont les propositions exactes concernant la régulation du fer ?",
+      "options": {
+        "a": "La régulation du fer se fait via son absorption intestinale et la gestion des réserves (foie/macrophages)",
+        "b": "L'hormone clef de la régulation est l'hepcidine",
+        "c": "La synthèse hépatique de l'hépcidine augmente en cas de ferritinémie haute",
+        "d": "L'augmentation de l'hépcidine augmente l'absorption intestinale du fer",
+        "e": "L'hepcidine inhibe le recyclage du fer héminique des macrophages"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-26 234421.png",
+      "unmarked": false
+    }
+  ]
+}

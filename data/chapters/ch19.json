@@ -1,0 +1,243 @@
+{
+  "chapter": "19",
+  "title": "Traitements Immunosuppresseurs",
+  "questions": [
+    {
+      "id": "ch19_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Dans la colite aiguë sévère :",
+      "options": {
+        "a": "Le cyclophosphamide a une efficacité bien démontrée",
+        "b": "La ciclosporine devrait être discutée en cas d'échec du traitement par corticoïde intraveineux",
+        "c": "La ciclosporine donne des bons résultats à long terme chez les patients dont la poussée sévère survient sous azathioprine",
+        "d": "Le méthotrexate a une efficacité rapide",
+        "e": "L'azathioprine doit être mis en route comme relai du traitement par ciclosporine"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-05-30 234202.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Dans la RCUH cortico-dépendante ou cortico-réfractaire :",
+      "options": {
+        "a": "L'effet du méthotrexate pour induire et maintenir une rémission clinique et endoscopique est bien démontré",
+        "b": "L'effet de l'upadacitinib est bien démontré à la fois en induction et en maintenance d'une rémission clinique et endoscopique",
+        "c": "L'upadacitinib pourrait représenter un premier choix après l'échec d'un premier biologique",
+        "d": "Le traitement par azathioprine est supérieur au traitement par infliximab",
+        "e": "Le traitement combiné par infliximab et azathioprine est supérieur au traitement par infliximab seul"
+      },
+      "correct": ["b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-30 234232.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Le traitement par azathioprine :",
+      "options": {
+        "a": "Est moins efficace lorsque les taux de 6-TGN érythrocytaires sont inférieurs à 250 pmol/10⁸ GR",
+        "b": "Ne nécessite pas de contrôle de la formule sanguine tous les 3 mois si le génotype et/ou l'activité enzymatique TPMT sont normaux",
+        "c": "Est associé à un risque accru de cancer cutané non mélanomique",
+        "d": "Est habituellement donné à la dose de 3-3,5 mg/kg",
+        "e": "Donne une intolérance chez 10 à 20% des patients, souvent durant le premier mois"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-30 234258.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Le traitement par méthotrexate :",
+      "options": {
+        "a": "Présente un risque accru d'hépatotoxicité en cas d'obésité ou de diabète",
+        "b": "Est habituellement prescrit dans la maladie de Crohn à la dose de 15 mg/semaine par voie IM ou sous-cut pour les 3 premiers mois de traitement",
+        "c": "A une efficacité similaire par voie intramusculaire ou par voie orale",
+        "d": "Peut donner lieu à une pneumonie allergique imposant l'arrêt du traitement",
+        "e": "Nécessite une biopsie hépatique systématique après une dose cumulée de 2g"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-30 234335.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Un traitement immunosuppresseur associé à un traitement par infliximab :",
+      "options": {
+        "a": "Permet une augmentation d'efficacité dans la maladie de Crohn n'ayant jamais été traitée par immunosuppresseur",
+        "b": "Diminue le risque d'immunisation contre l'infliximab",
+        "c": "Diminue globalement la nécessité d'augmenter les doses de l'infliximab",
+        "d": "Expose à un risque accru de lymphome hépato-splénique grave",
+        "e": "Pourrait être interrompu chez les patients présentant des taux résiduels bas d'infliximab"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-30 235437.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) proposition(s) est (sont) vraie(s) concernant le traitement par tofacitinib ?",
+      "options": {
+        "a": "Est associé dans la RCH à un risque accru d'infections sévères",
+        "b": "Doit être utilisé dans la RCH en association avec un autre immunosuppresseur",
+        "c": "Est efficace en induction à la dose de 2×10 mg/j dans la RCH réfractaire aux traitements conventionnels ou biologiques",
+        "d": "Est efficace à la dose de 2×5 mg/j en entretien dans la maladie de Crohn",
+        "e": "Est associé à un risque significativement accru d'embolie pulmonaire"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-31 000051.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant le traitement de la RCH par l'azathioprine ?",
+      "options": {
+        "a": "Il faut attendre au moins 3 mois, avant d'affirmer l'échec du traitement, sous réserve que la posologie soit adéquate",
+        "b": "Le risque de pancréatite aiguë sous azathioprine est de l'ordre de 5%",
+        "c": "Les taux de 6-TGN sériques sont considérés comme thérapeutiques s'ils sont supérieurs à 250 unités",
+        "d": "La rémission clinique et le sevrage en corticoïdes sont obtenus chez environ 80% des malades à un an",
+        "e": "La cicatrisation muqueuse complète est obtenue dans 3/4 des cas environ après 6 mois de traitement par azathioprine seule"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-31 001025.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle surveillance biologique proposez-vous chez un patient atteint de RCH traité par méthotrexate ?",
+      "options": {
+        "a": "NFS une fois par mois les six premiers mois de traitement",
+        "b": "Bilan hépatique hebdomadaire le premier mois de traitement",
+        "c": "NFS hebdomadaire le premier mois de traitement",
+        "d": "Créatinine mensuelle la première année"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-31 001248.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelles sont les réponses exactes concernant les thiopurines ?",
+      "options": {
+        "a": "Le risque de pancréatite aiguë sous azathioprine est de l'ordre de 5%",
+        "b": "Les taux de 6-TGN sériques sont considérés comme thérapeutiques s'ils sont supérieurs à 250 unités",
+        "c": "Il est conseillé de réaliser une surveillance annuelle par frottis cervico-vaginal sous thiopurine",
+        "d": "Au cours d'un traitement par azathioprine, vous devez surveiller systématiquement la lipasémie",
+        "e": "La prescription de thiopurine est déconseillée chez les patients n'ayant pas été en contact avec l'EBV"
+      },
+      "correct": ["b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-31 001356.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Le traitement par tofacitinib :",
+      "options": {
+        "a": "Est efficace à la dose de 2×5 mg/j en entretien dans la maladie de Crohn",
+        "b": "Est associé dans la RCH à un risque accru d'infections sévères",
+        "c": "Doit être utilisé dans la RCH en association avec un autre immunosuppresseur",
+        "d": "Est associé à un risque significativement accru d'embolie pulmonaire dans la polyarthrite rhumatoïde",
+        "e": "Est efficace en induction à la dose de 2×10 mg/j dans la RCH réfractaire aux traitements conventionnels ou biologiques"
+      },
+      "correct": ["b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 001500.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant le traitement de la RCH par l'azathioprine ?",
+      "options": {
+        "a": "Il faut attendre au moins 3 mois, avant d'affirmer l'échec du traitement, sous réserve que la posologie soit adéquate",
+        "b": "Le risque de pancréatite aiguë sous azathioprine est de l'ordre de 5%",
+        "c": "Les taux de 6-TGN sériques sont considérés comme thérapeutiques s'ils sont supérieurs à 250 unités",
+        "d": "La rémission clinique et le sevrage en corticoïdes sont obtenus chez environ 80% des malades à un an",
+        "e": "La cicatrisation muqueuse complète est obtenue dans 3/4 des cas environ après 6 mois de traitement par azathioprine seule"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-31 001741.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q12",
+      "number": 12,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Au cours d'un traitement par azathioprine, quel(s) paramètre(s) biologique(s) devez-vous surveiller systématiquement ?",
+      "options": {
+        "a": "transaminases",
+        "b": "nombre de plaquettes",
+        "c": "lipasémie",
+        "d": "hémoglobine",
+        "e": "nombre de polynucléaires"
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 001803.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q13",
+      "number": 13,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quel est le mécanisme d'action des inhibiteurs de la sphingosine-1-phosphate ?",
+      "options": {
+        "a": "Il s'agit d'anticorps monoclonaux",
+        "b": "Il s'agit de petites molécules",
+        "c": "Les S1P inhibiteurs entraînent une séquestration des lymphocytes dans les ganglions",
+        "d": "Ces molécules peuvent entraîner une baisse des lymphocytes sanguins",
+        "e": "Le principe est un blocage cytokinique"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-31 124600.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch19_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Qu'est-ce que l'upadacitinib ?",
+      "options": {
+        "a": "Il s'agit d'une petite molécule administrée par voie intra-veineuse en induction",
+        "b": "Cette molécule a démontré son efficacité en induction et en entretien dans la maladie de Crohn",
+        "c": "Il s'agit d'une petite molécule anti-JAK 1",
+        "d": "Ce traitement a démontré son efficacité par rapport au placebo en induction dans la rectocolite hémorragique",
+        "e": "Ce traitement a démontré son efficacité par rapport au placebo en entretien à la semaine 52 dans la rectocolite hémorragique"
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-31 171455.png",
+      "unmarked": false
+    }
+  ]
+}

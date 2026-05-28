@@ -1,0 +1,159 @@
+{
+  "chapter": "9",
+  "title": "Surveillance des MICI",
+  "questions": [
+    {
+      "id": "ch9_q1",
+      "number": 1,
+      "type": "single",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quel taux de calprotectine doit être utilisé en pratique clinique pour diagnostiquer une poussée au cours de la maladie de Crohn ?",
+      "options": {
+        "a": "50 ug/g",
+        "b": "100 ug/g",
+        "c": "150 ug/g",
+        "d": "200 ug/g",
+        "e": "250 ug/g"
+      },
+      "correct": ["e"],
+      "source_image": "Capture d_écran 2025-05-24 122735.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la(les) réponse(s) correcte(s) concernant l'entero-IRM ?",
+      "options": {
+        "a": "Aucune préparation digestive n'est nécessaire",
+        "b": "Aucune injection de produit de contraste n'est nécessaire",
+        "c": "Le patient est installé en décubitus dorsal",
+        "d": "Le signal doppler est utilisé pour évaluer l'inflammation pariétale",
+        "e": "Il est très performant pour évaluer l'intestin grêle proximal"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-24 122812.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la(les) réponse(s) correcte(s) concernant la vidéocapsule ?",
+      "options": {
+        "a": "La cicatrisation muqueuse au niveau du grêle peut être évaluée par vidéocapsule",
+        "b": "La vidéocapsule est l'examen non-invasif le plus performant pour évaluer l'intestin grêle proximal",
+        "c": "Le risque d'impaction et l'impossibilité de réaliser des biopsies sont les principales limites de la vidéocapsule",
+        "d": "La vidéocapsule est un examen bien accepté par les patients atteints de MICI",
+        "e": "L'absence d'ulcération définie la cicatrisation muqueuse"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-24 122833.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Concernant la calprotectine fécale au cours des MICI, quelle(s) est (sont) la(les) réponse(s) correcte(s) ?",
+      "options": {
+        "a": "La calprotectine est stable plusieurs jours à température ambiante",
+        "b": "La calprotectine est une protéine majoritaire du cytoplasme des polynucléaires neutrophiles",
+        "c": "La calprotectine est remboursée par la sécurité sociale française",
+        "d": "Un seuil de 50 ug/g a une bonne sensibilité et spécificité pour différencier une MICI d'un syndrome de l'intestin irritable",
+        "e": "Le seuil de calprotectine dépend de l'objectif thérapeutique ciblé"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-24 122857.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la(les) réponse(s) correcte(s) concernant l'échographie du tube digestif ?",
+      "options": {
+        "a": "Une diminution de l'épaisseur pariétale est visible dès la semaine 2 après l'initiation d'un traitement au cours de la RCH",
+        "b": "L'échographie est plus performante que l'entero-IRM pour l'évaluation de l'activité inflammatoire de l'intestin grêle proximal",
+        "c": "A une sensibilité et une spécificité ≥ 90% pour évaluer l'activité de la maladie au niveau du grêle et du colon (référence : ileocoloscopie)",
+        "d": "L'épaisseur pariétale et le signal doppler sont les principaux signes d'activité évalués en échographie du tube digestif",
+        "e": "Elle doit être impérativement réalisée à jeun"
+      },
+      "correct": ["a", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-24 125605.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la(les) réponse(s) correcte(s) concernant la calprotectine fécale ?",
+      "options": {
+        "a": "Les IPP (inhibiteurs de pompe à protons) peuvent être responsables d'une augmentation de la calprotectine fécale",
+        "b": "Chez un patient atteint de maladie de Crohn et opéré d'une résection iléo-colique, une calprotectine fécale inférieure à 100 µg/g est prédictive d'une absence de récidive endoscopique (valeur prédictive négative de plus de 90 %)",
+        "c": "Les colites microscopiques peuvent être responsables d'une augmentation de la calprotectine fécale",
+        "d": "Un seuil de 250 µg/g est conseillé pour éliminer une pathologie organique chez un patient présentant des troubles digestifs chroniques non spécifiques",
+        "e": "Chez les patients en rémission en clinique, la calprotectine peut s'élever plusieurs mois avant la rechute clinique"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-24 125907.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Concernant le suivi non invasif dans la RCH. Quelles sont les réponses FAUSSES ?",
+      "options": {
+        "a": "Les AINS peuvent être responsables d'une augmentation de la calprotectine fécale",
+        "b": "Un seuil de calprotectine fécale inférieur à 200 µg/g de selles a une bonne corrélation avec une cicatrisation endoscopique (score Mayo 0) dans la RCH",
+        "c": "Une diminution de l'épaisseur pariétale est visible en échographie dès la semaine 2 après l'initiation d'un traitement au cours de la RCH",
+        "d": "La CRP est augmentée dans 2/3 des RCH actives",
+        "e": "La normalisation précoce de la CRP prédit la rémission clinique et la cicatrisation muqueuse endoscopique"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-24 130049.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Parmi les propositions suivantes concernant le consensus ECCO sur le monitoring des MICI, quelle(s) est(sont) la(les) réponse(s) correcte(s) ?",
+      "options": {
+        "a": "L'échographie du tube digestif peut être suffisante pour le diagnostic de maladie de Crohn",
+        "b": "La réponse endoscopique ou transmurale doit être évaluée dans les 6 mois suivant l'initiation d'un traitement",
+        "c": "Chez les patients en rémission, une évaluation annuelle est recommandée",
+        "d": "Les complications fistulisantes peuvent être recherchées par IRM ou par échographie",
+        "e": "En cas suspicion d'abcès, l'échographie n'est par performante et un scanner doit systématiquement être réalisé"
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-24 130445.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch9_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Pour chaque question, cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la(les) réponse(s) correcte(s) concernant la calprotectine ?",
+      "options": {
+        "a": "Chez les patients en rémission en clinique, la calprotectine peut s'élever dans les 4 mois avant la rechute",
+        "b": "Les IPP peuvent être responsables d'une augmentation de la calprotectine fécale",
+        "c": "Elle est remboursée par l'assurance maladie dans certaines indications",
+        "d": "La calprotectine sérique est un marqueur fiable de l'activité de la RCH",
+        "e": "Le seuil de calprotectine optimal pour prédire la récidive postopératoire 6 mois après résection ileo-caecale dans la maladie de Crohn est 100 ug/g"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-24 130537.png",
+      "unmarked": false
+    }
+  ]
+}

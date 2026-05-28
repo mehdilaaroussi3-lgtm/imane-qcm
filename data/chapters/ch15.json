@@ -1,0 +1,106 @@
+{
+  "chapter": "15",
+  "title": "Cancer",
+  "questions": [
+    {
+      "id": "ch15_q1",
+      "number": 1,
+      "type": "single",
+      "instruction": "",
+      "question": "Quelle est la principale technique recommandée pour le dépistage de la dysplasie chez les patients atteints de MICI ?",
+      "options": {
+        "a": "La coloscopie virtuelle",
+        "b": "La biopsie aléatoire",
+        "c": "La chromoendoscopie",
+        "d": "Le test sanguin des marqueurs tumoraux",
+        "e": "L'échographie abdominale"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-28 202805.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch15_q2",
+      "number": 2,
+      "type": "single",
+      "instruction": "",
+      "question": "Quel facteur de risque est associé à un risque 9 fois plus élevé de cancer colorectal chez les patients atteints de maladie de Crohn ?",
+      "options": {
+        "a": "Une localisation iléale isolée",
+        "b": "Une colite étendue sur plus de 50% du côlon",
+        "c": "Un antécédent familial de cancer gastrique",
+        "d": "La prise prolongée d'anti-TNF",
+        "e": "Une consommation excessive de viande rouge"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-28 202826.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch15_q3",
+      "number": 3,
+      "type": "single",
+      "instruction": "",
+      "question": "Quelle maladie associée à une MICI augmente fortement le risque de cancer colorectal ?",
+      "options": {
+        "a": "La maladie cœliaque",
+        "b": "La cholangite sclérosante primitive",
+        "c": "L'hépatite virale",
+        "d": "L'hypertension artérielle",
+        "e": "L'arthrite rhumatoïde"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-28 202841.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch15_q4",
+      "number": 4,
+      "type": "single",
+      "instruction": "",
+      "question": "Quel médicament a historiquement été associé à une diminution du risque de cancer colorectal chez les patients atteints de MICI ?",
+      "options": {
+        "a": "Les corticostéroïdes",
+        "b": "Les anti-TNF",
+        "c": "Les thiopurines",
+        "d": "Les dérivés aminosalicylés (5-ASA)",
+        "e": "Les inhibiteurs de la pompe à protons"
+      },
+      "correct": ["d"],
+      "source_image": "Capture d_écran 2025-05-28 202851.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch15_q5",
+      "number": 5,
+      "type": "single",
+      "instruction": "",
+      "question": "Un patient peu symptomatique est traité par infliximab et méthotrexate pour une maladie de Crohn colique depuis 9 ans touchant le côlon droit, le côlon transverse et le côlon gauche. Il prend également du Delursan pour une cholangite sclérosante primitive. Aucune dysplasie n'a été observée sur les prélèvements. Il existe de nombreux pseudopolypes à droite. Quand doit être la prochaine endoscopie ?",
+      "options": {
+        "a": "Dans 1 an",
+        "b": "Dans 1 à 2 ans",
+        "c": "Dans 3 à 4 ans",
+        "d": "Dans 5 ans"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-05-28 215746.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch15_q6",
+      "number": 6,
+      "type": "single",
+      "instruction": "",
+      "question": "Un patient présente une coloscopie sans dysplasie sur les prélèvements anatomopathologiques, ni inflammation. Il n'a pas d'autre antécédent personnel que sa rectocolite hémorragique pancolique sous azathioprine et aucun antécédent familial. Quand doit-il revenir pour une nouvelle coloscopie de dépistage ?",
+      "options": {
+        "a": "Dans moins d'1 an",
+        "b": "Dans 1 à 2 ans",
+        "c": "Dans 3 à 4 ans",
+        "d": "Dans 5 ans"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-28 220048.png",
+      "unmarked": false
+    }
+  ]
+}

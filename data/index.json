@@ -1,0 +1,70 @@
+{
+  "title": "MICI QCM — Préparation Examen Gastroentérologie",
+  "subtitle": "Maladies Inflammatoires Chroniques de l'Intestin",
+  "themes": [
+    {
+      "id": "fondamentaux",
+      "title": "Fondamentaux",
+      "subtitle": "Comprendre la maladie",
+      "color": "indigo",
+      "icon": "M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z",
+      "chapters": ["1", "2", "3", "4", "5"]
+    },
+    {
+      "id": "diagnostic",
+      "title": "Diagnostic & Évolution",
+      "subtitle": "Reconnaître et suivre",
+      "color": "sky",
+      "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+      "chapters": ["6", "7", "8", "9"]
+    },
+    {
+      "id": "complications",
+      "title": "Atteintes spécifiques",
+      "subtitle": "LAP, extra-digestif, grossesse, cancer, nutrition",
+      "color": "rose",
+      "icon": "M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z",
+      "chapters": ["10", "11-12-13", "14", "15", "16"]
+    },
+    {
+      "id": "traitements",
+      "title": "Traitements médicaux",
+      "subtitle": "5-ASA, corticoïdes, immunosuppresseurs, biothérapies",
+      "color": "emerald",
+      "icon": "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+      "chapters": ["17", "18", "19", "20", "21"]
+    },
+    {
+      "id": "strategie",
+      "title": "Chirurgie & Stratégie",
+      "subtitle": "Décisions thérapeutiques, pédiatrie",
+      "color": "amber",
+      "icon": "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2",
+      "chapters": ["22-23", "24", "25-26"]
+    }
+  ],
+  "chapterMeta": {
+    "1":         {"title": "Épidémiologie des MICI", "short": "Épidémiologie", "themeId": "fondamentaux"},
+    "2":         {"title": "Génétique des MICI", "short": "Génétique", "themeId": "fondamentaux"},
+    "3":         {"title": "Microbiote des MICI", "short": "Microbiote", "themeId": "fondamentaux"},
+    "4":         {"title": "Facteurs de Risque des MICI", "short": "Facteurs de risque", "themeId": "fondamentaux"},
+    "5":         {"title": "Réponse Inflammatoire MICI", "short": "Réponse inflammatoire", "themeId": "fondamentaux"},
+    "6":         {"title": "Diagnostic", "short": "Diagnostic", "themeId": "diagnostic"},
+    "7":         {"title": "Histoire naturelle des MICI", "short": "Histoire naturelle", "themeId": "diagnostic"},
+    "8":         {"title": "Endoscopie dans les MICI", "short": "Endoscopie", "themeId": "diagnostic"},
+    "9":         {"title": "Surveillance des MICI", "short": "Surveillance", "themeId": "diagnostic"},
+    "10":        {"title": "Lésions Ano-Périnéales (LAP)", "short": "LAP", "themeId": "complications"},
+    "11-12-13":  {"title": "Manifestations Extra-Digestives", "short": "Manif. extra-digestives", "themeId": "complications"},
+    "14":        {"title": "Grossesse", "short": "Grossesse", "themeId": "complications"},
+    "15":        {"title": "Cancer", "short": "Cancer", "themeId": "complications"},
+    "16":        {"title": "Nutrition", "short": "Nutrition", "themeId": "complications"},
+    "17":        {"title": "Traitements Non Immunosuppresseurs", "short": "Tt non immunosup.", "themeId": "traitements"},
+    "18":        {"title": "Corticoïdes", "short": "Corticoïdes", "themeId": "traitements"},
+    "19":        {"title": "Traitements Immunosuppresseurs", "short": "Tt immunosup.", "themeId": "traitements"},
+    "20":        {"title": "Biothérapie", "short": "Biothérapie", "themeId": "traitements"},
+    "21":        {"title": "Futurs Traitements", "short": "Futurs traitements", "themeId": "traitements"},
+    "22-23":     {"title": "Chirurgie", "short": "Chirurgie", "themeId": "strategie"},
+    "24":        {"title": "MICI Pédiatrique", "short": "MICI pédiatrique", "themeId": "strategie"},
+    "25-26":     {"title": "Stratégie Thérapeutique", "short": "Stratégie thérapeutique", "themeId": "strategie"}
+  }
+}

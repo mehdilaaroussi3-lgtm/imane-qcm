@@ -1,0 +1,74 @@
+{
+  "chapter": "17",
+  "title": "Traitements Non Immunosuppresseurs",
+  "questions": [
+    {
+      "id": "ch17_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Cochez la ou les bonnes réponses",
+      "question": "Parmi ces formulations de 5-ASA, la ou lesquelles ont une libération qui débute dans le duodénum ?",
+      "options": {
+        "a": "Salasopyrine®",
+        "b": "Pentasa®",
+        "c": "Rowasa®",
+        "d": "Dipentum®",
+        "e": "Fivasa®"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-29 212711.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch17_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Cochez la ou les bonnes réponses",
+      "question": "Parmi ces propositions sur la transplantation de microbiote fécal, la/lesquelles est/sont exacte(s) ?",
+      "options": {
+        "a": "Elle peut être utilisée en cas de récidive de colite à Clostridium difficile associée à une MICI",
+        "b": "Son efficacité dans la RCH est prouvée et des centres de références sont autorisés à la pratiquer dans cette indication (en cas de résistance aux autres traitements)",
+        "c": "Son efficacité dans la pochite est prouvée",
+        "d": "Son efficacité dans la maladie de Crohn n'est pas prouvée formellement",
+        "e": "Elle nécessite un lavement de selles par jour pendant 8 semaines"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-29 212750.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch17_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Cochez la ou les bonnes réponses",
+      "question": "Parmi les affirmations suivantes, la/lesquelles est/sont exacte(s) ?",
+      "options": {
+        "a": "La prise d'IPP diminue l'efficacité du PENTASA®",
+        "b": "Lavements ou suppositoires de 5-ASA s'utilisent de manière équivalente dans la RCH distale",
+        "c": "Tous les suppositoires de 5-ASA disponibles ont une efficacité comparable",
+        "d": "L'addition d'un lavement de mésalasine quotidien renforce l'efficacité thérapeutique du 5-ASA oral dans les RCH dépassant l'angle colique gauche",
+        "e": "Après un échec avéré des aminosalicylés dans la RCH modérée active, il faut débuter un traitement par anti-JAK au plus vite"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2025-05-29 212843.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch17_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Cochez la ou les bonnes réponses",
+      "question": "Parmi les affirmations suivantes sur la ciprofloxacine, la/lesquelles est/sont fausse(s) ?",
+      "options": {
+        "a": "Elle est indiquée dans les rectites cryptogénétiques",
+        "b": "Elle est recommandée dans la maladie de Crohn minime",
+        "c": "Elle expose à un risque de tendinopathie",
+        "d": "Elle est souvent responsable après quelques semaines d'un goût métallique dans la bouche",
+        "e": "Elle peut être responsable de neutropénie"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-29 213006.png",
+      "unmarked": false
+    }
+  ]
+}

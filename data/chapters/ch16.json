@@ -1,0 +1,121 @@
+{
+  "chapter": "16",
+  "title": "Nutrition",
+  "questions": [
+    {
+      "id": "ch16_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Quelles sont parmi les propositions suivantes, celles qui sont vraies ?",
+      "question": "La nutrition entérale dans la maladie de Crohn en poussée :",
+      "options": {
+        "a": "est un traitement de choix chez l'enfant et l'adolescent",
+        "b": "la nutrition entérale élémentaire est plus efficace que la nutrition entérale polymérique",
+        "c": "peut être utilisée chez les malades ayant un abcès développé à partir d'une fistule de l'intestin",
+        "d": "a un effet sur les symptômes mais pas sur les lésions endoscopiques"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-29 185437.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Quelles sont parmi les propositions suivantes, celles qui sont vraies ?",
+      "question": "Quelles sont parmi les propositions suivantes, celles qui sont vraies ?",
+      "options": {
+        "a": "Le régime sans gluten ni lactose n'a pas montré son efficacité dans la maladie de Crohn active",
+        "b": "Les fibres dures sont déconseillées aux malades atteints de Crohn ayant une sténose intestinale",
+        "c": "Les lavements d'acides gras à chaînes courtes n'ont pas montré leur efficacité dans la RCH",
+        "d": "Une alimentation de haute qualité évaluée par le nutriscore est associée à une diminution du risque de MC"
+      },
+      "correct": ["a", "b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-29 185513.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "À propos de la nutrition entérale :",
+      "question": "À propos de la nutrition entérale :",
+      "options": {
+        "a": "Elle doit être hypercalorique et hyperprotéique dans la MC",
+        "b": "Elle doit être administrée en préopératoire chez un malade ayant une RCH grave avec colectasie et dénutrition sévère",
+        "c": "Elle ne contient pas d'oligo-éléments ni de vitamines. Ils doivent être ajoutés au mélange",
+        "d": "Elle n'est pas contre-indiquée en cas de fistule"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-29 185602.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Lesquels vous paraissent appropriés ?",
+      "question": "Madame T, 50 ans, a une maladie de Crohn iléale de phénotype inflammatoire. Elle est en rémission clinique et endoscopique sous adalimumab en monothérapie. Elle est sous régime sans résidus depuis le début de sa maladie il y a 3 ans. Elle demande des conseils diététiques. Lesquels vous paraissent appropriés ?",
+      "options": {
+        "a": "continuez le régime sans résidus",
+        "b": "évitez les laitages non pasteurisés",
+        "c": "évitez les aliments ultra-transformés",
+        "d": "mangez 2 à 4 portions de fruits par jour",
+        "e": "mangez 2 portions de légumes par jour"
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-29 185625.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Quelle(s) affirmation(s) concernant les recommandations diététiques chez les malades atteints de MICI est (sont) vraie(s) parmi les suivantes ?",
+      "question": "Quelle(s) affirmation(s) concernant les recommandations diététiques chez les malades atteints de MICI est (sont) vraie(s) parmi les suivantes ?",
+      "options": {
+        "a": "Un régime varié, équilibré, privilégiant les aliments frais et évitant les aliments ultra-transformés est conseillé à tous les malades",
+        "b": "Un régime sans viande diminue le risque de poussée de maladie de Crohn",
+        "c": "Un régime sans fibre dure est conseillé aux malades porteurs d'une sténose de l'intestin",
+        "d": "Un régime pauvre en oxalates est conseillé aux malades ayant une résection étendue du grêle et une anastomose entre le grêle et le côlon"
+      },
+      "correct": ["a", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-29 191936.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Parmi les propositions suivantes concernant l'alimentation au cours de la MC chez l'enfant, indiquez celles qui sont exactes :",
+      "question": "Parmi les propositions suivantes concernant l'alimentation au cours de la MC chez l'enfant, indiquez celles qui sont exactes :",
+      "options": {
+        "a": "Chez l'enfant, l'efficacité de l'alimentation entérale exclusive avec le Modulen IBD® est inférieure à celle de la corticothérapie pour le traitement des poussées",
+        "b": "Le Modulen IBD® doit toujours être administré par intermédiaire d'une sonde naso-gastrique",
+        "c": "Au cours de l'alimentation entérale à débit continu pour le traitement d'un retard statural sévère, les solutés élémentaires ou semi-élémentaires sont plus efficaces que les solutés polymériques",
+        "d": "La supplémentation de l'alimentation en oméga 3 est recommandée chez l'enfant pour diminuer le risque de rechutes de la MC",
+        "e": "En cas de poussée, on estime habituellement que les besoins énergétiques des patients sont supérieurs de 20 à 50% aux apports nutritionnels conseillés pour l'âge"
+      },
+      "correct": ["e"],
+      "source_image": "Capture d_écran 2025-05-29 192245.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch16_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Parmi les propositions suivantes concernant le microbiote et l'alimentation dans la MC, lesquelles sont vraies ?",
+      "question": "Parmi les propositions suivantes concernant le microbiote et l'alimentation dans la MC, lesquelles sont vraies ?",
+      "options": {
+        "a": "Les polysaccharides sont utiles au microbiote intestinal car ce sont des pré-biotiques",
+        "b": "Un régime riche en fibres végétales est à privilégier dans la maladie de Crohn quiescente",
+        "c": "Dans le régime CDED, le riz fait partie des 5 ingrédients obligatoires quotidiens",
+        "d": "La trop grande consommation d'aliments ultra-transformés est une des causes potentielles à l'origine des MICI",
+        "e": "Le régime pauvre en FODMAPS est efficace en prévention de la récidive post-opératoire dans la maladie de Crohn"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-29 213600.png",
+      "unmarked": false
+    }
+  ]
+}

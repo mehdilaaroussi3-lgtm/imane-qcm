@@ -1,0 +1,159 @@
+{
+  "chapter": "5",
+  "title": "Réponse Inflammatoire MICI",
+  "questions": [
+    {
+      "id": "ch5_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Immunité innée",
+      "options": {
+        "a": "Les TLR ne reconnaissent que les bactéries pathogènes pour le tube digestif.",
+        "b": "Les TLR sont des récepteurs qui sont apparus il y a longtemps dans l'évolution humaine.",
+        "c": "La MC se caractérise par une diminution de TLR3 et une surexpression de TLR4.",
+        "d": "Les souris NOD2 knock-out présentent une inflammation colique spontanée.",
+        "e": "Les récepteurs NOD et TLR activent la voie NFκB et l'apoptose cellulaire."
+      },
+      "correct": ["b", "c", "e"],
+      "source_image": "Capture d_écran 2024-12-02 234145.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Les cytokines",
+      "options": {
+        "a": "IL-1β, IL-6 et IL-8 sont classiquement considérées comme des cytokines inflammatoires.",
+        "b": "IL-1RA, IL-10 et TGFβ sont classiquement considérées comme des cytokines anti-inflammatoires.",
+        "c": "Le TNFα est produit principalement par les lymphocytes T au cours de la MC.",
+        "d": "La lignée Th17 est caractérisée par la production d'IL-17, d'IL-21 et d'IL-22 par des LT CD4+.",
+        "e": "L'ustekinumab cible la sous-unité p40 commune entre l'IL-12 et l'IL-23."
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2024-12-02 234356.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Molécules d'adhésion",
+      "options": {
+        "a": "L'intégrine α4β7 située sur les cellules endothéliales intestinales permet l'entrée des leucocytes dans l'intestin.",
+        "b": "Il existe une augmentation de l'expression des molécules d'adhésion en cas de poussée de MICI.",
+        "c": "CEACAM6 est présent à la surface des cellules épithéliales des patients atteints de MC.",
+        "d": "Les AIEC (Adherent Invasive E. coli) sont capables d'infecter des macrophages de la lamina propria.",
+        "e": "Les AIEC agissent en fragilisant de manière directe les jonctions serrées des cellules épithéliales intestinales."
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2024-12-02 234917.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Immunité spécifique",
+      "options": {
+        "a": "Les lymphocytes T régulateurs peuvent être des lymphocytes CD4+ ou CD8+.",
+        "b": "Un déficit fonctionnel des lymphocytes T régulateurs peut participer à l'inflammation intestinale au cours des MICI.",
+        "c": "Les patients atteints d'un syndrome IPEX ont un déficit en lymphocytes T régulateurs Foxp3.",
+        "d": "Une thérapie cellulaire par injection de lymphocytes T régulateurs est possible au cours de la MC.",
+        "e": "Le transfert de lymphocytes T régulateurs chez une souris colitique (modèle de transfert) permet d'abroger ou d'améliorer la colite."
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2024-12-02 235336.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Concernant les cytokines",
+      "options": {
+        "a": "IL-1β, IL-6 et IL-8 sont classiquement considérées comme des cytokines pro-inflammatoires.",
+        "b": "La lignée Th17 est caractérisée par la production d'IL-17, d'IL-21 et d'IL-22 par des LT CD4+.",
+        "c": "IL-1RA, IL-10 et TGFβ sont classiquement considérées comme des cytokines anti-inflammatoires.",
+        "d": "Le TNFα est produit principalement par les lymphocytes T au cours de la MC.",
+        "e": "L'ustekinumab cible la sous-unité p19 commune entre l'IL-12 et l'IL-23."
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-18 230514.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Les molécules d'adhésion",
+      "options": {
+        "a": "Les AIEC (Adherent Invasive E. coli) sont capables d'infecter des macrophages de la lamina propria.",
+        "b": "Il existe une augmentation de l'expression des molécules d'adhésion en cas de poussée de MICI.",
+        "c": "Les AIEC agissent en fragilisant de manière directe les jonctions serrées des cellules épithéliales intestinales.",
+        "d": "CEACAM6 est présent à la surface des cellules épithéliales des patients atteints de MC.",
+        "e": "L'intégrine α4β7 située sur les cellules endothéliales intestinales permet l'entrée des leucocytes dans l'intestin."
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-18 230717.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Immunité spécifique",
+      "options": {
+        "a": "Les patients atteints d'un syndrome IPEX ont un déficit en lymphocytes T régulateurs Foxp3.",
+        "b": "Le transfert de lymphocytes T naïfs chez une souris colitique (modèle de transfert) permet d'abroger ou d'améliorer la colite.",
+        "c": "Une thérapie cellulaire par injection de lymphocytes T régulateurs est impossible au cours de la MC.",
+        "d": "Les lymphocytes T régulateurs peuvent être des lymphocytes CD4+ ou CD8+.",
+        "e": "Un déficit fonctionnel des lymphocytes T régulateurs peut participer à l'inflammation intestinale au cours des MICI."
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-18 233008.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Immunité innée",
+      "options": {
+        "a": "La MC se caractérise par une diminution de TLR4 et une surexpression de TLR3.",
+        "b": "Les TLR sont des récepteurs qui sont apparus il y a longtemps dans l'évolution humaine.",
+        "c": "Les TLR ne reconnaissent que les bactéries pathogènes pour le tube digestif.",
+        "d": "Les souris NOD2 knock-out ne présentent pas d'inflammation colique spontanée.",
+        "e": "Les récepteurs NOD et TLR activent la voie NFκB et participent au processus autophagique."
+      },
+      "correct": ["b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-18 233045.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch5_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Cochez les propositions exactes.",
+      "question": "Les cytokines",
+      "options": {
+        "a": "IL-1β, IL-6 et IL-10 sont classiquement considérées comme des cytokines inflammatoires.",
+        "b": "IL-1RA, IL-4 et TGFβ sont classiquement considérées comme des cytokines anti-inflammatoires.",
+        "c": "La lignée Th17 est caractérisée par la production d'IL-17, d'IL-21 et d'IL-22 par des LT CD4+.",
+        "d": "Le TNFα est produit principalement par les lymphocytes T au cours de la MC.",
+        "e": "L'ustekinumab cible la sous-unité p35 commune entre l'IL-12 et l'IL-23."
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-18 233110.png",
+      "unmarked": false
+    }
+  ]
+}

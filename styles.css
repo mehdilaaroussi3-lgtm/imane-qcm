@@ -1,0 +1,257 @@
+/* === Buddy easter-egg avatar — Mehdi (hidden by default — surprise appears at quiz end) === */
+/* High-FPS: GPU-accelerated transforms only (translate3d), will-change hints, no layout-triggering props animated. */
+.buddy {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 110px;
+  height: 132px;
+  z-index: 50;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 12px 24px rgba(30, 41, 59, 0.28));
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(0, 180px, 0) scale(0.6);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: opacity 0.35s ease, transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1), visibility 0.35s;
+}
+.buddy.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0) scale(1);
+  animation: buddy-idle 3.5s ease-in-out infinite 0.6s;
+}
+.buddy.visible:hover { transform: translate3d(0, -6px, 0) scale(1.08); }
+
+.buddy-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: translateZ(0);
+}
+
+/* Idle bob — GPU-only */
+@keyframes buddy-idle {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(-1deg); }
+  50%       { transform: translate3d(0, -6px, 0) rotate(1deg); }
+}
+
+/* Happy bounce */
+.buddy.happy { animation: buddy-bounce 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 2; }
+@keyframes buddy-bounce {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  30%      { transform: translate3d(0, -18px, 0) rotate(-5deg) scale(1.04); }
+  60%      { transform: translate3d(0, 0, 0) rotate(5deg); }
+}
+
+/* Sad shake */
+.buddy.sad { animation: buddy-shake 0.5s ease-in-out 1; }
+@keyframes buddy-shake {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  20%, 60% { transform: translate3d(0, 2px, 0) rotate(-6deg); }
+  40%, 80% { transform: translate3d(0, 2px, 0) rotate(6deg); }
+}
+
+/* Cheering — celebrating with arms up */
+.buddy.cheer { animation: buddy-cheer 1s ease-in-out 2; }
+@keyframes buddy-cheer {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+  25%      { transform: translate3d(0, -22px, 0) rotate(-8deg); }
+  50%      { transform: translate3d(0, -8px, 0)  rotate(0); }
+  75%      { transform: translate3d(0, -22px, 0) rotate(8deg); }
+}
+
+/* Mouth states */
+.buddy-mouth { transition: d 0.25s ease; will-change: d; }
+.buddy.happy .buddy-mouth,
+.buddy.cheer .buddy-mouth,
+.buddy.clap .buddy-mouth {
+  d: path('M50 86 Q60 100 70 86 Q60 94 50 86 Z');
+  fill: #c0533a;
+  stroke: #7a3a2a;
+}
+.buddy.sad .buddy-mouth {
+  d: path('M52 92 Q60 84 68 92');
+}
+
+/* Brows */
+.buddy .brow-l, .buddy .brow-r { transition: transform 0.25s ease; transform-origin: center; transform-box: fill-box; }
+.buddy.sad .brow-l { transform: rotate(-10deg) translateY(-1px); }
+.buddy.sad .brow-r { transform: rotate(10deg) translateY(-1px); }
+.buddy.happy .brow-l, .buddy.cheer .brow-l { transform: translateY(-2px); }
+.buddy.happy .brow-r, .buddy.cheer .brow-r { transform: translateY(-2px); }
+
+/* Eyes blink */
+.buddy .eye-l, .buddy .eye-r,
+.buddy .pupil-l, .buddy .pupil-r { transition: transform 0.12s ease; transform-origin: center; transform-box: fill-box; }
+.buddy.blink .eye-l, .buddy.blink .eye-r,
+.buddy.blink .pupil-l, .buddy.blink .pupil-r {
+  transform: scaleY(0.1);
+}
+
+/* Sparkles default hidden */
+.buddy-sparkles { opacity: 0; transition: opacity 0.3s ease; }
+.buddy.happy .buddy-sparkles, .buddy.cheer .buddy-sparkles, .buddy.clap .buddy-sparkles {
+  opacity: 1;
+  animation: sparkle 0.8s ease-in-out infinite;
+}
+@keyframes sparkle {
+  0%, 100% { transform: scale(1) rotate(0); }
+  50%      { transform: scale(1.3) rotate(15deg); }
+}
+
+/* Hands hidden by default */
+.buddy-hand { opacity: 0; transform-box: fill-box; transform-origin: center; transition: opacity 0.2s ease; }
+
+/* Hands need will-change for smooth animation */
+.buddy-hand { will-change: transform, opacity; }
+
+/* Clapping: both hands meet in front */
+.buddy.clap .buddy-hand { opacity: 1; }
+.buddy.clap .buddy-hand-l { animation: clap-l 0.3s ease-in-out 5; }
+.buddy.clap .buddy-hand-r { animation: clap-r 0.3s ease-in-out 5; }
+@keyframes clap-l {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(22px, -2px, 0); }
+}
+@keyframes clap-r {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(-22px, -2px, 0); }
+}
+
+/* Cheering: both arms in the air */
+.buddy.cheer .buddy-hand { opacity: 1; }
+.buddy.cheer .buddy-hand-l { animation: cheer-l 0.5s ease-in-out 3; }
+.buddy.cheer .buddy-hand-r { animation: cheer-r 0.5s ease-in-out 3; }
+@keyframes cheer-l {
+  0%, 100% { transform: translate3d(-6px, -80px, 0) rotate(-20deg); }
+  50%      { transform: translate3d(-10px, -94px, 0) rotate(-30deg); }
+}
+@keyframes cheer-r {
+  0%, 100% { transform: translate3d(6px, -80px, 0) rotate(20deg); }
+  50%      { transform: translate3d(10px, -94px, 0) rotate(30deg); }
+}
+
+/* Waving: right hand waves */
+.buddy.wave .buddy-hand-r { opacity: 1; animation: wave 0.4s ease-in-out 4; }
+@keyframes wave {
+  0%, 100% { transform: translate3d(8px, -70px, 0) rotate(0deg); }
+  50%      { transform: translate3d(8px, -72px, 0) rotate(25deg); }
+}
+
+/* Thumbs-up shown only on cheer */
+.buddy-heart { opacity: 0; transform-box: fill-box; transform-origin: center; will-change: transform, opacity; }
+.buddy.cheer .buddy-heart { opacity: 1; animation: heart-pop 0.8s ease-out 2; }
+@keyframes heart-pop {
+  0%   { transform: translate3d(0, 0, 0) scale(0.5); opacity: 0; }
+  30%  { transform: translate3d(0, -20px, 0) scale(1.25); opacity: 1; }
+  100% { transform: translate3d(0, -45px, 0) scale(0.8); opacity: 0; }
+}
+
+/* Tear shown only on sad */
+.buddy-tear { opacity: 0; transform-box: fill-box; transform-origin: center; will-change: transform, opacity; }
+.buddy.sad .buddy-tear { opacity: 1; animation: tear-drop 0.8s ease-in 1; }
+@keyframes tear-drop {
+  0%   { transform: translate3d(0, -2px, 0); opacity: 0; }
+  30%  { opacity: 1; }
+  100% { transform: translate3d(0, 8px, 0); opacity: 0; }
+}
+
+/* Speech bubble */
+.buddy-bubble {
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+  max-width: 220px;
+  min-width: 120px;
+  background: white;
+  color: #1e293b;
+  padding: 10px 14px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(15, 23, 42, 0.04);
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 500;
+  opacity: 0;
+  transform: translate3d(0, 8px, 0) scale(0.92);
+  will-change: transform, opacity;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+.buddy-bubble.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+.buddy-bubble::after {
+  content: '';
+  position: absolute;
+  right: -7px;
+  bottom: 16px;
+  width: 14px; height: 14px;
+  background: white;
+  transform: rotate(45deg);
+  box-shadow: 1px -1px 0 rgba(15, 23, 42, 0.04);
+}
+
+@media (max-width: 640px) {
+  .buddy { width: 76px; height: 92px; right: 10px; bottom: 10px; }
+  .buddy-bubble { right: 72px; bottom: 50px; font-size: 12px; max-width: 180px; }
+}
+
+/* === Question option card === */
+.opt-card {
+  display: flex;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #e2e8f0;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.1s ease;
+  text-align: left;
+  width: 100%;
+}
+.opt-card:hover { border-color: #94a3b8; background: #f8fafc; }
+.opt-card:active { transform: scale(0.995); }
+.opt-card.selected { border-color: #6366f1; background: #eef2ff; }
+.opt-card.correct  { border-color: #16a34a; background: #dcfce7; }
+.opt-card.wrong    { border-color: #dc2626; background: #fee2e2; }
+.opt-card.missed   { border-color: #16a34a; background: #f0fdf4; }
+.opt-card[disabled] { cursor: default; }
+
+.opt-mark {
+  flex-shrink: 0;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  border: 2px solid #94a3b8;
+  display: flex; align-items: center; justify-content: center;
+  background: white;
+  font-weight: 600;
+  font-size: 12px;
+  color: #475569;
+}
+.opt-card.multiple .opt-mark { border-radius: 6px; }
+.opt-card.selected .opt-mark { border-color: #6366f1; background: #6366f1; color: white; }
+.opt-card.correct .opt-mark  { border-color: #16a34a; background: #16a34a; color: white; }
+.opt-card.wrong .opt-mark    { border-color: #dc2626; background: #dc2626; color: white; }
+.opt-card.missed .opt-mark   { border-color: #16a34a; background: white; color: #16a34a; }
+
+.opt-letter { font-weight: 700; color: #475569; margin-right: 6px; }
+.opt-card.selected .opt-letter,
+.opt-card.correct  .opt-letter,
+.opt-card.wrong    .opt-letter,
+.opt-card.missed   .opt-letter { color: inherit; }
+
+/* === Misc === */
+.theme-card { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.theme-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08); }
+
+.progress-bar { height: 6px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+.progress-bar > div { height: 100%; background: linear-gradient(90deg, #6366f1, #06b6d4); transition: width 0.3s ease; }
+
+.kbd { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; padding: 2px 6px; border-radius: 4px; background: #f1f5f9; border: 1px solid #e2e8f0; color: #475569; }

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MICI QCM — Prépa Gastroentérologie</title>
+  <meta name="description" content="QCM de gastro-entérologie sur les MICI : entraînement par chapitre, thème, exam blanc." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%236366f1'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white'%3EQ%3C/text%3E%3C/svg%3E" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          animation: {
+            'fade-in': 'fadeIn 0.3s ease-out',
+            'slide-up': 'slideUp 0.4s ease-out',
+            'pop': 'pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+          },
+          keyframes: {
+            fadeIn: { from: { opacity: 0 }, to: { opacity: 1 } },
+            slideUp: { from: { opacity: 0, transform: 'translateY(10px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
+            pop: { from: { transform: 'scale(0.9)', opacity: 0 }, to: { transform: 'scale(1)', opacity: 1 } },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen">
+
+  <!-- Top bar -->
+  <header class="sticky top-0 z-30 bg-white/85 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <a href="#/" class="flex items-center gap-2 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-sky-500 flex items-center justify-center text-white font-bold shadow-sm">M</div>
+        <div class="leading-tight">
+          <div class="font-bold text-slate-900">MICI QCM</div>
+          <div class="text-[11px] text-slate-500">Prépa gastro</div>
+        </div>
+      </a>
+      <nav class="hidden sm:flex items-center gap-1 text-sm">
+        <a href="#/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700">Accueil</a>
+        <a href="#/mixed" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700">Mixte</a>
+        <a href="#/exam" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700">Examen</a>
+        <a href="#/stats" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700">Stats</a>
+      </nav>
+      <div class="flex items-center gap-2 sm:hidden">
+        <a href="#/mixed" class="text-xs px-2 py-1 rounded bg-slate-100">Mixte</a>
+        <a href="#/exam" class="text-xs px-2 py-1 rounded bg-indigo-100 text-indigo-700">Exam</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 min-h-[80vh]"></main>
+
+  <footer class="border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
+    MICI QCM · Préparation gastro-entérologie · Bonne chance Imane 💪
+  </footer>
+
+  <!-- Easter egg: reactive avatar -->
+  <div id="buddy" class="buddy" aria-hidden="true">
+    <div id="buddy-bubble" class="buddy-bubble">Hello !</div>
+    <svg id="buddy-svg" viewBox="0 0 120 145" class="buddy-svg">
+      <defs>
+        <radialGradient id="bcheek" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f9a8a8" stop-opacity="0.6"/>
+          <stop offset="100%" stop-color="#f9a8a8" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <g class="buddy-body">
+        <!-- Body / top -->
+        <path d="M28 142 Q60 112 92 142 Z" fill="#8b5cf6"/>
+        <rect x="50" y="100" width="20" height="10" rx="3" fill="#f1c79a"/>
+
+        <!-- Back curls -->
+        <g fill="#3b2412">
+          <ellipse cx="60" cy="48" rx="42" ry="36"/>
+          <circle cx="22" cy="48" r="12"/>
+          <circle cx="98" cy="48" r="12"/>
+          <circle cx="18" cy="64" r="11"/>
+          <circle cx="102" cy="64" r="11"/>
+          <circle cx="25" cy="82" r="10"/>
+          <circle cx="95" cy="82" r="10"/>
+          <circle cx="30" cy="20" r="11"/>
+          <circle cx="48" cy="14" r="11"/>
+          <circle cx="72" cy="14" r="11"/>
+          <circle cx="90" cy="20" r="11"/>
+          <circle cx="14" cy="34" r="10"/>
+          <circle cx="106" cy="34" r="10"/>
+        </g>
+
+        <!-- Face -->
+        <ellipse cx="60" cy="68" rx="28" ry="32" fill="#f1c79a"/>
+
+        <!-- Bangs curls -->
+        <g fill="#3b2412">
+          <circle cx="42" cy="44" r="8"/>
+          <circle cx="55" cy="40" r="8"/>
+          <circle cx="68" cy="40" r="8"/>
+          <circle cx="78" cy="44" r="8"/>
+          <circle cx="36" cy="52" r="6"/>
+          <circle cx="84" cy="52" r="6"/>
+        </g>
+
+        <!-- Cheeks blush -->
+        <circle cx="42" cy="80" r="7" fill="url(#bcheek)"/>
+        <circle cx="78" cy="80" r="7" fill="url(#bcheek)"/>
+
+        <!-- Freckles -->
+        <g fill="#a16143">
+          <circle cx="48" cy="74" r="0.9"/>
+          <circle cx="52" cy="76" r="0.9"/>
+          <circle cx="56" cy="74" r="0.9"/>
+          <circle cx="60" cy="73" r="0.9"/>
+          <circle cx="64" cy="74" r="0.9"/>
+          <circle cx="68" cy="76" r="0.9"/>
+          <circle cx="72" cy="74" r="0.9"/>
+          <circle cx="44" cy="78" r="0.8"/>
+          <circle cx="50" cy="80" r="0.8"/>
+          <circle cx="70" cy="80" r="0.8"/>
+          <circle cx="76" cy="78" r="0.8"/>
+          <circle cx="54" cy="72" r="0.7"/>
+          <circle cx="66" cy="72" r="0.7"/>
+        </g>
+
+        <!-- Eyes (reactive — change with state classes) -->
+        <g class="buddy-eyes">
+          <ellipse class="eye-l" cx="49" cy="68" rx="3.2" ry="3.8" fill="#fff"/>
+          <ellipse class="eye-r" cx="71" cy="68" rx="3.2" ry="3.8" fill="#fff"/>
+          <circle class="pupil-l" cx="49.4" cy="68.8" r="2.4" fill="#4a2c14"/>
+          <circle class="pupil-r" cx="71.4" cy="68.8" r="2.4" fill="#4a2c14"/>
+          <circle cx="50.2" cy="67.6" r="0.8" fill="#fff"/>
+          <circle cx="72.2" cy="67.6" r="0.8" fill="#fff"/>
+        </g>
+
+        <!-- Brows -->
+        <path class="brow-l" d="M44 61 Q49 58 54 61" stroke="#3b2412" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <path class="brow-r" d="M66 61 Q71 58 76 61" stroke="#3b2412" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+        <!-- Mouth (changes with state) -->
+        <path class="buddy-mouth" d="M52 88 Q60 95 68 88" stroke="#7a3a2a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+        <!-- Sparkles (shown only when happy/cheer) -->
+        <g class="buddy-sparkles">
+          <path d="M20 30 l2 2 -2 2 -2 -2 z" fill="#fde047"/>
+          <path d="M100 38 l2 2 -2 2 -2 -2 z" fill="#fde047"/>
+          <path d="M104 78 l1.5 1.5 -1.5 1.5 -1.5 -1.5 z" fill="#fde047"/>
+          <path d="M14 80 l1.5 1.5 -1.5 1.5 -1.5 -1.5 z" fill="#fde047"/>
+        </g>
+
+        <!-- Hands (hidden by default; shown for clap/cheer/wave) -->
+        <g class="buddy-hand buddy-hand-l">
+          <circle cx="38" cy="118" r="7" fill="#f1c79a" stroke="#d6a777" stroke-width="0.8"/>
+        </g>
+        <g class="buddy-hand buddy-hand-r">
+          <circle cx="82" cy="118" r="7" fill="#f1c79a" stroke="#d6a777" stroke-width="0.8"/>
+        </g>
+
+        <!-- Tear (sad only) -->
+        <g class="buddy-tear">
+          <path d="M49 75 Q47 80 49 82 Q51 80 49 75 Z" fill="#60a5fa"/>
+        </g>
+
+        <!-- Heart (cheer only) -->
+        <g class="buddy-heart">
+          <path d="M60 22 c -3 -4 -10 -4 -10 2 c 0 6 10 12 10 12 c 0 0 10 -6 10 -12 c 0 -6 -7 -6 -10 -2 z" fill="#ef4444"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

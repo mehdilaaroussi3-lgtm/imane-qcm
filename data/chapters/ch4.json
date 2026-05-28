@@ -1,0 +1,142 @@
+{
+  "chapter": "4",
+  "title": "Facteurs de Risque des MICI",
+  "questions": [
+    {
+      "id": "ch4_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant le tabagisme et le risque de développer une RCH, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "Comparé aux personnes qui n'ont jamais fumé, les fumeurs actifs ont plus de risque de développer une RCH",
+        "b": "Comparé aux personnes qui n'ont jamais fumé, les anciens fumeurs ont plus de risque de développer une RCH",
+        "c": "Comparé aux personnes qui n'ont jamais fumé, les anciens fumeurs ont un risque identique de développer une RCH",
+        "d": "Il devrait toujours être conseillé aux patients ayant une RCH de poursuivre le tabac",
+        "e": "Aucune des propositions n'est exacte"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2024-12-01 190011.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant l'incidence des MICI, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "L'incidence des MICI a diminué au cours du XXème siècle dans les pays occidentaux",
+        "b": "L'incidence des MICI a diminué au cours du XXème siècle dans les pays émergents",
+        "c": "Les premiers cas de MICI ont été décrits à la préhistoire",
+        "d": "L'incidence des MICI est plus forte dans les pays occidentaux que dans les pays émergents",
+        "e": "Aucune des propositions n'est exacte"
+      },
+      "correct": ["d"],
+      "source_image": "Capture d_écran 2024-12-01 190101.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant les patchs de nicotine pour traiter la RCH, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "Les patchs de nicotine diminuent le nombre de selles par jour comparé au placebo",
+        "b": "Les patchs de nicotine n'ont aucune efficacité clinique pour traiter la RCH",
+        "c": "Les patchs de nicotine n'ont presque pas d'effets indésirables",
+        "d": "Les patchs de nicotine sont utilisés en pratique courant pour traiter la RCH",
+        "e": "Les patchs de nicotine doivent être recommandés aux patients diagnostiqués d'une RCH après l'arrêt du tabac pour traiter la RCH"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2024-12-01 190226.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant le tabac et le risque de développer une maladie de Crohn, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "Comparé aux personnes qui n'ont jamais fumé, les fumeurs actifs ont plus de risque de développer une maladie de Crohn",
+        "b": "Comparé aux personnes qui n'ont jamais fumé, les anciens fumeurs ont moins de risque de développer une maladie de Crohn",
+        "c": "Il existe une relation dose effet entre le tabac et le risque de développer une maladie de Crohn",
+        "d": "Il devrait toujours être conseillé aux patients ayant une maladie de Crohn de poursuivre le tabac",
+        "e": "Aucune des propositions n'est exacte"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2024-12-01 192446.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant l'immunothérapie et les MICI, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "Les effets indésirables gastro-intestinaux compliquant un traitement par immunothérapie sont plus importants en cas de combinaison de plusieurs médicaments d'immunothérapie",
+        "b": "Les effets indésirables gastro-intestinaux compliquant un traitement par immunothérapie ont beaucoup de similitudes avec les MICI",
+        "c": "Les effets indésirables gastro-intestinaux compliquant un traitement par immunothérapie ne perdurent jamais dans le temps",
+        "d": "Les effets indésirables gastro-intestinaux compliquant un traitement par immunothérapie peuvent être dus aux anti-CTLA4 et aux anti-PD1 uniquement",
+        "e": "Les effets indésirables gastro-intestinaux compliquant un traitement par immunothérapie sont fréquents"
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "Capture d_écran 2025-05-18 201451.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "lesquelles sont justes",
+      "question": "Parmi les propositions suivantes, lesquelles sont justes :",
+      "options": {
+        "a": "La prise d'AINS est formellement contre-indiquée en cas de MICI.",
+        "b": "La prise d'AINS peut déclencher des poussées de MICI.",
+        "c": "Par contre, la prise d'anti-COX 2 semble moins délétère.",
+        "d": "L'effet délétère de la prise d'AINS sur l'évolution des MICI a sûrement été surestimé.",
+        "e": "La confusion tient en partie aux effets digestifs propres des AINS qui peuvent ressembler aux symptômes des MICI."
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-18 202431.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Quel(s) est(sont) le(s) médicament(s)",
+      "question": "Quel(s) est(sont) le(s) médicament(s) qui peuvent entrainer des poussées de MICI ?",
+      "options": {
+        "a": "Ipilimumab",
+        "b": "Secukinumab",
+        "c": "Certolizumab",
+        "d": "Etanercept",
+        "e": "Apremilast"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-18 203042.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch4_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "quelle(s) est(sont) la(les) bonne(s) réponse(s)",
+      "question": "Concernant les AINS, quelle(s) est(sont) la(les) bonne(s) réponse(s) :",
+      "options": {
+        "a": "Une prise 1 à 2x/mois d'AINS est associée à une augmentation du risque de développer une MICI",
+        "b": "Les AINS sont contre-indiqués chez les patients avec une maladie de Crohn",
+        "c": "Une prise >15j par mois d'AINS est associée à une augmentation du risque de développer une MICI",
+        "d": "La prise d'inhibiteurs sélectifs de COX2 (celecoxib) en cure courte est possible chez un patient avec une MICI en rémission en cas d'indication formelle",
+        "e": "Les AINS sont contre-indiqués chez les patients avec une RCH"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-18 203105.png",
+      "unmarked": false
+    }
+  ]
+}

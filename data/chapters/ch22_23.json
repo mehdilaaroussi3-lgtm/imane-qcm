@@ -1,0 +1,243 @@
+{
+  "chapter": "22-23",
+  "title": "Chirurgie",
+  "questions": [
+    {
+      "id": "ch22_23_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) sont la (les) proposition(s) exacte(s) concernant les stricturoplasties pour maladie de Crohn ?",
+      "options": {
+        "a": "Seules les sténoses de moins de 2 cm de diamètre doivent être traitées",
+        "b": "Le taux de récidive à long terme est légèrement supérieur à celui après résection",
+        "c": "Les réinterventions sont le fait de récidive de la sténose sur les zones de stricturoplastie",
+        "d": "Un examen extemporané des zones de stricturoplastie peut être réalisé pour ne pas méconnaître un cancer au niveau de la sténose",
+        "e": "Elles sont contre-indiquées sur le jéjunum"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-31 212727.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Après une résection iléo-cæcale de 20 cm :",
+      "options": {
+        "a": "L'ablation de la valvule de Bauhin crée une diarrhée irréversible",
+        "b": "Le risque de récidive est réduit en cas d'anastomose latéro-latérale",
+        "c": "La fertilité est diminuée par un facteur 2",
+        "d": "Un régime pauvre en fibres est systématiquement recommandé pendant les six premiers mois",
+        "e": "Aucun régime alimentaire n'est recommandé de principe"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-05-31 212759.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "La présence d'une colite de Crohn étendue sur 20 cm, à la jonction du côlon iliaque et du côlon sigmoïde, présente depuis 10 ans sous la forme d'une sténose fibreuse devenue non franchissable en coloscopie :",
+      "options": {
+        "a": "Est une indication à une colectomie totale en raison du risque inéluctable de récidive sur le côlon d'amont",
+        "b": "Est une indication à une colectomie segmentaire limitée à la sténose",
+        "c": "Ne comporte pas de risque de dégénérescence en raison de son extension en longueur très limitée",
+        "d": "Est une contre-indication à la cœlioscopie en raison du risque de cancer associé",
+        "e": "Le risque d'y trouver de la dysplasie ou un cancer avoisine les 10%"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-31 212855.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes concernant la chirurgie du Crohn, quelle(s) est (sont) les propositions exactes ?",
+      "options": {
+        "a": "La dénutrition augmente le risque de complications post-opératoires",
+        "b": "La prise de thiopurines augmente le risque de complications post-opératoires",
+        "c": "Une nutrition entérale exclusive peut réduire la morbidité post-opératoire chez les patients dénutris",
+        "d": "Il est préférable d'arrêter les anti-TNF au moins 10 jours avant une intervention",
+        "e": "Les formes sténosantes sont associées à une morbidité plus importante que les formes pénétrantes"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-31 212952.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Les facteurs de risque reconnus de complication infectieuse intra-abdominale après une résection-anastomose iléocolique sont :",
+      "options": {
+        "a": "Abcès intra-abdominal",
+        "b": "Albuminémie < 30 g/l",
+        "c": "Prise d'anti-TNF récente",
+        "d": "Hémoglobinémie < 10 g/dl",
+        "e": "Hyperleucocytose > 16 000 GB/mm³"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-05-31 215345.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelles sont les interventions que l'on peut proposer dans la rectocolite hémorragique ?",
+      "options": {
+        "a": "proctectomie avec anastomose colo-anale et réservoir en J",
+        "b": "coloproctectomie totale avec anastomose iléo-anale",
+        "c": "coloproctectomie totale avec iléostomie définitive",
+        "d": "colectomie totale avec anastomose iléorectale",
+        "e": "iléostomie de dérivation"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-06-01 002720.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelles sont les indications de la coloproctectomie totale avec iléostomie définitive ?",
+      "options": {
+        "a": "aucune place dans la RCH",
+        "b": "les cancers du très bas rectum compliquant une RCH",
+        "c": "toutes les RCH avec atteinte de l'ensemble du rectum",
+        "d": "les colites graves en urgence",
+        "e": "les échecs de l'anastomose iléo-anale"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-06-01 002727.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelles sont les mauvaises indications de la coloproctectomie totale avec anastomose iléo-anale ?",
+      "options": {
+        "a": "les RCH évoluant depuis plus de 20 ans",
+        "b": "les pancolites évoluant depuis plus de 15 ans",
+        "c": "la maladie de Crohn avec atteinte anale",
+        "d": "l'homme jeune avec 8 ans de pancolite et micro-rectum majeur",
+        "e": "la femme jeune avec 2 ans d'histoire de rectocolite"
+      },
+      "correct": ["c", "e"],
+      "source_image": "Capture d_écran 2025-06-01 002735.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Quelle(s) est (sont) la (les) bonne(s) indication(s) de la colectomie totale avec anastomose iléorectale ?",
+      "options": {
+        "a": "le doute avec une maladie de Crohn",
+        "b": "la RCH ancienne",
+        "c": "le sujet de plus de 50 ans",
+        "d": "la bonne fonction sphinctérienne",
+        "e": "une RCH avec petit cancer du côlon droit"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-06-01 002744.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Après une anastomose iléo-anale, lesquelles des propositions suivantes sont justes ?",
+      "options": {
+        "a": "le risque d'occlusion sur bride est diminué en cas de laparoscopie",
+        "b": "le risque à long terme de perte du réservoir est d'environ 5 à 10%",
+        "c": "les troubles sexuels concernent plus de 20% des hommes",
+        "d": "la mortalité opératoire est de moins de 1%",
+        "e": "une surveillance régulière du réservoir par endoscopie est nécessaire"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-06-01 102005.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Après une anastomose iléo-anale, quelle(s) proposition(s) est (sont) vraie(s) ?",
+      "options": {
+        "a": "une surveillance du réservoir par endoscopie est nécessaire tous les 3 ans pour tous les patients",
+        "b": "les troubles sexuels concernent plus de 20% des hommes",
+        "c": "le risque à long terme de perte du réservoir est d'environ 5 à 10%",
+        "d": "le risque d'occlusion sur bride est diminué en cas de laparoscopie",
+        "e": "la pochite n'existe pas dans la polypose"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2025-06-01 102628.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q12",
+      "number": 12,
+      "type": "single",
+      "instruction": "",
+      "question": "Indiquer la seule proposition exacte concernant la coloproctectomie totale avec anastomose iléo-anale :",
+      "options": {
+        "a": "L'intervention se fait le plus souvent en trois temps avec une iléostomie de dérivation pendant 4-6 mois environ",
+        "b": "Le résultat fonctionnel habituel est de 3 à 4 selles moulées/j",
+        "c": "Une surveillance endoscopique du réservoir tous les ans est indiquée dans tous les cas",
+        "d": "Les troubles sexuels chez l'homme sont fréquents l'année qui suit l'intervention"
+      },
+      "correct": [],
+      "source_image": "Capture d_écran 2025-06-01 102929.png",
+      "unmarked": true
+    },
+    {
+      "id": "ch22_23_q13",
+      "number": 13,
+      "type": "multiple",
+      "instruction": "",
+      "question": "En cas de mauvais résultat fonctionnel après anastomose iléo-anale :",
+      "options": {
+        "a": "Il faut attendre au moins 6 mois à 1 an avant d'obtenir un résultat stable",
+        "b": "Le toucher rectal doit éliminer une sténose anastomotique",
+        "c": "Un régime limitant les légumes verts peut être proposé",
+        "d": "Le lopéramide (Imodium) doit être évité car favorise après iléo-anale les occlusions",
+        "e": "Une endoscopie du réservoir est parfois nécessaire à la recherche d'un Crohn méconnu"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-06-01 103557.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch22_23_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "",
+      "question": "L'anastomose iléo-anale :",
+      "options": {
+        "a": "le réservoir en J de 18 à 20 cm de haut est systématique",
+        "b": "est faite le plus souvent en 1 temps opératoire",
+        "c": "la mortalité opératoire est d'environ 1%",
+        "d": "la stomie de protection n'est indiquée qu'en cas d'intervention en urgence pour colite grave",
+        "e": "doit être faite toujours par laparotomie"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-06-01 103628.png",
+      "unmarked": false
+    }
+  ]
+}

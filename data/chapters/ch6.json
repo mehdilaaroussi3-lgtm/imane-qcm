@@ -1,0 +1,193 @@
+{
+  "chapter": "6",
+  "title": "Diagnostic",
+  "questions": [
+    {
+      "id": "ch6_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Les tests de libération de l'IFN γ (IGRA) :",
+      "options": {
+        "a": "sont spécifiques de Mycobacterium hominis",
+        "b": "sont très sensibles pour détecter une tuberculose latente",
+        "c": "ont une sensibilité inférieure à 90% pour détecter une tuberculose d'organe",
+        "d": "témoignent de la production par les lymphocytes T d'Interféron gamma",
+        "e": "témoignent s'ils sont positifs d'une tuberculose latente ou active"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-21 220043.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Devant l'image d'un épaississement pariétal sur 15 cm unique de l'iléon inaccessible à l'iléoscopie rétrograde, les diagnostics suivants peuvent être envisagés :",
+      "options": {
+        "a": "Yersiniose",
+        "b": "Lymphome",
+        "c": "Maladie de Crohn",
+        "d": "Adénocarcinome",
+        "e": "Tuberculose"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-21 220112.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Le Quantiféron® :",
+      "options": {
+        "a": "A une sensibilité inférieure à 90% pour détecter une tuberculose d'organe",
+        "b": "Est spécifique de Mycobacterium hominis",
+        "c": "Témoigne s'il est positif d'une tuberculose latente ou active",
+        "d": "Est très sensible pour détecter une tuberculose latente",
+        "e": "Témoigne de la production par les lymphocytes T d'Interféron gamma"
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-21 220325.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Quelle(s) est(sont) la (les) proposition(s) exacte(s) concernant la yersiniose iléale :",
+      "options": {
+        "a": "Se contracte volontiers par l'ingestion de viande de poulet insuffisamment cuite",
+        "b": "Est surtout endémique en Europe du Sud",
+        "c": "Peut avoir une évolution lésionnelle prolongée au-delà de six mois chez l'immunocompétent",
+        "d": "Est infirmée par une sérologie négative au moment du diagnostic de la diarrhée",
+        "e": "Est traitée en première intention par les quinolones"
+      },
+      "correct": [],
+      "source_image": "Capture d_écran 2025-05-21 220709.png",
+      "unmarked": true
+    },
+    {
+      "id": "ch6_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Au cours d'une primo-infection herpétique, on peut observer :",
+      "options": {
+        "a": "Des érosions périanales",
+        "b": "Une pancolite",
+        "c": "Un train fébrile",
+        "d": "Une distorsion des glandes rectales à l'histologie",
+        "e": "Des troubles de la commande vésicale"
+      },
+      "correct": [],
+      "source_image": "Capture d_écran 2025-05-21 220732.png",
+      "unmarked": true
+    },
+    {
+      "id": "ch6_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "L'examen de l'intestin grêle par vidéocapsule :",
+      "options": {
+        "a": "Permet de faire des biopsies par télécommande",
+        "b": "Doit faire partie du bilan diagnostique initial d'une maladie de Crohn",
+        "c": "Est contre-indiqué en cas de sténose intestinale avérée",
+        "d": "Peut faire évoluer le diagnostic de colite inclassée vers celui de maladie de Crohn",
+        "e": "Peut être utile pour faire progresser le diagnostic de nature de lésions suspendues de l'intestin grêle moyen"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2025-05-21 220833.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Le Quantiféron® (réponses justes) :",
+      "options": {
+        "a": "Est spécifique de Mycobacterium hominis",
+        "b": "Témoigne de la production d'Interféron gamma par les lymphocytes B",
+        "c": "A une sensibilité pour détecter une tuberculose latente ou une tuberculose d'organe inférieure à 90%",
+        "d": "Témoigne s'il est positif d'une tuberculose latente ou active",
+        "e": "Est facilement disponible et remboursé dans le cadre de la recherche de tuberculose maladie"
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-21 221000.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Dans quelles situations la calprotectine fécale peut être anormale (augmentée) ?",
+      "options": {
+        "a": "grossesse",
+        "b": "prise d'AINS",
+        "c": "polypes coliques",
+        "d": "syndrome de l'intestin irritable",
+        "e": "diverticulite"
+      },
+      "correct": ["b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-21 222019.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Quels sont les diagnostics différentiels de la recto-colite hémorragique de forme rectale ?",
+      "options": {
+        "a": "Rectite herpétique",
+        "b": "Syndrome de l'ulcère solitaire",
+        "c": "Rectite à chlamydia",
+        "d": "Rectite liée à la prise d'AINS",
+        "e": "Rectite amibienne"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-21 222047.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Les éléments suivants sont observés au cours de la maladie de Behcet et non dans la maladie de Crohn :",
+      "options": {
+        "a": "Réaction cutanée après ponction veineuse",
+        "b": "Aphtes buccaux multiples",
+        "c": "Lésions de vascularite sur les biopsies intestinales",
+        "d": "Granulomes sur les biopsies intestinales",
+        "e": "Ulcères iléo-coliques en endoscopie"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-05-21 222123.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch6_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Les lymphomes intestinaux :",
+      "options": {
+        "a": "Sont fréquents dans la population générale",
+        "b": "Peuvent mimer cliniquement une maladie de Crohn",
+        "c": "Sont souvent difficiles à différentier en histologie standard de la maladie de Crohn",
+        "d": "Compliquent volontiers un état d'immunodépression ou une maladie coeliaque",
+        "e": "L'imagerie est suffisante pour porter le diagnostic"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-21 222240.png",
+      "unmarked": false
+    }
+  ]
+}

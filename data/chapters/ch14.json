@@ -1,0 +1,244 @@
+{
+  "chapter": "14",
+  "title": "Grossesse",
+  "questions": [
+    {
+      "id": "ch14_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Parmi les affirmations suivantes concernant la fertilité des femmes atteintes de MICI, lesquelles sont correctes ?",
+      "question": "Parmi les affirmations suivantes concernant la fertilité des femmes atteintes de MICI, lesquelles sont correctes ?",
+      "options": {
+        "a": "La fertilité des femmes atteintes de MICI est généralement altérée",
+        "b": "La maladie de Crohn active est associée à un risque accru de stérilité tubaire",
+        "c": "La RCH ne présente pas de lien avec la fertilité",
+        "d": "Les adhérences postopératoires chez les patientes atteintes de maladie de Crohn peuvent diminuer la fertilité",
+        "e": "Une anastomose iléo-anale augmente le risque d'infertilité chez les patientes atteintes de RCH"
+      },
+      "correct": ["b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-27 232842.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Parmi les risques observés pendant la grossesse chez les patientes atteintes de MICI, lesquels sont corrects ?",
+      "question": "Parmi les risques observés pendant la grossesse chez les patientes atteintes de MICI, lesquels sont corrects ?",
+      "options": {
+        "a": "Le risque de mort fœtale est doublé par rapport à la population générale en cas de maladie de Crohn active",
+        "b": "Les femmes atteintes de RCH ont un risque accru de prématurité, mais pas de retard de croissance",
+        "c": "Le tabagisme n'a aucun impact sur l'évolution de la maladie de Crohn pendant la grossesse",
+        "d": "Les avortements spontanés sont plus fréquents lorsque la MICI est active au moment de la conception",
+        "e": "Il existe une augmentation significative de l'incidence des malformations au cours des MICI"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-27 232936.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Concernant les médicaments utilisés pour traiter les MICI et leur sécurité pendant la grossesse, quelle(s) affirmation(s) est/sont correcte(s) ?",
+      "question": "Concernant les médicaments utilisés pour traiter les MICI et leur sécurité pendant la grossesse, quelle(s) affirmation(s) est/sont correcte(s) ?",
+      "options": {
+        "a": "L'usage prolongé de la Salazopyrine peut entraîner un risque de malformations congénitales pendant la grossesse",
+        "b": "Les corticoïdes, même administrés par voie IV, ne présentent pas de risque significatif pour le fœtus",
+        "c": "L'azathioprine présente un risque avéré de malformations congénitales",
+        "d": "Les anti-TNF comme infliximab peuvent traverser le placenta à partir du 3ème trimestre",
+        "e": "Le méthotrexate est contre-indiqué pendant la grossesse en raison de son effet tératogène"
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-27 233047.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Lorsqu'une patiente atteinte de MICI souhaite concevoir, quelles recommandations doivent lui être faites ?",
+      "question": "Lorsqu'une patiente atteinte de MICI souhaite concevoir, quelles recommandations doivent lui être faites ?",
+      "options": {
+        "a": "Il est conseillé de concevoir pendant une phase active de la maladie pour réduire le risque de rechute",
+        "b": "Il est préférable d'attendre que la maladie soit en rémission depuis au moins 3 mois avant de concevoir",
+        "c": "La RCH est plus susceptible de provoquer une rechute pendant la grossesse par rapport à la maladie de Crohn",
+        "d": "Il est recommandé d'arrêter les traitements immunosuppresseurs immédiatement avant la conception",
+        "e": "Il n'y a aucun risque de complications si la patiente est sous anti-TNF pendant la grossesse"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-05-27 233212.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Quel(s) médicament(s) est(sont) formellement contre-indiqué(s) au cours de l'allaitement maternel ?",
+      "question": "Quel(s) médicament(s) est(sont) formellement contre-indiqué(s) au cours de l'allaitement maternel ?",
+      "options": {
+        "a": "Les anti-TNF",
+        "b": "L'azathioprine",
+        "c": "Les inhibiteurs de JAK",
+        "d": "Les dérivés du 5-ASA",
+        "e": "Le lopéramide"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-27 233449.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Concernant le méthotrexate et la grossesse, quelles réponses pouvez-vous faire à une patiente ?",
+      "question": "Concernant le méthotrexate et la grossesse, quelles réponses pouvez-vous faire à une patiente ?",
+      "options": {
+        "a": "Avant une grossesse, il faudra arrêter impérativement le méthotrexate",
+        "b": "Le risque d'une grossesse sous méthotrexate est dominé par l'hypotrophie fœtale",
+        "c": "En cas de grossesse, il faut arrêter le méthotrexate",
+        "d": "Il faut arrêter le méthotrexate 3 mois avant d'entreprendre une grossesse",
+        "e": "En cas de grossesse, un avortement eugénique est systématique"
+      },
+      "correct": ["a", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-27 233615.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q7",
+      "number": 7,
+      "type": "single",
+      "instruction": "Quel programme thérapeutique préconisez-vous pour une patiente enceinte sous infliximab ?",
+      "question": "Quel programme thérapeutique préconisez-vous pour une patiente enceinte sous infliximab ?",
+      "options": {
+        "a": "On garde l'infliximab pendant les 2 premiers trimestres puis on 'switch' pour l'adalimumab",
+        "b": "On propose de garder l'infliximab en monothérapie tout le temps de la grossesse",
+        "c": "On n'autorise pas l'allaitement",
+        "d": "On ne change rien aux habitudes de la mère",
+        "e": "On vaccinera rapidement le nouveau-né, aucun vaccin n'étant contre-indiqué"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-27 233923.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Quels sont les risques pour l'enfant en cas de MICI maternelle ?",
+      "question": "Quels sont les risques pour l'enfant en cas de MICI maternelle ?",
+      "options": {
+        "a": "Il y a un sur-risque de malformation",
+        "b": "Le risque de mort fœtale in utero double en cas de maladie active",
+        "c": "Les risques d'hypotrophie et de prématurité sont faibles si la maladie est inactive à la conception",
+        "d": "Les risques pour l'enfant d'avoir une maladie de Crohn dans sa vie sont de l'ordre de 1 à 3%",
+        "e": "Les risques pour l'enfant d'avoir une maladie de Crohn dans sa vie sont de l'ordre de 20%"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "Capture d_écran 2025-05-27 234047.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Concernant l'accouchement chez une patiente atteinte de MICI avec lésions ano-périnéales, quelles sont les propositions exactes ?",
+      "question": "Concernant l'accouchement chez une patiente atteinte de MICI avec lésions ano-périnéales, quelles sont les propositions exactes ?",
+      "options": {
+        "a": "Chez cette patiente, si la situation reste stable au 3ème trimestre, un accouchement par césarienne sera recommandé",
+        "b": "Une épisiotomie est recommandée",
+        "c": "Un examen périnéal sous AG est nécessaire au 3ème trimestre pour décider de la voie d'accouchement",
+        "d": "Une IRM pelvienne sera demandée en l'absence de lésion ano-périnéale pour dépister des lésions éventuelles au 3ème trimestre",
+        "e": "Si une iléostomie devait être réalisée, elle empêcherait un accouchement par voie basse"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-27 234603.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "Une patiente en rémission sous ustékinumab 90 mg/8 sem désire un enfant. Elle veut stopper son traitement. Quels conseils lui donnez-vous ?",
+      "question": "Une patiente en rémission sous ustékinumab 90 mg/8 sem désire un enfant. Elle veut stopper son traitement. Quels conseils lui donnez-vous ?",
+      "options": {
+        "a": "Il existe un risque de prématurité et d'hypotrophie en cas de MICI active",
+        "b": "En cas de grossesse, la RCH s'améliore généralement. Vous pouvez donc stopper le traitement",
+        "c": "Avant une grossesse, il faudra arrêter le traitement par ustékinumab",
+        "d": "Un accouchement par voie basse est contre-indiqué",
+        "e": "Le risque de poussée de RCH en post-partum est multiplié par 6"
+      },
+      "correct": ["a", "e"],
+      "source_image": "Capture d_écran 2025-05-27 234653.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "Chez les femmes atteintes de MICI (indiquez la ou les propositions exactes) :",
+      "question": "Chez les femmes atteintes de MICI (indiquez la ou les propositions exactes) :",
+      "options": {
+        "a": "Le 5-ASA est déconseillé à une dose de 3 g/j",
+        "b": "La fréquence des poussées de MC est fortement augmentée pendant la grossesse",
+        "c": "Le risque de rechute au cours de la grossesse est d'environ 25% lorsque la maladie est active au moment de la conception",
+        "d": "Il faut conseiller d'éviter une conception pendant une poussée évolutive",
+        "e": "Il faut systématiquement diminuer la posologie d'azathioprine au 3ème trimestre"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-27 234857.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q12",
+      "number": 12,
+      "type": "multiple",
+      "instruction": "Une patiente sous adalimumab depuis 1 an annonce souhaiter une grossesse dans un futur proche. Concernant la ou les proposition(s) suivante(s), laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Une patiente sous adalimumab depuis 1 an annonce souhaiter une grossesse dans un futur proche. Concernant la ou les proposition(s) suivante(s), laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Le risque de malformation est augmenté en cas de MC",
+        "b": "La maladie de Crohn augmente le risque de complications obstétricales",
+        "c": "L'adalimumab est contre-indiqué pendant la grossesse",
+        "d": "L'azathioprine est contre-indiquée pendant la grossesse",
+        "e": "La voie d'accouchement par césarienne doit être privilégiée chez toutes les femmes porteuses de MC"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-27 235004.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q13",
+      "number": 13,
+      "type": "multiple",
+      "instruction": "Chez une femme ayant des lésions ano-périnéales, un accouchement par voie basse :",
+      "question": "Chez une femme ayant des lésions ano-périnéales, un accouchement par voie basse :",
+      "options": {
+        "a": "Est contre-indiqué en cas de lésions actives au 1er semestre",
+        "b": "Est contre-indiqué du fait de l'épisiotomie même si les lésions sont inactives",
+        "c": "Est envisageable si les lésions sont inactives au 3ème trimestre",
+        "d": "Est envisageable seulement si les lésions sont inactives depuis le début de la grossesse",
+        "e": "Est toujours contre-indiqué"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-27 235217.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch14_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "Chez les femmes atteintes de MICI (indiquez la ou les propositions exactes) :",
+      "question": "Chez les femmes atteintes de MICI (indiquez la ou les propositions exactes) :",
+      "options": {
+        "a": "Il faut conseiller d'éviter si possible une conception pendant une poussée évolutive",
+        "b": "La fréquence des poussées de MC est fortement augmentée pendant la grossesse",
+        "c": "Il faut systématiquement diminuer la posologie d'azathioprine au 3ème trimestre",
+        "d": "Le 5-ASA est déconseillé à une dose de 3 g/j",
+        "e": "Le risque de rechute au cours de la grossesse est d'environ 25% lorsque la maladie est active au moment de la conception"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-05-27 235338.png",
+      "unmarked": false
+    }
+  ]
+}

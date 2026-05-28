@@ -1,0 +1,176 @@
+{
+  "chapter": "2",
+  "title": "Génétique des MICI",
+  "questions": [
+    {
+      "id": "ch2_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Le risque de développer une MICI pour un membre de la famille d'un malade atteint de MC est d'environ 6 à 8 fois celui de la population générale s'il est :",
+      "options": {
+        "a": "Son enfant.",
+        "b": "Son frère.",
+        "c": "Son conjoint.",
+        "d": "Son vrai jumeau.",
+        "e": "Son cousin."
+      },
+      "correct": ["a", "b"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2024-11-11 194719.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Les MICI sont des maladies multifactorielles. Cela signifie que :",
+      "options": {
+        "a": "La maladie résulte de la présence d'un seul gène de susceptibilité pour un malade mais que celui-ci est différent d'un malade à l'autre.",
+        "b": "La maladie résulte de la présence de plusieurs gènes de susceptibilité chez un même malade.",
+        "c": "La prédisposition génétique seule permet d'expliquer la maladie.",
+        "d": "La prédisposition génétique n'est pas suffisante à elle seule pour expliquer la maladie.",
+        "e": "Un gène de susceptibilité n'est jamais ni nécessaire ni suffisant pour que la maladie apparaisse."
+      },
+      "correct": ["b", "d", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2024-11-11 194732.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Certaines populations ethniques sont plus à risque de MICI que d'autres sur la planète. Quelles sont les affirmations vraies ?",
+      "options": {
+        "a": "Cela est surtout dû aux différences environnementales qui distinguent les populations sur la planète.",
+        "b": "Cela est surtout dû aux différences génétiques qui distinguent les populations sur la planète.",
+        "c": "L'ethnie à faible risque qui émigre dans un pays à fort risque acquière le risque de la population d'accueil.",
+        "d": "Le niveau socio-culturel n'a pas d'influence sur le risque ethnique.",
+        "e": "Les différences entre ethnies sont minimes si on apparie sur le mode de vie."
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2024-11-11 194904.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Les informations génétiques d'un individu peuvent permettre, si on fait les examens génétiques adéquats :",
+      "options": {
+        "a": "De définir de manière utile l'évolutivité de la maladie",
+        "b": "De dire si une personne est malade ou non",
+        "c": "De distinguer les MC et les RCH en cas de colite inclassée",
+        "d": "Aucune réponse exacte",
+        "e": "De classer les gens à risque et non à risque et de proposer des actions préventives"
+      },
+      "correct": ["d"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 212146.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Au terme de vos explications et du programme thérapeutique annoncé, la patiente est rassurée sur les traitements.",
+      "question": "Quelle réponse donnez-vous à sa question : « Quels sont les risques pour mon enfant ? »",
+      "options": {
+        "a": "Il y a un sur-risque de malformation",
+        "b": "Le risque de mort fœtale in utero double en cas de maladie active",
+        "c": "Les risques d'hypotrophie et de prématurité sont faibles si la maladie est inactive à la conception",
+        "d": "Les risques pour l'enfant d'avoir une maladie de Crohn dans sa vie sont de l'ordre de 1 à 3%",
+        "e": "Les risques pour l'enfant d'avoir une maladie de Crohn dans sa vie sont de l'ordre de 20%"
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 212236.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "",
+      "question": "A propos des variants génétiques associés aux MICI quelles sont les propositions vraies ?",
+      "options": {
+        "a": "La plupart des gens sains ont donc de nombreux variants génétiques à risque.",
+        "b": "La plupart des variants sont associés à la MC ou à la RCH mais rarement aux deux maladies.",
+        "c": "La plupart des variants ont des effets très forts : un seul suffit à augmenter considérablement le risque de maladie.",
+        "d": "Il existe moins d'une dizaine de variants connus à ce jour.",
+        "e": "Les variants identifiés comme associés aux MICI sont très ordinairement retrouvés chez les sujets sains aussi."
+      },
+      "correct": ["a", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 212647.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Dans quel(s) cas une étude génétique est-elle indiquée :",
+      "options": {
+        "a": "Chez un vrai jumeau de malade",
+        "b": "Devant une MICI du très jeune enfant",
+        "c": "Devant une forme familiale de MICI",
+        "d": "Devant une maladie de Crohn avec lésions périnéales",
+        "e": "Chez une malade qui souhaite avoir un enfant"
+      },
+      "correct": ["b"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 212846.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Les colites à début précoce ou very early onset IBD sont des maladies :",
+      "options": {
+        "a": "Qui s'expriment en général par une colite isolée.",
+        "b": "Qui touchent le nourrisson ou le jeune enfant.",
+        "c": "Qui nécessitent une investigation génétique.",
+        "d": "Qui peuvent exprimer un déficit immunitaire.",
+        "e": "Qui sont toutes liées à un déficit du récepteur à l'interleukine 10."
+      },
+      "correct": ["b", "c", "d"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 213032.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "A propos des formes familiales de MICI, quelles sont les propositions vraies ?",
+      "options": {
+        "a": "Toutes les présentations cliniques peuvent être retrouvées dans les formes familiales. Il n'y a pas de présentation clinique spécifique.",
+        "b": "Cette information ne permet toutefois pas de prédiction utile en pratique clinique.",
+        "c": "Les formes familiales démontrent définitivement que les MICI sont génétiques.",
+        "d": "Elles représentent la majorité des cas.",
+        "e": ""
+      },
+      "correct": ["a", "b"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-17 213756.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch2_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "",
+      "question": "A propos des variants du gène NOD2 quelles sont les propositions vraies ?",
+      "options": {
+        "a": "Etre porteur d'une mutation de NOD2 augmente d'un facteur 2 ou 3 le risque de tomber malade.",
+        "b": "Les variants du gène NOD2 associés à la MC ne modifient toutefois pas la structure et la fonction de la protéine.",
+        "c": "Ils modifient la réponse immunitaire innée vis-à-vis des bactéries.",
+        "d": "Il a un poids important chez les caucasiens mais pas chez les asiatiques.",
+        "e": "Le gène NOD2 est un gène spécifique de la MC. Il ne contribue pas à la RCH."
+      },
+      "correct": ["c", "d", "e"],
+      "source_image": "/Users/mehdi/Desktop/IMANE QCM/reponse 1/QCM 2 GENETIQUE/Capture d_écran 2025-05-18 232521.png",
+      "unmarked": false
+    }
+  ]
+}

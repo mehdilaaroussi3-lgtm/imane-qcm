@@ -1,0 +1,176 @@
+{
+  "chapter": "7",
+  "title": "Histoire naturelle des MICI",
+  "questions": [
+    {
+      "id": "ch7_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Quels paramètres cliniques et biologiques permettent de prédire la gravité à long terme de la maladie de Crohn ?",
+      "options": {
+        "a": "La nécessité d'un traitement corticoïde dès la première poussée.",
+        "b": "La présence de lésions ano-périnéales dès le diagnostic.",
+        "c": "Une atteinte iléo-colique sans atteinte proximale.",
+        "d": "La sérologie positive pour les anticorps anti-Saccharomyces cerevisiae (ASCA).",
+        "e": "Un diagnostic posé avant l'âge de 17 ans."
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-22 223347.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q2",
+      "number": 2,
+      "type": "single",
+      "instruction": "Cochez la proposition exacte.",
+      "question": "Comment classez-vous selon la classification de Montréal une maladie de Crohn iléale étendue (2 mètres) pluri-sténosante sans fistule ni abcès chez un patient de 16 ans ?",
+      "options": {
+        "a": "A1 - L1 - B2",
+        "b": "A1 - L1+L4 - B1",
+        "c": "A1 - L1+L4 - B2",
+        "d": "A1 - L2+L4 - B3",
+        "e": "A2 - L1 - B2"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-22 223406.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Quels facteurs expliquent que les formes étendues de RCH nécessitent souvent une colectomie ?",
+      "options": {
+        "a": "Une atteinte pancolique est associée à une sévérité clinique accrue.",
+        "b": "La colectomie est la seule option curative en cas de RCH sévère réfractaire.",
+        "c": "Les lésions distales évoluent rarement vers des formes étendues.",
+        "d": "Les anti-TNF sont inefficaces dans les formes pancoliques graves.",
+        "e": "Les lésions pancoliques augmentent le risque de cancer colique."
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "Capture d_écran 2025-05-22 223446.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "En tenant compte de la classification de Montréal et des observations cliniques, quelles limitations ou implications peuvent être identifiées ?",
+      "options": {
+        "a": "Le phénotype inflammatoire (B1) reste stable chez la majorité des patients.",
+        "b": "La localisation initiale des lésions prédit souvent leur siège futur.",
+        "c": "L'âge jeune au diagnostic est un facteur prédictif de gravité.",
+        "d": "La classification ne prend pas en compte l'évolution phénotypique au fil du temps.",
+        "e": "Les interactions entre l'environnement (ex. tabac) et les facteurs génétiques sont insuffisamment intégrées."
+      },
+      "correct": ["b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-22 223601.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Indiquer parmi les facteurs suivants relevés au diagnostic ceux associés à une évolution péjorative de la maladie de Crohn au cours des années suivantes :",
+      "options": {
+        "a": "présence de lésions ano-périnéales",
+        "b": "âge jeune",
+        "c": "présence de symptômes extra-digestifs",
+        "d": "un tabagisme actif",
+        "e": "atteinte colique"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-22 223910.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "La constatation de lésions inflammatoires autour de l'orifice appendiculaire à l'occasion de la première coloscopie au cours d'une RCH rectosigmoïdienne :",
+      "options": {
+        "a": "est un signe annonciateur de pancolite",
+        "b": "ne doit pas faire remettre en question le diagnostic de RCH",
+        "c": "est plus fréquente chez le fumeur",
+        "d": "est observée dans près d'un tiers des cas",
+        "e": "est plus fréquente en cas de cholangite sclérosante associée"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-22 223959.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Après une résection iléocæcale pour maladie de Crohn :",
+      "options": {
+        "a": "La sévérité de la récidive endoscopique est prédictive de la rechute clinique",
+        "b": "Une récidive endoscopique survient dans 2/3 des cas à 1 an",
+        "c": "La prévention de la récidive post opératoire doit se discuter en fonction du nombre de facteur de risque de récidive",
+        "d": "Le sevrage tabagique est essentiel",
+        "e": "Une iléocoloscopie à 6-12 mois post-opératoire doit-être proposée pour aider au choix du traitement"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-22 224026.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q8",
+      "number": 8,
+      "type": "multiple",
+      "instruction": "Cochez la ou les proposition(s) exacte(s).",
+      "question": "Vous recevez Estelle 29 ans pour un diagnostic récent de RCH Gauche (E2) minime. Elle a arrêté de fumer (5 paquet-années) depuis 3 mois. Un traitement d'induction puis d'entretien par mésalazine 2 grammes par jour a été mis en place avec succès. Elle vous interroge sur le cours évolutif de sa maladie. Quelles sont les réponses exactes concernant l'histoire naturelle de sa maladie ?",
+      "options": {
+        "a": "Une atteinte 'pancolique' (dépassant l'angle gauche), sans intervalle de muqueuse saine, est observée dès la première coloscopie chez un quart des patients",
+        "b": "La probabilité de rechute dans l'année qui suit une poussée est plus élevée au début de la maladie",
+        "c": "Le risque cumulé de colectomie dans la RCH varie selon les séries entre 20 et 50 % après 25 ans",
+        "d": "Une maladie purement distale au moment du diagnostic s'étend dans près d'un cas sur deux après 20 ans d'évolution",
+        "e": "Les traitements de fond peuvent être interrompus sans rechute chez 50% des patients"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-22 224833.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q9",
+      "number": 9,
+      "type": "single",
+      "instruction": "Cochez la proposition exacte.",
+      "question": "Quel est le % de malades qui sont cortico-dépendants un an après une première corticothérapie pour poussée de RCH ?",
+      "options": {
+        "a": "5-10 %",
+        "b": "20-25 %",
+        "c": "45-50%",
+        "d": "65-70 %",
+        "e": "85-90 %"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-22 225024.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch7_q10",
+      "number": 10,
+      "type": "multiple",
+      "instruction": "Indiquer la (ou les) proposition(s) exacte(s).",
+      "question": "Les poussées de maladie de Crohn :",
+      "options": {
+        "a": "peuvent s'arrêter sans traitement",
+        "b": "les corticoïdes entraînent une rémission clinique dans deux tiers des cas",
+        "c": "la rémission clinique est suivie d'une cicatrisation endoscopique dans la majorité des cas",
+        "d": "la rémission clinique est toujours accompagnée de la normalisation du syndrome inflammatoire",
+        "e": "lors de la baisse des corticoïdes il survient une nouvelle poussée chez plus de la moitié des patients"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-24 130202.png",
+      "unmarked": false
+    }
+  ]
+}

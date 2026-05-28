@@ -1,0 +1,91 @@
+{
+  "chapter": "24",
+  "title": "MICI Pédiatrique",
+  "questions": [
+    {
+      "id": "ch24_q1",
+      "number": 1,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant l'épidémiologie des MICI chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "question": "Parmi les propositions suivantes concernant l'épidémiologie des MICI chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "options": {
+        "a": "L'âge médian au diagnostic est de 14 ans",
+        "b": "L'incidence de la recto-colite hémorragique (RCH) n'a pas augmentée contrairement à celle de la maladie de Crohn (MC)",
+        "c": "L'incidence de la RCH est identique dans les 2 sexes",
+        "d": "Au diagnostic de MC, l'atteinte iléale isolée est la localisation la plus fréquente",
+        "e": "Au diagnostic de RCH, la localisation rectale isolée (E1) est plus fréquente que la localisation pancolique (E4)"
+      },
+      "correct": ["a", "c"],
+      "source_image": "Capture d_écran 2025-06-01 131759.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch24_q2",
+      "number": 2,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant la croissance au cours des MICI chez l'enfant, indiquez celles qui sont exactes :",
+      "question": "Parmi les propositions suivantes concernant la croissance au cours des MICI chez l'enfant, indiquez celles qui sont exactes :",
+      "options": {
+        "a": "La taille définitive des patients atteints de MICI à début pédiatrique dépend du statut pubertaire au diagnostic et de la réponse au traitement",
+        "b": "Le pronostic statural définitif est d'autant meilleur que l'âge osseux est retardé par rapport à l'âge chronologique",
+        "c": "Le retard pubertaire est défini chez la fille par l'absence de tout caractère sexuel secondaire à l'âge de 13 ans",
+        "d": "Le premier signe de développement pubertaire chez le garçon est l'apparition de la pilosité pubienne",
+        "e": "Quel que soit le sexe, le gain de taille doit être d'au moins 8 cm/an de l'âge de 3 ans jusqu'au début de la puberté"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-06-01 131943.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch24_q3",
+      "number": 3,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant le traitement nutritionnel au cours de la maladie de Crohn (MC) chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "question": "Parmi les propositions suivantes concernant le traitement nutritionnel au cours de la maladie de Crohn (MC) chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "options": {
+        "a": "Le Modulen IBD® est administré par sonde naso-gastrique",
+        "b": "Chez l'enfant, l'alimentation entérale exclusive permet une meilleure croissance staturale que la corticothérapie",
+        "c": "Chez l'enfant, l'efficacité de l'alimentation entérale exclusive est inférieure à celle de la corticothérapie pour induire la rémission",
+        "d": "L'alimentation entérale exclusive doit être poursuivie pendant 1 an",
+        "e": "Au cours de l'alimentation entérale exclusive, les solutés élémentaires ou semi-élémentaires sont plus efficaces que les solutés polymériques"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-06-01 132022.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch24_q4",
+      "number": 4,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant le traitement médical au cours de la maladie de Crohn (MC) chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "question": "Parmi les propositions suivantes concernant le traitement médical au cours de la maladie de Crohn (MC) chez l'enfant, indiquez celle(s) qui est (sont) exacte(s) :",
+      "options": {
+        "a": "L'efficacité des 5-aminosalicylés n'est pas démontrée",
+        "b": "La fréquence des effets indésirables des anti-TNF (infliximab, adalimumab) est plus élevée chez l'enfant que chez l'adulte",
+        "c": "L'utilisation des anti-TNF au cours des MICI pédiatriques est associée à une diminution du risque de résection chirurgicale",
+        "d": "L'efficacité du budésonide a été validée chez l'enfant pour le traitement des poussées de MC à localisation iléo-colique droite",
+        "e": "La corticothérapie est prescrite en 1ère intention à la posologie de 1,5 mg/kg/jour, sans dépasser 60 mg/jour"
+      },
+      "correct": ["a", "c", "d"],
+      "source_image": "Capture d_écran 2025-06-01 132123.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch24_q5",
+      "number": 5,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant l'épidémiologie des MICI chez l'enfant en France, indiquez celles qui sont exactes :",
+      "question": "Parmi les propositions suivantes concernant l'épidémiologie des MICI chez l'enfant en France, indiquez celles qui sont exactes :",
+      "options": {
+        "a": "L'âge médian au diagnostic de la RCH est inférieur à celui de la MC",
+        "b": "Au diagnostic, la localisation iléo-colique de la MC est la plus fréquente chez l'enfant",
+        "c": "L'incidence de la MC continue d'augmenter depuis une vingtaine d'années",
+        "d": "L'incidence de la RCH est stable depuis une vingtaine d'années",
+        "e": "L'incidence de la MC est plus élevée chez les filles"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-06-01 154133.png",
+      "unmarked": false
+    }
+  ]
+}

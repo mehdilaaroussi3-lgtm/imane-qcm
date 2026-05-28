@@ -1,0 +1,159 @@
+{
+  "chapter": "18",
+  "title": "Corticoïdes",
+  "questions": [
+    {
+      "id": "ch18_q1",
+      "number": 1,
+      "type": "single",
+      "instruction": "",
+      "question": "Quelle est la proportion de malades souffrant d'une poussée sévère de rectocolite hémorragique qui répondent à la corticothérapie intraveineuse ?",
+      "options": {
+        "a": "40%",
+        "b": "50%",
+        "c": "60%",
+        "d": "80%",
+        "e": "90%"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-30 201407.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les schémas d'administration de corticoïdes suivants, lesquels peuvent être responsables d'un syndrome cushingoïde ?",
+      "options": {
+        "a": "Prednisolone orale 40 mg/j",
+        "b": "Budésonide oral 6 mg/j",
+        "c": "Bétaméthasone lavement 1/j",
+        "d": "Prednisone orale 10 mg/j",
+        "e": "Méthyl-prednisolone 60 mg/j IV"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-30 201437.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les situations suivantes, lesquelles constituent des indications à une corticothérapie systémique en première intention en 2021 ?",
+      "options": {
+        "a": "Maladie de Crohn pancolique en poussée modérée",
+        "b": "Rectocolite hémorragique gauche en poussée modérée",
+        "c": "Maladie de Crohn ano-périnéale fistulisante",
+        "d": "Rectocolite hémorragique pancolique en poussée sévère",
+        "e": "Maladie de Crohn iléale compliquée d'un syndrome occlusif"
+      },
+      "correct": ["a", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-30 201511.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes, lesquelles sont des indications de traitement corticoïdes classiques au cours de la maladie de Crohn ?",
+      "options": {
+        "a": "Maladie pancolique en poussée modérée",
+        "b": "Maladie iléale terminale en poussée sévère",
+        "c": "Maladie ano-périnéale fistulisante",
+        "d": "Maladie pancolique en poussée sévère",
+        "e": "Maladie iléale fistulisante compliquée"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2025-05-30 201542.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes concernant l'utilisation des corticoïdes pour le traitement de la MC active, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Les corticoïdes sont indiqués en première intention dans la prise en charge de la MC fistulisante",
+        "b": "En cas de poussée modérée d'une MC iléo-pancolique, le budésonide est le traitement de référence",
+        "c": "Les corticoïdes permettent d'obtenir une cicatrisation muqueuse endoscopique au cours de la MC chez moins de la moitié des patients",
+        "d": "En cas de MC iléo-pancolique colique en poussée, le 5-ASA est le traitement de référence",
+        "e": "L'utilisation d'un régime pauvre en sel est indiquée en cas de corticothérapie"
+      },
+      "correct": [],
+      "source_image": "Capture d_écran 2025-05-30 203248.png",
+      "unmarked": true
+    },
+    {
+      "id": "ch18_q6",
+      "number": 6,
+      "type": "single",
+      "instruction": "",
+      "question": "Au cours de la maladie de Crohn, le taux de cicatrisation endoscopique observé chez les répondeurs aux corticoïdes classiques est de :",
+      "options": {
+        "a": "10%",
+        "b": "30%",
+        "c": "50%",
+        "d": "70%",
+        "e": "90%"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-30 203947.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes, lesquelles sont des indications de traitement corticoïdes classiques au cours de la maladie de Crohn ?",
+      "options": {
+        "a": "Maladie pancolique en poussée modérée",
+        "b": "Maladie iléale terminale en poussée sévère",
+        "c": "Maladie ano-périnéale fistulisante",
+        "d": "Maladie iléale fistulisante compliquée",
+        "e": "Maladie pancolique en poussée sévère"
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "Capture d_écran 2025-05-30 204307.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q8",
+      "number": 8,
+      "type": "single",
+      "instruction": "",
+      "question": "Quel est le % de malades qui sont cortico-dépendants un an après une première corticothérapie pour poussée de RCH ?",
+      "options": {
+        "a": "5-10%",
+        "b": "20-25%",
+        "c": "45-50%",
+        "d": "65-70%",
+        "e": "85-90%"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-30 211412.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch18_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "",
+      "question": "Parmi les propositions suivantes concernant l'utilisation des corticoïdes pour le traitement de la MC active, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "En cas de MC colique en poussée, le budésonide est le traitement de référence",
+        "b": "Les corticoïdes sont indiqués en première intention dans la prise en charge de la MC fistulisante",
+        "c": "Les corticoïdes permettent d'obtenir une cicatrisation muqueuse endoscopique au cours de la MC chez la moitié des patients",
+        "d": "L'utilisation d'un régime pauvre en sel est indiquée en cas de corticothérapie",
+        "e": "En cas de poussée modérée d'une MC iléo-cæcale localisée, le budésonide et les corticoïdes classiques sont envisageables"
+      },
+      "correct": [],
+      "source_image": "Capture d_écran 2025-05-30 211737.png",
+      "unmarked": true
+    }
+  ]
+}

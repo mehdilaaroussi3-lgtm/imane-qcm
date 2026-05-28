@@ -1,0 +1,362 @@
+{
+  "chapter": "25-26",
+  "title": "Stratégie Thérapeutique",
+  "questions": [
+    {
+      "id": "ch25_26_q1",
+      "number": 1,
+      "type": "multi",
+      "instruction": "Selon les recommandations du consensus STRIDE mis à jour en 2021, quels sont les objectifs cliniques à prendre en compte à court terme pour la réponse et la rémission clinique d'un patient atteint de rectocolite hémorragique ?",
+      "question": "Selon les recommandations du consensus STRIDE mis à jour en 2021, quels sont les objectifs cliniques à prendre en compte à court terme pour la réponse et la rémission clinique d'un patient atteint de rectocolite hémorragique ?",
+      "options": {
+        "a": "Douleurs abdominales",
+        "b": "Réduction de l'impériosité",
+        "c": "Rectorragies",
+        "d": "Qualité de vie",
+        "e": "La vie socio-professionnelle"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-06-01 213005.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q2",
+      "number": 2,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant la calprotectine fécale au cours de la rectocolite hémorragique, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Parmi les propositions suivantes concernant la calprotectine fécale au cours de la rectocolite hémorragique, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "La prise d'IPP ou d'AINS peuvent faire augmenter le dosage de la calprotectine fécale",
+        "b": "La calprotectine fécale est remboursée 2 fois par an en cas de MICI déclarée et en cas de refus de la coloscopie",
+        "c": "La calprotectine fécale est remboursée 2 fois par an en cas de MICI déclarée en l'absence de saignement rectal et de CRP élevée",
+        "d": "Un taux > 250 µg/g permet de prédire une cicatrisation muqueuse complète de façon hautement significative (Mayo 0)",
+        "e": "La calprotectine fécale est une protéine essentiellement produite par les polynucléaires neutrophiles qui est résistante à la protéolyse intestinale"
+      },
+      "correct": ["a", "c", "e"],
+      "source_image": "Capture d_écran 2025-06-01 213051.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q3",
+      "number": 3,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant la colite aiguë sévère ou colite aiguë grave de RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Parmi les propositions suivantes concernant la colite aiguë sévère ou colite aiguë grave de RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Les critères de Travis permettent de définir une colite aiguë sévère",
+        "b": "Le traitement de première intention est la corticothérapie intraveineuse",
+        "c": "Le port de bas de contention est systématique dans cette situation pour prévenir le risque thromboembolique",
+        "d": "Une prise en charge ambulatoire est possible en cas de colite aiguë sévère en utilisant des corticoïdes en intramusculaire",
+        "e": "La corticothérapie intraveineuse est contre-indiquée en cas de forme sévère au profit de la ciclosporine ou de l'infliximab"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-06-01 213129.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q4",
+      "number": 4,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant les biologiques et petites molécules disponibles en 2ème ou 3ème ligne dans les formes réfractaires de RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Parmi les propositions suivantes concernant les biologiques et petites molécules disponibles en 2ème ou 3ème ligne dans les formes réfractaires de RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Le tofacitinib, le baricitinib et l'upadacitinib ont une AMM de 3ème ligne dans la RCH réfractaire",
+        "b": "Seuls, les anti-TNF et le vedolizumab sont remboursés en première ligne de biothérapie",
+        "c": "L'ozanimod et l'étrasimod (anti-S1P1) sont autorisés et remboursés dans la RCH en 3ème ligne",
+        "d": "Le mirikizumab et le risankizumab ont démontré leur efficacité vs placebo dans la RCH dans des essais de phase III",
+        "e": "Le védolizumab et l'ustékinumab sont préférables aux anti-TNF et aux inhibiteurs de la voie JAK/STAT en terme de risque néoplasique"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-06-01 213245.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q5",
+      "number": 5,
+      "type": "multi",
+      "instruction": "Devant une perte d'efficacité secondaire de l'infliximab chez un patient atteint de maladie de Crohn (infliximabémie basse et Ac anti-infliximab élevés), quel traitement proposez-vous ? (indiquez la ou les propositions exactes)",
+      "question": "Devant une perte d'efficacité secondaire de l'infliximab chez un patient atteint de maladie de Crohn (infliximabémie basse et Ac anti-infliximab élevés), quel traitement proposez-vous ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Adalimumab en combothérapie",
+        "b": "Vedolizumab",
+        "c": "Ustekinumab",
+        "d": "Optimisation de l'infliximab",
+        "e": "Adalimumab en monothérapie"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-06-01 213706.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q6",
+      "number": 6,
+      "type": "multi",
+      "instruction": "Chez un patient atteint d'une maladie de Crohn iléocolique traité par azathioprine et qui développe une fistule anale avec abcès, quelle est votre attitude ? (indiquez la ou les propositions exactes)",
+      "question": "Chez un patient atteint d'une maladie de Crohn iléocolique traité par azathioprine et qui développe une fistule anale avec abcès, quelle est votre attitude ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Optimisation de l'azathioprine",
+        "b": "Mise à plat de l'abcès et drainage par séton élastique",
+        "c": "Anti-TNF en combothérapie",
+        "d": "Anti-TNF en monothérapie",
+        "e": "Mise à plat de l'abcès simple"
+      },
+      "correct": ["b", "c"],
+      "source_image": "Capture d_écran 2025-06-01 213715.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q7",
+      "number": 7,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant le choix du traitement d'entretien au cours de la RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Parmi les propositions suivantes concernant le choix du traitement d'entretien au cours de la RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "La durée d'un traitement par anti-JAK doit être limitée à 12 mois",
+        "b": "Les anti-JAK augmentent le risque de lymphome et de cancer cutané non mélanocytaire notamment après 65 ans",
+        "c": "Le védolizumab a démontré sa supériorité par rapport à l'infliximab dans le traitement de la RCH modérée à sévère",
+        "d": "À fréquence égale, l'acceptabilité des patients n'est pas différente entre un traitement sous-cutané par rapport à un traitement intraveineux",
+        "e": "L'infliximab sous-cutané se délivre à la dose de 120 mg toutes les 2 semaines"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-06-01 214617.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q8",
+      "number": 8,
+      "type": "multi",
+      "instruction": "Parmi les traitements suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "question": "Parmi les traitements suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "options": {
+        "a": "Etrolizumab",
+        "b": "Vedolizumab",
+        "c": "Tacrolimus",
+        "d": "Ustekinumab",
+        "e": "Tofacitinib"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-06-01 215733.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q9",
+      "number": 9,
+      "type": "multi",
+      "instruction": "Parmi les propositions suivantes concernant le choix du traitement d'entretien au cours de la RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Parmi les propositions suivantes concernant le choix du traitement d'entretien au cours de la RCH, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Il n'existe pas d'argument en faveur d'un risque néoplasique accru avec le vedolizumab, l'ustékinumab et le tofacitinib",
+        "b": "Il n'y a pas de différence d'acceptabilité entre une injection sous-cutanée toutes les 2 semaines et une perfusion intraveineuse toutes les 8 semaines chez un patient bio-naïf",
+        "c": "À fréquence égale, l'acceptabilité des patients n'est pas différente entre un traitement sous-cutané par rapport à un traitement intraveineux",
+        "d": "Le védolizumab a démontré sa supériorité par rapport à l'adalimumab dans le traitement de la RCH modérée à sévère dans l'essai VARSITY",
+        "e": "La durée classique d'un traitement par biothérapie est de 2 ans"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-06-01 220618.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q10",
+      "number": 10,
+      "type": "multi",
+      "instruction": "Chez une femme de 25 ans, une atteinte inaugurale de Crohn symptomatique, non obstructive et limitée aux 20 derniers cm de la dernière anse iléale, récidivant un mois après l'arrêt d'une corticothérapie initiale bien conduite pendant 3 mois. Cochez la ou les propositions qui vous paraissent adaptées :",
+      "question": "Chez une femme de 25 ans, une atteinte inaugurale de Crohn symptomatique, non obstructive et limitée aux 20 derniers cm de la dernière anse iléale, récidivant un mois après l'arrêt d'une corticothérapie initiale bien conduite pendant 3 mois. Cochez la ou les propositions qui vous paraissent adaptées :",
+      "options": {
+        "a": "La chirurgie n'est pas une alternative à retenir si tôt dans la maladie",
+        "b": "La corticothérapie doit être reprise",
+        "c": "Remplacer les corticoïdes par un traitement antibiotique prolongé",
+        "d": "La chirurgie expose à une reprise des anti-TNF en post-opératoire chez plus de 40% des patients au cours des 12 mois suivants",
+        "e": "Une tentative de traitement par anti-TNF est appropriée"
+      },
+      "correct": ["a", "e"],
+      "source_image": "Capture d_écran 2025-06-01 220726.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q11",
+      "number": 11,
+      "type": "multi",
+      "instruction": "Après 8 mois de traitement par azathioprine 150 mg/j bien toléré, le patient reste symptomatique avec un taux de 6-TGN à 350 unités. La coloscopie révèle une muqueuse érythémateuse du rectum au transverse gauche. Le traitement par azathioprine est considéré comme un échec partiel. Parmi les options thérapeutiques possibles, laquelle ou lesquelles est(sont) pertinente(s), autorisée(s) et remboursée(s) en France ?",
+      "question": "Après 8 mois de traitement par azathioprine 150 mg/j bien toléré, le patient reste symptomatique avec un taux de 6-TGN à 350 unités. La coloscopie révèle une muqueuse érythémateuse du rectum au transverse gauche. Le traitement par azathioprine est considéré comme un échec partiel. Parmi les options thérapeutiques possibles, laquelle ou lesquelles est(sont) pertinente(s), autorisée(s) et remboursée(s) en France ?",
+      "options": {
+        "a": "Introduction d'un traitement par Vedolizumab",
+        "b": "Mise sous Infliximab",
+        "c": "Reprise de la corticothérapie à la dose de 20 mg/j en traitement d'entretien",
+        "d": "Mise sous méthotrexate à la dose de 15 mg/semaine par voie orale",
+        "e": "Mise sous Golimumab"
+      },
+      "correct": ["a", "b", "e"],
+      "source_image": "Capture d_écran 2025-06-01 221015.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q12",
+      "number": 12,
+      "type": "multi",
+      "instruction": "Parmi les traitements anti-TNF suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "question": "Parmi les traitements anti-TNF suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "options": {
+        "a": "Golimumab",
+        "b": "Infliximab",
+        "c": "Certolizumab",
+        "d": "Etanercept",
+        "e": "Adalimumab"
+      },
+      "correct": ["b", "e"],
+      "source_image": "Capture d_écran 2025-06-01 221129.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q13",
+      "number": 13,
+      "type": "multi",
+      "instruction": "Quels sont les objectifs thérapeutiques dans la maladie de Crohn ? (indiquez la ou les propositions exactes)",
+      "question": "Quels sont les objectifs thérapeutiques dans la maladie de Crohn ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Rémission clinique",
+        "b": "Rémission biologique",
+        "c": "Rémission endoscopique",
+        "d": "Rémission histologique",
+        "e": "Rémission radiologique"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-06-01 232538.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q14",
+      "number": 14,
+      "type": "multi",
+      "instruction": "Quels éléments appartiennent aux PRO-1 ? (indiquez la ou les propositions exactes)",
+      "question": "Quels éléments appartiennent aux PRO-1 ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Diarrhée",
+        "b": "Douleurs abdominales",
+        "c": "Fatigue",
+        "d": "Qualité de vie",
+        "e": "CRP"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2025-06-01 232553.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q15",
+      "number": 15,
+      "type": "multi",
+      "instruction": "Devant une première poussée de maladie de Crohn colique gauche non compliquée, quels traitements sont possibles ? (indiquez la ou les propositions exactes)",
+      "question": "Devant une première poussée de maladie de Crohn colique gauche non compliquée, quels traitements sont possibles ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Mésalazine",
+        "b": "Budésonide",
+        "c": "Prednisolone",
+        "d": "Azathioprine",
+        "e": "Anti-TNF"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-06-01 232611.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q16",
+      "number": 16,
+      "type": "multi",
+      "instruction": "Au cours de la maladie de Crohn, en cas de cortico-résistance ou d'intolérance aux corticoïdes, quel traitement de première ligne peut-on proposer ? (indiquez la ou les propositions exactes)",
+      "question": "Au cours de la maladie de Crohn, en cas de cortico-résistance ou d'intolérance aux corticoïdes, quel traitement de première ligne peut-on proposer ? (indiquez la ou les propositions exactes)",
+      "options": {
+        "a": "Azathioprine",
+        "b": "Anti-TNF en monothérapie",
+        "c": "Anti-TNF en combothérapie",
+        "d": "Ustekinumab",
+        "e": "Vedolizumab"
+      },
+      "correct": ["a", "b", "c"],
+      "source_image": "Capture d_écran 2025-06-01 232647.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q17",
+      "number": 17,
+      "type": "multi",
+      "instruction": "Une patiente présente 10 émissions impérieuses par 24h avec émissions nocturnes dont 2/3 sont sanglantes, une asthénie marquée, et un bilan biologique : Hb 9,4 g/dL, plaquettes 512 000/mm³, CRP 70 mg/L, Ferritinémie 50 µg/l. La rectosigmoïdoscopie montre une atteinte rectosigmoïdienne sévère Mayo 3, UCEIS 7. Parmi les propositions suivantes, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "question": "Une patiente présente 10 émissions impérieuses par 24h avec émissions nocturnes dont 2/3 sont sanglantes, une asthénie marquée, et un bilan biologique : Hb 9,4 g/dL, plaquettes 512 000/mm³, CRP 70 mg/L, Ferritinémie 50 µg/l. La rectosigmoïdoscopie montre une atteinte rectosigmoïdienne sévère Mayo 3, UCEIS 7. Parmi les propositions suivantes, laquelle(lesquelles) est(sont) exacte(s) ?",
+      "options": {
+        "a": "Vous organisez une évaluation endoscopique avec réalisation de biopsies",
+        "b": "Vous effectuez une recherche de surinfection bactérienne (coproculture et recherche de Clostridioides difficile et de ses toxines)",
+        "c": "Vous débutez un traitement préventif par HBPM",
+        "d": "Vous débutez une prise en charge ambulatoire avec une corticothérapie per os",
+        "e": "Vous hospitalisez la patiente"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-06-01 233130.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q18",
+      "number": 18,
+      "type": "multi",
+      "instruction": "En l'absence de surinfection, quel(s) traitement(s) instaurez-vous chez cette patiente ayant une RCH sévère avec atteinte rectosigmoïdienne ?",
+      "question": "En l'absence de surinfection, quel(s) traitement(s) instaurez-vous chez cette patiente ayant une RCH sévère avec atteinte rectosigmoïdienne ?",
+      "options": {
+        "a": "Vedolizumab 300 mg",
+        "b": "Tacrolimus 0,05 mg/kg/jour",
+        "c": "Corticothérapie intraveineuse par méthylprednisolone 0,8 mg/kg/jour",
+        "d": "Ciclosporine intraveineuse à la seringue électrique 2 mg/kg/jour",
+        "e": "Infliximab 5 mg/kg"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-06-01 233130.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q19",
+      "number": 19,
+      "type": "multi",
+      "instruction": "Après 8 mois de traitement par azathioprine 150 mg/j, le patient reste symptomatique. Le traitement par azathioprine est considéré comme un échec partiel. Parmi les options thérapeutiques, laquelle ou lesquelles est(sont) autorisée(s) et remboursée(s) en France ?",
+      "question": "Après 8 mois de traitement par azathioprine 150 mg/j, le patient reste symptomatique. Le traitement par azathioprine est considéré comme un échec partiel. Parmi les options thérapeutiques, laquelle ou lesquelles est(sont) autorisée(s) et remboursée(s) en France ?",
+      "options": {
+        "a": "Introduction d'un traitement par Vedolizumab",
+        "b": "Mise sous Infliximab",
+        "c": "Reprise de la corticothérapie à la dose de 20 mg/j en traitement d'entretien",
+        "d": "Mise sous méthotrexate à la dose de 15 mg/semaine par voie orale"
+      },
+      "correct": ["a", "b"],
+      "source_image": "Capture d_écran 2025-06-01 233330.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q20",
+      "number": 20,
+      "type": "multi",
+      "instruction": "Parmi les traitements suivants, lequel(lesquels) est(sont) autorisé(s) et remboursé(s) en France dans la RCH réfractaire à l'azathioprine ?",
+      "question": "Parmi les traitements suivants, lequel(lesquels) est(sont) autorisé(s) et remboursé(s) en France dans la RCH réfractaire à l'azathioprine ?",
+      "options": {
+        "a": "Ustekinumab",
+        "b": "Guselkumab",
+        "c": "Natalizumab",
+        "d": "Etrolizumab",
+        "e": "Tofacitinib"
+      },
+      "correct": ["a", "e"],
+      "source_image": "Capture d_écran 2025-06-01 233419.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch25_26_q21",
+      "number": 21,
+      "type": "multi",
+      "instruction": "Parmi les traitements suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "question": "Parmi les traitements suivants, lequel(lesquels) ont une AMM en France dans la maladie de Crohn ?",
+      "options": {
+        "a": "Tacrolimus",
+        "b": "Vedolizumab",
+        "c": "Ustekinumab",
+        "d": "Tofacitinib",
+        "e": "Etrolizumab"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-06-01 234152.png",
+      "unmarked": false
+    }
+  ]
+}

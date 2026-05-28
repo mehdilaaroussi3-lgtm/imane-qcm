@@ -1,0 +1,244 @@
+{
+  "chapter": "1",
+  "title": "Épidémiologie des MICI",
+  "questions": [
+    {
+      "id": "ch1_q1",
+      "number": 1,
+      "type": "multiple",
+      "instruction": "Indiquez la ou les proposition(s) vraies",
+      "question": "Concernant l'incidence et la prévalence des MICI :",
+      "options": {
+        "a": "L'incidence des MICI est plus élevée dans les pays du Nord de l'Europe que du Sud",
+        "b": "En France, une étude réalisée à partir de la base de données administrative des affections de longue durée a montré qu'en 2019 l'incidence de la MC était similaire dans tous les départements français",
+        "c": "Au sein de l'Union Européenne, il est estimé qu'il y a en moyenne 20 000 nouveaux cas de MC par an et de 30 000 nouveaux cas de RCH",
+        "d": "La RCH est historiquement la première MICI à être apparue dans les années 50, la MC apparaissant 10 à 20 ans plus tard",
+        "e": "Du fait d'une sur mortalité, l'incidence et la prévalence des MICI ont des valeurs proches"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2024-11-03 132226.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q2",
+      "number": 2,
+      "type": "multiple",
+      "instruction": "Indiquez la ou les proposition(s) vraie(s)",
+      "question": "Concernant l'incidence et la prévalence des MICI :",
+      "options": {
+        "a": "Un gradient Est (incidence haute) - Ouest (incidence basse) a été décrit en Europe",
+        "b": "Globalement en Europe, la prévalence de la RCH est plus basse que celle de la MC",
+        "c": "L'incidence de la RCH a augmenté dans une majorité de centres d'enregistrement depuis les années 40 jusqu'aux années 90",
+        "d": "Les migrants à incidence basse de MICI, ont une incidence qui augmente quand ils vivent depuis au moins une génération dans une population à incidence élevée",
+        "e": "Dans les pays en voie d'industrialisation, c'est l'incidence de MC qui commence à augmenter en premier avant celle de RCH"
+      },
+      "correct": ["c", "d"],
+      "source_image": "Capture d_écran 2024-11-03 132241.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q3",
+      "number": 3,
+      "type": "multiple",
+      "instruction": "Quelle(s) est (sont) la (les) propositions vraies ?",
+      "question": "A propos de l'épidémiologie des MICI dans le monde :",
+      "options": {
+        "a": "L'incidence des MICI est actuellement en pleine explosion en Asie",
+        "b": "L'incidence des MICI est plus faible dans les pays en voie de développement comparé aux pays industrialisés",
+        "c": "Les enfants migrants d'un pays de faible incidence de MICI (pays A) à un pays de forte incidence (pays B) ont toujours moins de risque de développer une MICI que les enfants nés dans ce pays B",
+        "d": "Entre 0,5 et 1% de la population d'Europe et d'Amérique de Nord est atteinte de MICI",
+        "e": "Les MICI n'existent pas en Amérique du Sud"
+      },
+      "correct": ["a", "b", "d"],
+      "source_image": "Capture d_écran 2024-11-03 132253.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q4",
+      "number": 4,
+      "type": "multiple",
+      "instruction": "Quelle(s) est (sont) celle(s) qui est (sont) vraie(s) ?",
+      "question": "Parmi les propositions suivantes concernant les facteurs influant l'épidémiologie des MICI :",
+      "options": {
+        "a": "Une différence de prévalence entre la ville et la campagne a été rapportée avec moins de cas à la campagne",
+        "b": "Des différences en termes de sous-type de MICI ont été rapportés entre la ville et la campagne",
+        "c": "La population Juive a un surrisque de MICI comparé à la population générale en tenant compte du lieu de résidence",
+        "d": "Aux USA, l'incidence de la MICI n'est pas différente chez les Afro-Américains et chez les Américains-blancs",
+        "e": "L'urbanisation et l'adoption d'un mode de vie occidental sont des facteurs suspectés de l'augmentation de l'incidence des MICI chez les migrants dans les pays industrialisés"
+      },
+      "correct": ["a", "b", "c", "d", "e"],
+      "source_image": "Capture d_écran 2024-11-03 132307.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q5",
+      "number": 5,
+      "type": "multiple",
+      "instruction": "Indiquez la ou les proposition(s) vraie(s)",
+      "question": "Concernant l'incidence et la prévalence des MICI :",
+      "options": {
+        "a": "Les migrants à incidence basse de MICI, ont une incidence qui augmente quand ils vivent depuis au moins une génération dans une population à incidence élevée",
+        "b": "L'incidence de la RCH a augmenté dans une majorité de centres d'enregistrement depuis les années 40 jusqu'aux années 90",
+        "c": "Dans les pays en voie d'industrialisation, c'est l'incidence de la MC qui commence à augmenter en premier avant celle de la RCH",
+        "d": "La plupart des cas incidents de RCH des séniors (> 60 ans) surviennent chez l'homme",
+        "e": "Globalement en Europe, la prévalence de la RCH est plus basse que celle de la MC"
+      },
+      "correct": ["a", "b", "d", "e"],
+      "source_image": "Capture d_écran 2025-05-17 131847.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q6",
+      "number": 6,
+      "type": "multiple",
+      "instruction": "Quelle(s) proposition(s) est (sont) exactes ?",
+      "question": "Concernant les maladies inflammatoires chroniques de l'intestin (MICI) :",
+      "options": {
+        "a": "L'incidence de la MC en Europe est voisine de 1 pour 1000 habitants",
+        "b": "Plus de 200 gènes de susceptibilité ont été identifiés pour les MICI",
+        "c": "La MC est plus fréquente que la RCH en France",
+        "d": "La MC est plus fréquente que la RCH en Europe",
+        "e": "30% des sujets atteints de MICI ont un ou plusieurs parents, tous liens de parenté confondus, atteints de MICI"
+      },
+      "correct": ["a", "b", "c", "e"],
+      "source_image": "Capture d_écran 2025-05-17 132100.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q7",
+      "number": 7,
+      "type": "multiple",
+      "instruction": "Quelle(s) est (sont) celle(s) qui est (sont) vraie(s) ?",
+      "question": "Parmi les propositions suivantes concernant l'incidence de la maladie de Crohn :",
+      "options": {
+        "a": "L'incidence de la MC est plus faible que celle de la RCH dans le Nord-Ouest de la France",
+        "b": "Le pic d'incidence se situe entre 20 et 30 ans",
+        "c": "Chez les sujets âgés <17 ans l'incidence de la maladie est plus élevée chez les filles que chez les garçons, comme chez les adultes",
+        "d": "L'augmentation des cas incidents de MC pédiatriques mis en évidence dans la majorité des études de ces 15 dernières années concerne surtout les enfants dans la tranche d'âge entre 0-6 ans",
+        "e": "45 000 nouveaux cas de MC sont diagnostiqués chaque année en Amérique du Nord"
+      },
+      "correct": ["b"],
+      "source_image": "Capture d_écran 2025-05-17 135028.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q8",
+      "number": 8,
+      "type": "single",
+      "instruction": "1 réponse exacte",
+      "question": "En France, on peut estimer à partir des bases Médico-Administratives qu'il y a environ :",
+      "options": {
+        "a": "350 000 personnes atteintes de MC",
+        "b": "555 000 personnes atteintes de MICI",
+        "c": "450 000 personnes atteintes de RCH",
+        "d": "250 000 personnes atteintes de MC",
+        "e": "150 000 personnes atteintes de MC"
+      },
+      "correct": ["e"],
+      "source_image": "Capture d_écran 2025-05-17 140459.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q9",
+      "number": 9,
+      "type": "multiple",
+      "instruction": "Indiquez la ou les proposition(s) vraies",
+      "question": "Concernant l'incidence et la prévalence des MICI :",
+      "options": {
+        "a": "L'incidence des MICI est plus élevée dans les pays du Nord de l'Europe que du Sud",
+        "b": "En France, une étude réalisée à partir de la base de données administrative des affections de longue durée a montré qu'en 2019 l'incidence de la MC était similaire dans tous les départements français",
+        "c": "Au sein de l'Union Européenne, il est estimé qu'il y a en moyenne 20 000 nouveaux cas de MC par an et de 30 000 nouveaux cas de RCH",
+        "d": "La RCH est historiquement la première MICI à être apparue dans les années 50, la MC apparaissant 10 à 20 ans plus tard",
+        "e": "Du fait d'une sur mortalité, l'incidence et la prévalence des MICI ont des valeurs proches"
+      },
+      "correct": ["a"],
+      "source_image": "Capture d_écran 2025-05-17 140544.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q10",
+      "number": 10,
+      "type": "single",
+      "instruction": "Toutes les propositions sont vraies sauf une",
+      "question": "Concernant l'incidence et les caractéristiques au diagnostic de la RCH chez l'enfant (avant l'âge de 17 ans) :",
+      "options": {
+        "a": "La RCH est une maladie rare dans cette tranche d'âge",
+        "b": "La proportion de MC est plus élevée que celle de RCH dans cette tranche d'âge",
+        "c": "Le sex ratio dans cette tranche d'âge est très en faveur du garçon",
+        "d": "L'atteinte colique étendue au diagnostic est plus fréquente comparé à d'autres classes d'âge",
+        "e": "Son incidence a augmenté dans le Nord-Ouest de la France et au Danemark depuis 2000"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-17 140556.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q11",
+      "number": 11,
+      "type": "multiple",
+      "instruction": "Quelle(s) est (sont) la (les) propositions vraies ?",
+      "question": "A propos de l'épidémiologie des MICI dans le monde :",
+      "options": {
+        "a": "L'incidence des MICI est actuellement en pleine explosion en Asie",
+        "b": "En Asie, la MC est deux fois plus fréquente que la RCH alors qu'en Australie elle est deux fois moins fréquente que la RCH",
+        "c": "Les enfants migrants d'un pays de faible incidence de MICI (pays A) à un pays de forte incidence (pays B) ont toujours moins de risque de développer une MICI que les enfants nés dans ce pays B",
+        "d": "La prévalence des MICI tend à augmenter dans les secondes générations de Juifs nés en Israël",
+        "e": "Les MICI n'existent pas en Amérique du Sud"
+      },
+      "correct": ["a", "d"],
+      "source_image": "Capture d_écran 2025-05-17 140602.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q12",
+      "number": 12,
+      "type": "single",
+      "instruction": "1 réponse exacte",
+      "question": "En France, on peut estimer à partir des bases Médico-Administratives qu'il y a environ :",
+      "options": {
+        "a": "50 000 personnes atteintes de MC",
+        "b": "300 000 personnes atteintes de MC",
+        "c": "130 000 personnes atteintes de MC",
+        "d": "200 000 personnes atteintes de RCH",
+        "e": "500 000 personnes atteintes de MICI"
+      },
+      "correct": ["c"],
+      "source_image": "Capture d_écran 2025-05-17 140647.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q13",
+      "number": 13,
+      "type": "single",
+      "instruction": "Toutes les propositions sont vraies sauf une, laquelle ?",
+      "question": "Concernant l'incidence des RCH chez le sénior (après l'âge de 60 ans) :",
+      "options": {
+        "a": "La proportion de RCH est plus élevée que celle de MC dans cette tranche d'âge",
+        "b": "L'incidence de RCH n'est pas différente à 40, 50 et 60 ans",
+        "c": "La fréquence des formes familiales est très faible (< 5%)",
+        "d": "Leur pourcentage est dans la plupart des études en population générale autour 10% de la totalité des cas de RCH",
+        "e": "La plupart des cas incidents de RCH des séniors surviennent chez la femme"
+      },
+      "correct": ["e"],
+      "source_image": "Capture d_écran 2025-05-17 140805.png",
+      "unmarked": false
+    },
+    {
+      "id": "ch1_q14",
+      "number": 14,
+      "type": "multiple",
+      "instruction": "Quelle(s) proposition(s) est (sont) exactes ?",
+      "question": "Concernant les maladies inflammatoires chroniques de l'intestin (MICI) :",
+      "options": {
+        "a": "30% des sujets atteints de MICI ont un ou plusieurs parents, tous liens de parenté confondus, atteints de MICI",
+        "b": "La MC est plus fréquente que la RCH en France",
+        "c": "La MC est plus fréquente que la RCH en Europe",
+        "d": "Plus de 200 gènes de susceptibilité ont été identifiés pour les MICI",
+        "e": "L'incidence de la MC en Europe est voisine de 1 pour 1000 habitants"
+      },
+      "correct": ["b", "d"],
+      "source_image": "Capture d_écran 2025-05-17 140958.png",
+      "unmarked": false
+    }
+  ]
+}
