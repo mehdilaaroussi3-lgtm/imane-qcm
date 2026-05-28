@@ -757,15 +757,18 @@ function startQuiz(opts) {
       const correct = q.correct || [];
       const ok = correct.length > 0 && arraysEqual([...picks], correct);
       if (!correct.length) {
-        feedback = '<div class="mt-4 p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-800 text-[13px]">Correction non disponible pour cette question.</div>';
+        feedback = '<div class="mt-5 p-4 rounded-xl bg-amber-50 border-2 border-amber-300 text-amber-800 text-sm font-medium">⚠️ Correction non disponible pour cette question.</div>';
       } else {
         feedback = `
-          <div class="mt-4 p-4 rounded-xl ${ok ? 'bg-emerald-50 border border-emerald-200' : 'bg-rose-50 border border-rose-200'}">
-            <p class="font-bold text-sm ${ok ? 'text-emerald-800' : 'text-rose-800'} flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full ${ok ? 'bg-emerald-600' : 'bg-rose-600'} text-white flex items-center justify-center text-xs">${ok ? '✓' : '✕'}</span>
+          <div class="mt-5 p-5 rounded-2xl ${ok ? 'bg-emerald-50 border-2 border-emerald-400' : 'bg-rose-50 border-2 border-rose-400'} shadow-soft">
+            <p class="font-extrabold text-lg ${ok ? 'text-emerald-800' : 'text-rose-800'} flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full ${ok ? 'bg-emerald-600' : 'bg-rose-600'} text-white flex items-center justify-center text-base shrink-0">${ok ? '✓' : '✕'}</span>
               ${ok ? 'Bonne réponse !' : 'Réponse incorrecte'}
             </p>
-            <p class="text-[13px] mt-1.5 ${ok ? 'text-emerald-700' : 'text-rose-700'}">Bonne réponse : <strong>${correct.map(l => l.toUpperCase()).join(', ')}</strong></p>
+            <p class="text-base mt-3 ${ok ? 'text-emerald-700' : 'text-rose-700'}">
+              <span class="font-semibold">Réponse${correct.length > 1 ? 's' : ''} attendue${correct.length > 1 ? 's' : ''} :</span>
+              <strong class="text-xl ml-2">${correct.map(l => l.toUpperCase()).join(', ')}</strong>
+            </p>
           </div>`;
       }
     }
@@ -794,7 +797,7 @@ function startQuiz(opts) {
             <div class="flex-1 min-w-0">
               <p class="text-slate-900 font-semibold text-[15px] sm:text-[17px] leading-relaxed">${esc(q.question)}</p>
               ${q.instruction ? `<p class="text-[12px] text-slate-500 mt-1.5 italic">${esc(q.instruction)}</p>` : ''}
-              <p class="text-[11px] font-medium text-slate-500 mt-1.5">${isMulti ? '☐ Plusieurs réponses possibles' : '◯ Une seule réponse'}</p>
+              <p class="text-[11px] font-medium text-slate-500 mt-1.5">${isMulti ? '☐ Plusieurs réponses possibles · cliquez pour voir la correction' : '◯ Une seule réponse · cliquez pour voir la correction'}</p>
             </div>
           </div>
           <div class="space-y-2.5">${optsHtml}</div>
@@ -803,10 +806,9 @@ function startQuiz(opts) {
 
         <div class="flex items-center gap-2">
           <button id="prev-btn" class="tap-shrink px-4 py-3 rounded-xl border border-slate-300 bg-white text-sm font-semibold ${state.idx === 0 ? 'opacity-40 cursor-not-allowed' : 'hover:bg-slate-50'}" ${state.idx === 0 ? 'disabled' : ''}>←</button>
-          ${mode === 'train' && !revealed ? `<button id="check-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-slate-900 text-white text-sm font-bold hover:bg-slate-800 disabled:opacity-40" ${picks.size === 0 ? 'disabled' : ''}>Valider</button>` : ''}
           ${state.idx < total - 1
-            ? `<button id="next-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-gradient-to-r ${tc.grad} text-white text-sm font-bold shadow-soft">Suivant →</button>`
-            : `<button id="finish-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 shadow-soft">Terminer ✓</button>`
+            ? `<button id="next-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-gradient-to-r ${tc.grad} text-white text-base font-bold shadow-soft">Suivant →</button>`
+            : `<button id="finish-btn" class="tap-shrink flex-1 px-4 py-3 rounded-xl bg-emerald-600 text-white text-base font-bold hover:bg-emerald-700 shadow-soft">Terminer ✓</button>`
           }
         </div>
       </div>
@@ -818,25 +820,15 @@ function startQuiz(opts) {
   function wireQuestion(q) {
     const isMulti = q.type === 'multiple';
     const picks = state.picks[state.idx];
-    const revealed = state.revealed[state.idx];
     $app.querySelectorAll('.opt-card').forEach(btn => {
       btn.addEventListener('click', () => {
-        if (revealed && mode === 'train') return;
         const L = btn.dataset.letter;
-        if (isMulti) {
-          // In-place class toggle — no full re-render → no flicker
-          if (picks.has(L)) { picks.delete(L); btn.classList.remove('selected'); btn.querySelector('.opt-mark').textContent = L.toUpperCase(); }
-          else              { picks.add(L);    btn.classList.add('selected');    btn.querySelector('.opt-mark').textContent = L.toUpperCase(); }
-          const check = document.getElementById('check-btn');
-          if (check) { check.disabled = picks.size === 0; check.classList.toggle('opacity-40', picks.size === 0); }
-        } else {
-          // Single-answer: clear other selections, pick this one, and in train mode reveal immediately
-          $app.querySelectorAll('.opt-card').forEach(b => { b.classList.remove('selected'); const L2 = b.dataset.letter; b.querySelector('.opt-mark').textContent = L2.toUpperCase(); });
-          picks.clear(); picks.add(L);
-          btn.classList.add('selected');
-          if (mode === 'train') { state.revealed[state.idx] = true; paint(); }
-          else { /* no flash: keep selection visible, await Suivant */ }
-        }
+        // Allow re-picking even after reveal in TRAIN mode (so user can explore all options)
+        if (isMulti) { picks.has(L) ? picks.delete(L) : picks.add(L); }
+        else         { picks.clear(); picks.add(L); }
+        // TRAIN mode: instantly reveal correction after every click — color-coded
+        if (mode === 'train') { state.revealed[state.idx] = true; }
+        paint();
       });
     });
     const $ = id => document.getElementById(id);
