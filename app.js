@@ -1,7 +1,18 @@
 // MICI QCM — single-page app (vanilla JS, hash-based routing)
 'use strict';
 
+// Surface ANY runtime error to the page so we never blank-screen silently.
+function __showErr(label, err) {
+  const el = document.getElementById('app');
+  if (!el) return;
+  const msg = (err && (err.stack || err.message)) || String(err);
+  el.innerHTML = '<div style="margin:20px auto;max-width:640px;padding:18px 20px;border:1px solid #fecaca;background:#fef2f2;border-radius:14px;color:#7f1d1d;font-family:system-ui;font-size:14px;line-height:1.5"><strong>App error (' + label + ')</strong><pre style="margin-top:10px;padding:10px;background:white;border:1px solid #fecaca;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-word;color:#991b1b">' + (msg + '').replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'}[c])) + '</pre><p style="margin-top:8px;font-size:12px">Reload (Cmd+R) or share this with Mehdi.</p></div>';
+}
+window.addEventListener('error', e => __showErr('window.error', e.error || e.message));
+window.addEventListener('unhandledrejection', e => __showErr('promise', e.reason));
+
 const $app = document.getElementById('app');
+if (!$app) { document.body.insertAdjacentHTML('afterbegin', '<div style="padding:20px;color:red;font-family:system-ui">FATAL: #app missing from DOM</div>'); }
 
 // ────── Motivational messages (English, addressed to Imane) ──────
 const MESSAGES = {
